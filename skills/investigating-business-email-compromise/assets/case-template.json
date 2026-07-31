@@ -1,0 +1,213 @@
+{
+  "_comment": "BEC investigation case file. Copy this, fill it in during the investigation, then render with: python3 scripts/process.py report --case case.json --out bec-report.html . Any value you cannot establish stays the literal string UNKNOWN - it renders as UNKNOWN in the report rather than blocking it. Never guess a value.",
+
+  "case": {
+    "title": "Suspected Business Email Compromise - UNKNOWN",
+    "investigation_id": "UNKNOWN",
+    "analyst": "UNKNOWN",
+    "date_utc": "UNKNOWN",
+    "severity": "UNKNOWN",
+    "status": "In Progress",
+    "classification": "CONFIDENTIAL - Internal Investigation"
+  },
+
+  "asset": {
+    "username": "UNKNOWN",
+    "display_name": "UNKNOWN",
+    "department": "UNKNOWN",
+    "role": "UNKNOWN",
+    "vip": "UNKNOWN",
+    "manager": "UNKNOWN"
+  },
+
+  "baseline": {
+    "_comment": "Known-good values supplied by the analyst, the user's manager, or IT asset inventory. Do NOT derive these from the logs under investigation.",
+    "asn": "UNKNOWN",
+    "isp": "UNKNOWN",
+    "country": "UNKNOWN",
+    "city": "UNKNOWN",
+    "device_type": "UNKNOWN",
+    "os": "UNKNOWN",
+    "browser": "UNKNOWN",
+    "browser_version": "UNKNOWN"
+  },
+
+  "observed": {
+    "_comment": "What the sign-in telemetry actually shows for the suspicious activity.",
+    "asn": "UNKNOWN",
+    "isp": "UNKNOWN",
+    "country": "UNKNOWN",
+    "city": "UNKNOWN",
+    "device_type": "UNKNOWN",
+    "os": "UNKNOWN",
+    "browser": "UNKNOWN",
+    "browser_version": "UNKNOWN",
+    "user_agent": "UNKNOWN",
+    "ip_addresses": []
+  },
+
+  "signins": [
+    {
+      "_comment": "One entry per notable sign-in. Delete this example row.",
+      "timestamp_utc": "UNKNOWN",
+      "ip": "UNKNOWN",
+      "asn": "UNKNOWN",
+      "isp": "UNKNOWN",
+      "country": "UNKNOWN",
+      "city": "UNKNOWN",
+      "os": "UNKNOWN",
+      "browser": "UNKNOWN",
+      "app": "UNKNOWN",
+      "result": "UNKNOWN",
+      "mfa": "UNKNOWN",
+      "conditional_access": "UNKNOWN",
+      "assessment": "UNKNOWN"
+    }
+  ],
+
+  "phishing_email": {
+    "sender": "UNKNOWN",
+    "sender_display_name": "UNKNOWN",
+    "subject": "UNKNOWN",
+    "url": "UNKNOWN",
+    "received_utc": "UNKNOWN",
+    "clicked_utc": "UNKNOWN",
+    "recipient_count": "UNKNOWN",
+    "delivery_action": "UNKNOWN",
+    "auth_results": {
+      "spf": "UNKNOWN",
+      "dkim": "UNKNOWN",
+      "dmarc": "UNKNOWN"
+    },
+    "analysis": "UNKNOWN"
+  },
+
+  "ioc_enrichment": [
+    {
+      "_comment": "One entry per indicator checked via the threat-intel MCP server. Record negatives too - 'checked, no hits' differs from 'not checked'. Delete this example row.",
+      "indicator": "UNKNOWN",
+      "type": "ip",
+      "tool": "threatintel_lookup_ip",
+      "verdict": "NOT CHECKED",
+      "sources": "UNKNOWN",
+      "detail": "UNKNOWN"
+    }
+  ],
+
+  "asn_assessment": {
+    "_comment": "Analyst judgement per standards.md criteria - not a tool verdict. The MPC server has no ASN lookup tool; isp/usageType come from AbuseIPDB and GreyNoise inside threatintel_lookup_ip.",
+    "observed_asn": "UNKNOWN",
+    "usage_type": "UNKNOWN",
+    "category": "UNKNOWN",
+    "risk": "UNKNOWN",
+    "rationale": "UNKNOWN"
+  },
+
+  "mailbox_persistence": [
+    {
+      "_comment": "Inbox rules, delegate permissions, forwarding. Delete this example row.",
+      "timestamp_utc": "UNKNOWN",
+      "type": "UNKNOWN",
+      "name": "UNKNOWN",
+      "detail": "UNKNOWN",
+      "source_ip": "UNKNOWN",
+      "assessment": "UNKNOWN"
+    }
+  ],
+
+  "exfiltration": {
+    "baseline_daily_mean": "UNKNOWN",
+    "baseline_window_days": 30,
+    "incident_downloads": "UNKNOWN",
+    "incident_window_hours": "UNKNOWN",
+    "spike_ratio": "UNKNOWN",
+    "sites_affected": [],
+    "sensitivity_labels": "UNKNOWN",
+    "files_downloaded": [
+      {
+        "_comment": "Delete this example row.",
+        "timestamp_utc": "UNKNOWN",
+        "file": "UNKNOWN",
+        "site": "UNKNOWN",
+        "operation": "FileDownloaded",
+        "ip": "UNKNOWN"
+      }
+    ],
+    "files_viewed": [
+      {
+        "_comment": "Viewed but not downloaded - still exposure. Delete this example row.",
+        "timestamp_utc": "UNKNOWN",
+        "file": "UNKNOWN",
+        "site": "UNKNOWN",
+        "operation": "FileAccessed",
+        "ip": "UNKNOWN"
+      }
+    ]
+  },
+
+  "graph_activity": [
+    {
+      "_comment": "Suspicious Microsoft Graph API calls, consent grants, service principals. Delete this example row.",
+      "timestamp_utc": "UNKNOWN",
+      "app_id": "UNKNOWN",
+      "app_name": "UNKNOWN",
+      "operation": "UNKNOWN",
+      "scopes": "UNKNOWN",
+      "ip": "UNKNOWN",
+      "call_count": "UNKNOWN",
+      "assessment": "UNKNOWN"
+    }
+  ],
+
+  "timeline": [
+    {
+      "_comment": "Every source merged, ordered by UTC timestamp. Delete this example row.",
+      "timestamp_utc": "UNKNOWN",
+      "event": "UNKNOWN",
+      "actor": "UNKNOWN",
+      "source": "UNKNOWN"
+    }
+  ],
+
+  "metrics": {
+    "_comment": "Leave UNKNOWN rather than estimating - an estimated compromise time silently changes the dwell-time headline.",
+    "initial_compromise_utc": "UNKNOWN",
+    "detection_utc": "UNKNOWN",
+    "triage_complete_utc": "UNKNOWN",
+    "containment_utc": "UNKNOWN",
+    "recovery_utc": "UNKNOWN"
+  },
+
+  "root_cause": {
+    "five_whys": [
+      { "level": "Why 1", "question": "UNKNOWN", "answer": "UNKNOWN", "evidence": "UNKNOWN" },
+      { "level": "Why 2", "question": "UNKNOWN", "answer": "UNKNOWN", "evidence": "UNKNOWN" },
+      { "level": "Why 3", "question": "UNKNOWN", "answer": "UNKNOWN", "evidence": "UNKNOWN" },
+      { "level": "Why 4", "question": "UNKNOWN", "answer": "UNKNOWN", "evidence": "UNKNOWN" },
+      { "level": "Why 5", "question": "UNKNOWN", "answer": "UNKNOWN", "evidence": "UNKNOWN" }
+    ],
+    "root_cause": "UNKNOWN",
+    "confidence": "UNKNOWN",
+    "confidence_rationale": "UNKNOWN"
+  },
+
+  "recommendations": [
+    {
+      "_comment": "Every row needs an owner and a deadline or it will not get done. Horizon: Immediate | Short-term | Long-term. Delete this example row.",
+      "id": 1,
+      "horizon": "Immediate",
+      "action": "UNKNOWN",
+      "owner": "UNKNOWN",
+      "priority": "UNKNOWN",
+      "deadline": "UNKNOWN",
+      "category": "UNKNOWN",
+      "status": "Open"
+    }
+  ],
+
+  "executive_summary": "UNKNOWN",
+
+  "evidence_notes": [
+    "Record here any data source that was unavailable (licence, retention gap) - an absence of evidence is a finding and must not read as an absence of activity."
+  ]
+}

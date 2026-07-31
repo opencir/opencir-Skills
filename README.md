@@ -9,11 +9,11 @@
 ### An open-source cybersecurity skills library for AI agents — security research, defense, and education only
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=flat-square)](LICENSE)
-[![Skills](https://img.shields.io/badge/skills-652-brightgreen?style=flat-square)](#whats-inside)
+[![Skills](https://img.shields.io/badge/skills-653-brightgreen?style=flat-square)](#whats-inside)
 [![Domains](https://img.shields.io/badge/domains-30%2B-9cf?style=flat-square)](#whats-inside)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
 
-**652 structured cybersecurity skills for defense, detection, forensics, incident response, threat intelligence, and compliance**
+**653 structured cybersecurity skills for defense, detection, forensics, incident response, threat intelligence, and compliance**
 
 [Get Started](#quick-start) · [What's Inside](#whats-inside) · [Scope](#scope--intended-use) · [Contributing](#contributing)
 
@@ -31,7 +31,7 @@ If you believe a skill in this repository is inaccurate, out of scope for that g
 
 ## What this is
 
-A junior analyst knows which Volatility3 plugin to run on a suspicious memory dump, which Sigma rules catch credential-dumping activity, and how to scope a cloud breach across three providers. This repo gives an AI agent that same structured knowledge — **652 skills** spanning cloud security, threat hunting, threat intelligence, digital forensics, malware analysis, SOC operations, identity and access management, incident response, compliance, and more, each following the [agentskills.io](https://agentskills.io) open standard.
+A junior analyst knows which Volatility3 plugin to run on a suspicious memory dump, which Sigma rules catch credential-dumping activity, and how to scope a cloud breach across three providers. This repo gives an AI agent that same structured knowledge — **653 skills** spanning cloud security, threat hunting, threat intelligence, digital forensics, malware analysis, SOC operations, identity and access management, incident response, compliance, and more, each following the [agentskills.io](https://agentskills.io) open standard.
 
 Point an agent at this repo and a security investigation gets expert-level, step-by-step guidance instead of a generic guess.
 
@@ -59,7 +59,7 @@ Works with Claude Code, GitHub Copilot, Cursor, Gemini CLI, and any [agentskills
 | Network Security | 31 | IDS/IPS · firewall rules · VLAN segmentation · traffic analysis |
 | OT/ICS Security | 29 | Modbus · DNP3 · IEC 62443 · historian defense · SCADA |
 | Security Operations | 26 | SIEM correlation · log analysis · alert triage |
-| Incident Response | 26 | Breach containment · ransomware response · IR playbooks |
+| Incident Response | 27 | BEC investigation · breach containment · ransomware response · IR playbooks |
 | Vulnerability Management | 24 | Nessus · scanning workflows · patch prioritization · CVSS |
 | DevSecOps | 18 | CI/CD security · Trivy IaC/image scanning · code signing |
 | Zero Trust Architecture | 18 | BeyondCorp · CISA maturity model · microsegmentation |

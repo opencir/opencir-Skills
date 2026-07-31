@@ -3,7 +3,7 @@ message: "If you use this repository in your research, tools, or publications, p
 type: software
 title: "Opencir Skills"
 abstract: >
-  A structured collection of 652 cybersecurity skills for AI agents, scoped to
+  A structured collection of 653 cybersecurity skills for AI agents, scoped to
   security research, defense, and education: digital forensics, threat
   intelligence, incident response, detection engineering, cloud security,
   OT/SCADA security, AI security, and more. Each skill follows a standardized

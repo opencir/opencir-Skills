@@ -1,5 +1,6 @@
 # NIST CSF 2.0 Alignment Table
 
+> **Note:** This document was generated against the upstream project's full 817-skill set. This fork has since removed 165 offensive/dual-use penetration-testing and red-team skills (down to 652 skills; see the [README](../../README.md) for scope). Specific skill names, counts, and percentages below have not been regenerated and may reference removed skills or be out of date — treat them as approximate pending a full regeneration.
 Complete mapping of each skill subdomain to NIST CSF 2.0 functions and categories.
 
 ## Subdomain-to-CSF Alignment

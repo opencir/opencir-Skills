@@ -1,4 +1,6 @@
-# Contributing to Anthropic-Cybersecurity-Skills
+# Contributing to Opencir Skills
+
+Skills in this repository must be defensive, analytical, or educational — detection, forensics, incident response, threat intelligence, hardening, or compliance. Offensive/exploitation content (how to attack, exploit, or gain unauthorized access to a system) is out of scope; see the [Scope & intended use](README.md#scope--intended-use) section of the README.
 
 ## How to add a new skill
 
@@ -44,8 +46,6 @@
 Choose the most appropriate subdomain for your skill:
 - web-application-security
 - network-security
-- penetration-testing
-- red-teaming
 - digital-forensics
 - malware-analysis
 - threat-intelligence

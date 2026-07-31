@@ -15,7 +15,7 @@ All skill content in this repository is covered by this security policy.
 If you discover a security issue with any skill's scripts, instructions, or content, please report it responsibly:
 
 1. **Do not** open a public issue
-2. Use GitHub's private security advisory: [Report a vulnerability](https://github.com/mukul975/Anthropic-Cybersecurity-Skills/security/advisories/new)
+2. Use GitHub's private security advisory: [Report a vulnerability](https://github.com/opencir/Opencir-Skills/security/advisories/new), or email b4b1e2b658134cf3a4467b5345b97d09@domainsbyproxy.com
 3. Include in your report:
    - Affected skill name and file path
    - Nature of the vulnerability

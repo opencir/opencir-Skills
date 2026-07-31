@@ -3,7 +3,7 @@
   "generated_at": "2026-06-26T14:06:13Z",
   "repository": "https://github.com/opencir/Opencir-Skills",
   "domain": "cybersecurity",
-  "total_skills": 652,
+  "total_skills": 653,
   "skills": [
     {
       "name": "achieving-cmmc-level-2-compliance",
@@ -2932,6 +2932,12 @@
       "description": "'This skill covers integrating Static Application Security Testing (SAST)",
       "domain": "cybersecurity",
       "path": "skills/integrating-sast-into-github-actions-pipeline"
+    },
+    {
+      "name": "investigating-business-email-compromise",
+      "description": "Run an end-to-end Business Email Compromise investigation in Microsoft",
+      "domain": "cybersecurity",
+      "path": "skills/investigating-business-email-compromise"
     },
     {
       "name": "investigating-insider-threat-indicators",

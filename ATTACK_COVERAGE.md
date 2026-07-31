@@ -1,5 +1,6 @@
 # MITRE ATT&CK Coverage Map
 
+> **Note:** This document was generated against the upstream project's full 817-skill set. This fork has since removed 165 offensive/dual-use penetration-testing and red-team skills (down to 652 skills; see the [README](README.md) for scope). Specific skill names, counts, and percentages below have not been regenerated and may reference removed skills or be out of date — treat them as approximate pending a full regeneration.
 <p align="center">
   <a href="https://attack.mitre.org/"><img src="https://img.shields.io/badge/MITRE_ATT%26CK-v16-red?style=for-the-badge&logo=shield&logoColor=white" alt="MITRE ATT&CK" /></a>
   <img src="https://img.shields.io/badge/Techniques-291+-blueviolet?style=for-the-badge" alt="Techniques" />

@@ -1,5 +1,6 @@
 # MITRE Fight Fraud Framework (F3) — Mapping Schema
 
+> **Note:** This document was generated against the upstream project's full 817-skill set. This fork has since removed 165 offensive/dual-use penetration-testing and red-team skills (down to 652 skills; see the [README](../README.md) for scope). Specific skill names, counts, and percentages below have not been regenerated and may reference removed skills or be out of date — treat them as approximate pending a full regeneration.
 This repository maps fraud-relevant skills to the **MITRE Fight Fraud Framework (F3)**,
 released April 9, 2026 by MITRE's Center for Threat-Informed Defense (CTID). F3 is an
 ATT&CK-compatible TTP catalog for cyber-enabled financial fraud.

@@ -1,5 +1,6 @@
 # ATT&CK Coverage Summary
 
+> **Note:** This document was generated against the upstream project's full 817-skill set. This fork has since removed 165 offensive/dual-use penetration-testing and red-team skills (down to 652 skills; see the [README](../../README.md) for scope). Specific skill names, counts, and percentages below have not been regenerated and may reference removed skills or be out of date — treat them as approximate pending a full regeneration.
 Coverage analysis of the 753 cybersecurity skills mapped to MITRE ATT&CK Enterprise v15 tactics.
 
 ## Tactic Coverage Matrix

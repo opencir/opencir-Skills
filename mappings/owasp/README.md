@@ -1,5 +1,6 @@
 # OWASP Top 10 (2025) Mapping
 
+> **Note:** This document was generated against the upstream project's full 817-skill set. This fork has since removed 165 offensive/dual-use penetration-testing and red-team skills (down to 652 skills; see the [README](../../README.md) for scope). Specific skill names, counts, and percentages below have not been regenerated and may reference removed skills or be out of date — treat them as approximate pending a full regeneration.
 This directory maps the cybersecurity skills in this repository to the [OWASP Top 10](https://owasp.org/www-project-top-ten/) categories for web application security risks.
 
 ## Overview

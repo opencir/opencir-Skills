@@ -2937,7 +2937,7 @@
       "name": "investigating-business-email-compromise",
       "description": "Run an end-to-end Business Email Compromise investigation in Microsoft",
       "domain": "cybersecurity",
-      "path": "skills/investigating-business-email-compromise"
+      "path": "Security investigation skills/investigating-business-email-compromise"
     },
     {
       "name": "investigating-insider-threat-indicators",

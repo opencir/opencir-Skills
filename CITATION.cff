@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this repository in your research, tools, or publications, please cite it as below."
+type: software
+title: "Opencir Skills"
+abstract: >
+  A structured collection of 653 cybersecurity skills for AI agents, scoped to
+  security research, defense, and education: digital forensics, threat
+  intelligence, incident response, detection engineering, cloud security,
+  OT/SCADA security, AI security, and more. Each skill follows a standardized
+  format with YAML frontmatter metadata, step-by-step procedures, tool
+  commands, expected outputs, and framework mappings. Compatible with Claude
+  Code, GitHub Copilot, Cursor, Windsurf, Gemini CLI, and other AI agent
+  platforms. Forked from Anthropic-Cybersecurity-Skills by Mahipal Jangra
+  (mukul975), with offensive and dual-use penetration-testing/red-team
+  content removed.
+authors:
+  - name: "Opencir"
+    email: b4b1e2b658134cf3a4467b5345b97d09@domainsbyproxy.com
+    alias: opencir
+repository-code: "https://github.com/opencir/Opencir-Skills"
+url: "https://github.com/opencir/Opencir-Skills"
+license: Apache-2.0
+version: "1.0.0"
+date-released: "2026-07-31"
+keywords:
+  - cybersecurity
+  - AI agents
+  - skills
+  - digital forensics
+  - threat intelligence
+  - incident response
+  - detection engineering
+  - MITRE ATT&CK
+  - Claude Code
+  - open source

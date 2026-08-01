@@ -70,6 +70,14 @@ for canonical, aliases in _SUBDOMAIN_ALIASES.items():
     for alias in aliases:
         _ALIAS_TO_CANONICAL[alias] = canonical
 
+# Top-level directories that contain skill folders. `skills/` is the main library;
+# additional entries are themed collection folders. Keep in sync with the `path`
+# prefixes used in index.json.
+SKILL_ROOTS = [
+    "skills",
+    "Security investigation skills",
+]
+
 KEBAB_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 
 # Minimum description length.  Other repo tooling uses 50 chars; align here.
@@ -263,10 +271,14 @@ def main():
         sys.exit(1)
 
     if sys.argv[1] == "--all":
+        # Skill directories live under skills/, plus any additional top-level
+        # collection folders listed in SKILL_ROOTS.
         # Skip .bak backup directories — they are stale copies without a SKILL.md.
         # glob may return OS-native separators, so normalize before checking.
         skill_dirs = sorted(
-            d for d in glob.glob("skills/*/")
+            d
+            for root in SKILL_ROOTS
+            for d in glob.glob(f"{root}/*/")
             if not d.rstrip("/\\").endswith(".bak")
         )
         if not skill_dirs:

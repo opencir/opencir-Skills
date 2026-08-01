@@ -182,6 +182,84 @@ Rules moving `invoice`, `payment`, `wire`, `bank`, `remittance`, or the attacker
 to **RSS Feeds**, **Conversation History**, **Archive**, or **Deleted Items** are BEC
 concealment (T1114.003 / F1022), not user housekeeping.
 
+### Grading inbox rules: TP vs FP
+
+Apply this before writing any rule into the incident narrative. Based on Microsoft's
+[inbox manipulation rules alert-grading
+playbook](https://learn.microsoft.com/en-us/defender-xdr/alert-grading-playbook-inbox-manipulation-rules):
+
+| Signal | Likely TP | Likely FP / needs more evidence |
+|---|---|---|
+| Keyword filter | `invoice`, `payment`, `wire`, `bank`, `phish`, `spam`, `do not reply`, or a term matching the org's own fraud vocabulary | Personal/team filing terms (`newsletter`, sender's own name, a project code the user owns) |
+| No keyword filter at all | Rule applies to **all** mail — itself suspicious | N/A — absence of a filter is never reassuring on its own |
+| Destination folder | `RSS Feeds`, `Conversation History`, `Archive`, `Deleted Items`, paired with `MarkAsRead` | A named project/client folder the user demonstrably uses elsewhere |
+| Delete-all | Deletes all incoming mail, no filter | Never benign at the "all mail" scope — even a legitimate power-user filter narrows first |
+| Creation context | Follows an anomalous sign-in (new ASN/country/UA), or a prior Entra ID Protection / Defender alert on the same user | Created from the user's normal device/location, no adjacent anomaly, user confirms intent |
+| Correlated incident | Other TP alerts already attached to the same incident | Rule is the only signal on an otherwise clean account |
+
+None of these is individually dispositive except the delete-all pattern. Grade on the
+combination and record the rationale — this is what feeds Step 3 of the SKILL workflow and
+the `assessment` field of each `mailbox_persistence` case-file entry.
+
+### Advanced hunting (Defender XDR / MDCA) — `CloudAppEvents`
+
+Where Microsoft Defender for Cloud Apps is licensed, `CloudAppEvents` gives an alternate,
+often faster, path to the same inbox-rule and baseline data as the UAL queries above —
+useful for a first pass in the Defender XDR portal before pulling raw UAL exports.
+
+```kql
+// New/changed inbox rules for a specific user in a time window
+let start_date = now(-10h);
+let end_date = now();
+let user_id = ""; // Entra object ID of the affected user
+CloudAppEvents
+| where Timestamp between (start_date .. end_date)
+| where AccountObjectId == user_id
+| where Application == @"Microsoft Exchange Online"
+| where ActionType in ("Set-Mailbox", "New-InboxRule", "Set-InboxRule", "UpdateInboxRules")
+| project Timestamp, ActionType, CountryCode, City, ISP, IPAddress, RuleConfig = RawEventData.Parameters, RawEventData
+```
+
+`RuleConfig` carries the new rule's keyword filters, destination folder, and delete/forward
+actions — this is the field to read for the TP/FP grading above.
+
+```kql
+// 60-day ISP baseline — is the alert's ISP one this user has used before?
+let alert_date = now(); // set to the alert timestamp
+let timeback = 60d;
+let userid = ""; // Entra object ID
+CloudAppEvents
+| where Timestamp between ((alert_date-timeback)..(alert_date-1h))
+| where AccountObjectId == userid
+| make-series ActivityCount = count() default = 0 on Timestamp from (alert_date-timeback) to (alert_date-1h) step 12h by ISP
+```
+
+```kql
+// 60-day country/region baseline
+let alert_date = now();
+let timeback = 60d;
+let userid = "";
+CloudAppEvents
+| where Timestamp between ((alert_date-timeback)..(alert_date-1h))
+| where AccountObjectId == userid
+| make-series ActivityCount = count() default = 0 on Timestamp from (alert_date-timeback) to (alert_date-1h) step 12h by CountryCode
+```
+
+```kql
+// 60-day user-agent baseline
+let alert_date = now();
+let timeback = 60d;
+let userid = "";
+CloudAppEvents
+| where Timestamp between ((alert_date-timeback)..(alert_date-1h))
+| where AccountObjectId == userid
+| make-series ActivityCount = count() default = 0 on Timestamp from (alert_date-timeback) to (alert_date-1h) step 12h by UserAgent
+```
+
+An ISP, country, or user agent with zero prior occurrences in 60 days that then appears at
+the moment of rule creation is the same "new ASN + new country + new UA" deviation stack
+described in Section 2 — `CloudAppEvents` just gets there without a Sentinel workspace.
+
 ### Current rules and delegate permissions still in place
 
 ```powershell

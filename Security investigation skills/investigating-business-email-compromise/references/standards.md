@@ -102,8 +102,32 @@ Order matters. Performing these out of sequence lets the attacker retain access:
    both session revocation and password reset
 5. **Block the attacker ASN/IP** via conditional access where appropriate
 6. **Notify** the counterparty on any hijacked vendor or invoice thread
+7. **Pivot on the attacker IP/ISP** across the tenant — search for other accounts with
+   sign-ins, inbox rules, or Graph activity from the same source before closing the incident;
+   a reused attacker IP is common in BEC campaigns and changes the scope from one mailbox to many
+
+## Grading Suspicious Inbox Manipulation Rules (TP vs FP)
+
+Adapted from Microsoft's [Alert classification for suspicious inbox manipulation
+rules](https://learn.microsoft.com/en-us/defender-xdr/alert-grading-playbook-inbox-manipulation-rules)
+playbook. Full grading table and advanced-hunting queries are in `workflows.md`; this is
+the summary judgement logic:
+
+1. Suspicious keyword filter (`BodyContainsWords` / `SubjectContainsWords` /
+   `SubjectOrBodyContainsWords`) targeting terms an attacker would want hidden, **or** no
+   keyword filter at all applied to all incoming mail.
+2. Destination folder (`MoveToFolder` + `MarkAsRead`) that relates to the keywords and is
+   a low-visibility folder (RSS Feeds, Conversation History, Archive, Deleted Items).
+3. A "delete all incoming mail" rule with no keyword filter — treat as malicious by default.
+4. Corroborating context: the rule follows an anomalous sign-in, a prior Entra ID
+   Protection / Defender risk alert on the same user, or is attached to an incident that
+   already has other TP alerts.
+
+A rule satisfying (3) alone is TP. A rule satisfying (1) or (2) alone is a lead, not a
+verdict — confirm against (4) before writing it up as compromise evidence.
 
 ## Further Reading
+- Microsoft: *Alert classification for suspicious inbox manipulation rules* (Defender XDR alert-grading playbook)
 - Microsoft: *Responding to a compromised email account* (Microsoft 365 Defender documentation)
 - Microsoft: *Investigate risky users / risk detections* (Entra ID Protection)
 - CISA: *Enhanced Visibility and Hardening Guidance for Cloud Environments*

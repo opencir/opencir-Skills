@@ -32,6 +32,10 @@ mitre_attack:
 - T1530
 - T1213.002
 - T1657
+- T1562.001
+- T1550.001
+- T1110.003
+- T1136.003
 nist_csf:
 - DE.AE-02
 - DE.CM-01
@@ -132,6 +136,9 @@ is anticipated — audit-log review is not a forensically sound image.
 - Python 3.8+ to run the report generator (standard library only, no packages to install)
 - The user's **legitimate baseline** — their normal work location, ISP, and corporate device
   build. Sourced from the analyst, the user's manager, or IT asset inventory
+- Bulk UAL export tooling, optional but recommended at scale — the Security & Compliance
+  Center UI caps at 5,000/50,000 records and `Get-MessageTrace` only covers the last 7–10
+  days without paging. See "Bulk collection tools" in Tools & Systems below.
 
 ## MITRE ATT&CK Mapping
 
@@ -145,8 +152,27 @@ is anticipated — audit-log review is not a forensically sound image.
 | T1530 | Data from Cloud Storage Object | OneDrive/SharePoint mass download is the exfiltration event |
 | T1213.002 | Data from Information Repositories: SharePoint | File *views* indicate reconnaissance even without download |
 | T1657 | Financial Theft | The BEC objective — payment redirection or invoice fraud |
+| T1562.001 | Impair Defenses: Disable or Modify Tools | Attacker disables the Audit Log or purges evidence to defeat this investigation |
+| T1550.001 | Use Alternate Authentication Material: Application Access Token | OAuth app tokens bypass MFA and outlive a password reset |
+| T1110.003 | Brute Force: Password Spraying | Low-and-slow credential attempts precede many BEC sign-ins |
+| T1136.003 | Create Account: Cloud Account | Attacker creates a new cloud account to maintain access independent of the victim's |
 
 ## Workflow
+
+BEC investigations begin with a stakeholder question, not a step number. Use this map —
+adapted from PwC's *Business Email Compromise Guide* — to jump to the step that answers it;
+most questions need more than one:
+
+| Question | Answered in |
+|---|---|
+| What accounts were compromised or accessed? | Steps 3–4 |
+| Is the threat actor still in the environment? | Steps 3, 7, 8 |
+| When did the intrusion begin? | Steps 4, 9 |
+| How long did the threat actor maintain access? | Steps 3, 4, 7, 8, 9 |
+| What data was accessed or exfiltrated? | Step 6 |
+| Is there someone internal involved? | Steps 4, 10 |
+| Is this targeted, and who is responsible? | Step 5, `references/standards.md` attribution section |
+| How do we prevent recurrence? | Steps 10–11 |
 
 ### Step 1: Open the case and capture intake
 
@@ -174,10 +200,22 @@ at least 7 days before the phishing email through to the present — so the time
 consistent span. Collect, in order:
 
 1. Entra ID sign-in logs for the user (interactive and non-interactive)
-2. Unified Audit Log: `UserLoggedIn`, `New-InboxRule`, `Set-InboxRule`, `Add-MailboxPermission`
+2. Unified Audit Log — mailbox rules and permissions: `UserLoggedIn`, `New-InboxRule`,
+   `Set-InboxRule`, `New-TransportRule`, `Set-TransportRule`, `Add-MailboxPermission`,
+   `Add-RecipientPermission`, `Add-MailboxFolderPermission`, `Set-MailboxFolderPermission`,
+   `Added user`, `Add member to role`, `Add member to group`
 3. `MailItemsAccessed` records for the mailbox
-4. SharePoint/OneDrive `FileDownloaded`, `FileAccessed`, `FileSyncDownloadedFull`
+4. SharePoint/OneDrive `FileDownloaded`, `FileAccessed`, `FileSyncDownloadedFull`, `AddedToSecureLink`
 5. `MicrosoftGraphActivityLogs` and `Consent to application` / `Add service principal` events
+
+`New-TransportRule`/`Set-TransportRule` are organisation-wide mail-flow rules, not per-mailbox
+inbox rules — they need Exchange admin rights to create, so their presence points at a
+higher-privilege compromise or an admin account. `Add-RecipientPermission`, `Add-MailboxFolderPermission`,
+and `Set-MailboxFolderPermission` are less common than `Add-MailboxPermission` but grant the
+same practical access (SendAs, folder-level read) and are worth the same scrutiny.
+`Added user` and `Add member to role`/`group` catch an attacker creating a fallback account
+or granting an existing one admin rights — persistence that outlives every mailbox-level
+remediation.
 
 Preserve raw exports alongside the case file. The report is a summary; the exports are the
 evidence.
@@ -235,6 +273,15 @@ this alert sits inside a larger incident:
   completely alone, with a clean sign-in history and no related alerts, is more likely benign
   user configuration.
 
+If Entra sign-in logs are unavailable (E3 without export) or you need a second source, the
+UAL itself carries brute-force and MFA signal: `IdsLocked` (account locked after repeated bad
+credentials), `UserKey="Not Available"` (a guessed account that does not exist), and
+`UserStrongAuthClientAuthNRequired` / `...RequiredInterrupt` (MFA challenge issued or failed).
+A successful login immediately following a burst of these is a compromised account, not
+coincidence — but note that a client performing a full mailbox sync can generate a similar
+burst of events and is almost always a false positive; check the client/app before calling it
+a brute force.
+
 ### Step 5: Enrich IOCs through the threat intelligence MCP server
 
 Call the Opencir MPC MCP tools directly. Start with `threatintel_status` to see which
@@ -270,6 +317,11 @@ Separate **downloaded** from **viewed**. Files merely viewed still represent exp
 belong in the report, but they carry different notification obligations than files pulled
 down in bulk. Capture file names, sites, and sensitivity labels where present.
 
+Also check `AddedToSecureLink` for documents shared with individuals outside the
+organisation — filter out internal recipients and treat any external share created during
+the incident window as exfiltration, even if the file was never "downloaded" in the
+traditional sense.
+
 ### Step 7: Review Microsoft Graph API activity
 
 Look for the persistence that survives a password reset:
@@ -288,7 +340,31 @@ organisation, the same ISP. A single attacker IP is frequently reused against se
 mailboxes in the same campaign — finding a second victim here changes the scope of the
 whole incident.
 
-### Step 8: Build the unified timeline
+### Step 8: Check for evasion and anti-forensics activity
+
+Before trusting the completeness of everything collected so far, check whether the attacker
+tried to hide it. Three patterns, drawn from PwC's *Business Email Compromise Guide*:
+
+- **Purge rules.** A rule or manual action that deletes a sent message and its replies lets
+  the attacker carry on a fraudulent conversation from the compromised mailbox without the
+  real user ever seeing it. Look for delete actions on `Sent Items` alongside the concealment
+  rule graded in Step 3, not just on `Inbox`.
+- **Audit Log disabled.** `Set-AdminAuditLogConfig` toggling logging off is itself a UAL
+  event — search for it explicitly. If found, treat the surrounding time window as a **gap**,
+  not as an absence of activity: state in the report that logging was disabled from X to Y
+  and that this step cannot rule out attacker action in that window.
+- **eDiscovery abuse.** `New-ComplianceSearchAction` with `-Purge`, or an `eDiscovery search
+  started or exported` alert, can be used to bulk-delete evidence (e.g. the original phishing
+  email) via a legitimate compliance tool. Any such action taken by an account that is not
+  part of the legal/eDiscovery team during the incident window is a red flag on its own.
+
+Record findings from this step in `mailbox_persistence` alongside the inbox-rule grading —
+each is an artefact with a timestamp, an actor, and an assessment, and belongs in the same
+table. An attacker who evades logging is signalling a higher sophistication level; say so in
+the executive summary, since it changes how much you should trust "no further activity found"
+elsewhere in the case.
+
+### Step 9: Build the unified timeline
 
 Merge every source into one list ordered by UTC timestamp, each entry carrying its source
 so the report is auditable. Normalise every timestamp to UTC — mixed local times are the
@@ -297,14 +373,37 @@ single most common cause of a wrong BEC narrative.
 Then derive the response metrics: dwell time, MTTD, MTTC, MTTR. These belong in the report
 whether or not they flatter the response.
 
-### Step 9: Determine root cause
+### Step 10: Determine root cause
 
 Work backwards from impact to initial access using 5 Whys, recording the evidence behind
 each step. Stop at a cause the organisation can actually fix — "user clicked a link" is a
 symptom; "no phishing-resistant MFA on a VIP account, and no conditional access policy
 blocking legacy authentication" is a root cause. State your confidence and what would raise it.
 
-### Step 10: Write recommendations
+Before naming an external threat actor, weigh whether the evidence is equally consistent with
+a **malicious insider** — an account acting from an expected ASN, on an expected device, with
+no MFA anomaly, is one possibility a purely external-attacker narrative will miss. It does not
+need to be resolved to close the investigation, but it should be explicitly considered and
+ruled in or out with a reason, not silently assumed away.
+
+State confidence using consistent, calibrated language rather than a bare adjective — the UK
+Government's probability yardstick works well and keeps confidence comparable across cases:
+
+| Term | Confidence |
+|---|---|
+| Remote / highly unlikely | < 10% |
+| Improbable / unlikely | 10–25% |
+| Realistic probability | 26–50% |
+| Probable / likely | 51–75% |
+| Highly probable / highly likely | 76–90% |
+| Almost certain | > 90% |
+
+Attribution to a specific actor or group is usually neither possible nor necessary for
+remediation; "financially motivated, opportunistic, consistent with commodity BEC tradecraft"
+is often the honest and sufficient answer. See `references/standards.md` for phishing-lure
+and infrastructure patterns that support a more specific assessment when the evidence allows it.
+
+### Step 11: Write recommendations
 
 Split into immediate containment, short-term, and long-term. Every recommendation needs an
 owner, a priority, and a deadline — the report renders them as an action-item table, and a
@@ -315,7 +414,16 @@ rule, reset the account's credentials, cross-check the risk signal in Entra ID P
 Defender for Cloud Apps if licensed, and search the tenant for other accounts touched by the
 same attacker IP or ISP (Step 7).
 
-### Step 11: Generate the HTML report
+Standard long-term items worth defaulting to unless the organisation already has them: MFA
+enforced on every privileged role (not just Global Admin), a NIST-aligned password policy
+(references/standards.md), Office 365 logs forwarded to a centralised SIEM, regular scheduled
+review of active forwarding/transport rules, external mail forwarding blocked by policy, and
+legacy authentication protocols (POP3/IMAP/SMTP AUTH) disabled. For BEC specifically, recommend
+a **four-eyes / dual-approval control on bank detail or payment-instruction changes** — the
+single non-technical control that stops a successful mailbox compromise from becoming a
+successful wire fraud.
+
+### Step 12: Generate the HTML report
 
 ```bash
 python3 scripts/process.py report --case case.json --out bec-report.html
@@ -344,6 +452,9 @@ python3 scripts/process.py validate --case case.json
 | Inbox rule TP/FP grading | Classifying a rule as malicious by keyword filter, destination folder, and delete-all pattern, per Microsoft's inbox-manipulation-rules playbook — not by the mere existence of a rule |
 | Delete-all rule | A rule that deletes or moves **all** incoming mail with no keyword filter — one of the strongest single indicators of a compromised mailbox |
 | IP/ISP pivot | Searching the tenant for other accounts touched by the same attacker IP or ISP, to catch a second victim in the same campaign |
+| Anti-forensics gap | A window where the attacker disabled audit logging or purged evidence — reported as an evidentiary gap, never mistaken for a quiet period |
+| Four-eyes principle | Dual approval required before acting on a bank-detail or payment-instruction change — the control that stops mailbox compromise from becoming wire fraud |
+| Estimative language | Calibrated confidence terms (remote, probable, almost certain) mapped to percentage ranges, used for attribution and root-cause confidence statements |
 
 ## Tools & Systems
 
@@ -357,6 +468,23 @@ python3 scripts/process.py validate --case case.json
 | Opencir Threat Intelligence MPC | MCP server providing IP, domain, URL, and hash enrichment across OTX, AbuseIPDB, GreyNoise, abuse.ch |
 | `scripts/agent.py` | Computes baseline deviations and download-spike risk from the case file |
 | `scripts/process.py` | Validates the case file and renders the seven-section HTML report |
+
+### Bulk collection tools (optional)
+
+The Security & Compliance Center UI and the Office 365 Management API both cap out well
+below what a real BEC case produces — GUI export tops out at 5,000 sorted / 50,000 unsorted
+records, and BEC cases commonly run into the millions. These open-source tools, referenced in
+PwC's *Business Email Compromise Guide*, page past those limits by paging `Search-UnifiedAuditLog`:
+
+| Tool | Purpose |
+|---|---|
+| [Office 365 Extractor](https://github.com/PwC-IR/Office-365-Extractor) | Bulk UAL export to CSV, auto-paginating past the 5,000-record session limit; extract the complete UAL or specific RecordTypes |
+| [HAWK](https://github.com/Canthv0/hawk) | PowerShell triage tool — pulls sign-in events, inbox rules, forwarding config, and mailbox stats for a single user in one report |
+| [MIA (MailItemsAccessed)](https://github.com/PwC-IR/MIA-MailItemsAccessed) | Automates the SessionId → InternetMessageId → Message Trace pivot described in `references/workflows.md` to identify exactly which emails the attacker read |
+
+None of these are required — `Search-UnifiedAuditLog` and the KQL queries in
+`references/workflows.md` are sufficient for most cases — but they save significant time once
+a case exceeds a few thousand events.
 
 ## Common Scenarios
 
@@ -384,6 +512,14 @@ python3 scripts/process.py validate --case case.json
 6. **Vendor-thread hijack** — The compromised mailbox is used to reply within a legitimate
    existing invoice thread with altered bank details. Investigation scope must extend to the
    external counterparty, who may not know they are transacting with an attacker.
+
+7. **Evidence tampering** — `Set-AdminAuditLogConfig` disables logging, or a compliance
+   search purges the original phishing email, partway through the incident window. Report the
+   gap explicitly (Step 8) rather than treating the quiet period as evidence of no activity.
+
+8. **No external anomaly at all** — Sign-in ASN, device, and hours all match the baseline;
+   the only artefact is a bank-detail change on an outgoing invoice. Consider a malicious
+   insider alongside external compromise (Step 10) rather than assuming account takeover by default.
 
 ## Output Format
 

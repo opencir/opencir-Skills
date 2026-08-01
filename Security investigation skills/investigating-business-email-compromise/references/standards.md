@@ -10,6 +10,9 @@
 - **T1530**: Data from Cloud Storage Object — OneDrive/SharePoint bulk download
 - **T1213.002**: Data from Information Repositories: SharePoint
 - **T1657**: Financial Theft — the BEC objective
+- **T1562.001**: Impair Defenses: Disable or Modify Tools — attacker disables the Audit Log
+- **T1110.003**: Brute Force: Password Spraying
+- **T1136.003**: Create Account: Cloud Account — attacker-created persistence account
 
 ## MITRE Fight Fraud Framework (F3) v1.1
 - **F1032**: Impersonate Official — attacker poses as executive or vendor
@@ -126,9 +129,113 @@ the summary judgement logic:
 A rule satisfying (3) alone is TP. A rule satisfying (1) or (2) alone is a lead, not a
 verdict — confirm against (4) before writing it up as compromise evidence.
 
+## BEC Phishing & Social-Engineering Indicators
+
+Drawn from PwC's *Business Email Compromise Guide*. Use as hunting starting points, not
+hard filters — every term below also appears in legitimate mail, so pair a hit with
+corroborating evidence before calling it phishing.
+
+**Subject-line patterns:** Request, Overdue, Confirmation, Payments, Confidential, Hello,
+[First Name], Immediate Response, Urgent, Action Required, Account Suspended, Password
+Confirmation, Received Fax Document, Bill, Invoice, Reconfirm Password, Account Alert,
+Account Reset, Reminder, You Received, Voice Messages / Voicemail from [Number] / VM from
+[Number] / Audio Message, Password Reset, Sign-in attempt. Expect local-language variants;
+poor grammar is a weakening signal, not a reliable one — some BEC groups write fluent,
+native-quality lures.
+
+**Spoofed-brand themes:** Microsoft, OneDrive, OneNote, SharePoint, Outlook, DropBox,
+DocuSign, Apple, PayPal, Amazon, DHL — usually paired with an account-reset, file-share, or
+voicemail-notification theme. Geopolitical/seasonal hooks (a pandemic, tax season) recur.
+
+**Domain patterns:**
+- Typosquatting on a client or vendor domain (letter doubling, `rn` for `m`, TLD swap)
+- Security-themed domains designed to look legitimate: words like `ssl`, `secure`, `server`,
+  `portal`, `gateway`, `relay` combined with generic TLDs (`.cc`, `.network`, `.management`)
+- Free-mail spoofing: `company-name@gmail.com` impersonating a company's own contact address
+  without registering a domain at all — cheap, fast, and the single most common BEC sender pattern
+- Persistence pattern: `info@` or a named-employee address on a spoofed domain, cc'd onto a
+  thread after initial access, to survive being dropped from the "From" field
+
+**Header spoofing / display-name deception:** many mail clients show only the sender's display
+name, not the address — `john.smith@company.com` and `john.smith@attacker-domain.com` both
+render as "John Smith." Roughly a fifth of BEC emails carry a different Reply-To than From;
+check both fields, not just the visible sender.
+
+**Commodity malware families associated with BEC** (RATs and keyloggers, not custom tooling —
+useful for a quick reputation/sandbox check on an attachment, not for attribution): NetWire,
+Agent Tesla, Adwind, PredatorPain, Atmos, AZORult, Limitless, DarkComet, HWorm, ISpySoftware,
+LokiBot, Quasar, KeyBase, LuminosityLink, Revenge, NanoCore, Remcos, Pony, WSHRat. A double
+extension (`Purchase Order.rar.pdf`) is a simpler and more common evasion than the malware
+family itself.
+
+## Victimology
+
+Target selection is opportunistic, not sector-specific — organisations of every size and
+industry are targeted. Individuals targeted are chosen for perceived authority to move money,
+not technical exposure: CEO, CFO, other executives, and accounts payable staff who can modify
+payment details or approve payments. A request that would be questioned from a peer is often
+not questioned from someone with this profile — factor that into phishing-susceptibility
+assessments and training recommendations (Step 11).
+
+## Attribution & Confidence Language
+
+BEC attribution to a specific actor or group is usually neither possible nor necessary for
+remediation. State confidence using calibrated language — the UK Government's probability
+yardstick — rather than a bare adjective, so confidence is comparable across cases:
+
+| Term | Confidence |
+|---|---|
+| Remote / highly unlikely | < 10% |
+| Improbable / unlikely | 10–25% |
+| Realistic probability | 26–50% |
+| Probable / likely | 51–75% |
+| Highly probable / highly likely | 76–90% |
+| Almost certain | > 90% |
+
+A generalised assessment — "financially motivated, opportunistic, consistent with commodity
+BEC tradecraft, highly likely not a targeted APT" — is often the honest and sufficient answer.
+
+**Do not dismiss the malicious-insider hypothesis by default.** In PwC's 2020 Global Economic
+Crime Survey, 37% of reported fraud was committed by internal actors and a further 20% was
+co-opted between internal and external actors. A case with no external sign-in anomaly, no
+MFA deviation, and no unfamiliar device — only a bank-detail change — fits an insider at least
+as well as it fits an undetected external compromise; state which hypothesis the evidence
+actually supports rather than defaulting to "the account was compromised."
+
+## Prevention Recommendations
+
+Beyond the BEC-specific containment ordering above, these general controls materially reduce
+BEC risk and are worth recommending as a default set (Step 11) unless the organisation already
+has them:
+
+- **MFA on every privileged role**, not just Global Administrator: Billing, Conditional
+  Access, Exchange, Helpdesk/Password, Password, Security, SharePoint, and User administrators
+- **NIST-aligned password policy** (NIST SP 800-63B): 8–64 characters, all special characters
+  permitted but not required, no forced periodic rotation, reject sequential/repetitive
+  strings, context-specific terms (site/company name), common passwords, and passwords
+  appearing in known breach corpuses
+- **Centralise Office 365 logs** to a SIEM/Sentinel workspace — extends retention past the
+  90/180-day UAL window and enables cross-source correlation this skill's KQL queries depend on
+- **Regular scheduled review** of active inbox and transport forwarding rules, not just
+  incident-driven review
+- **Block mail forwarding to external domains** by policy — the single control that most
+  directly cuts off the most common BEC persistence mechanism
+- **Disable legacy authentication** (POP3, IMAP, SMTP AUTH) via Conditional Access, since none
+  of these protocols can enforce MFA
+- **Four-eyes / dual-approval control on bank-detail or payment-instruction changes** — a
+  non-technical control, but the one that stops a successful mailbox compromise from becoming
+  a successful wire fraud
+- **Recurring phishing-focused security awareness training**, weighted toward the
+  CEO/CFO/accounts-payable cohort described under Victimology above
+
 ## Further Reading
 - Microsoft: *Alert classification for suspicious inbox manipulation rules* (Defender XDR alert-grading playbook)
 - Microsoft: *Responding to a compromised email account* (Microsoft 365 Defender documentation)
 - Microsoft: *Investigate risky users / risk detections* (Entra ID Protection)
+- PwC: *Business Email Compromise Guide — A guide for forensic investigators* (source for the
+  evasion/anti-forensics, transport-rule, phishing-hunting, victimology, and estimative-language
+  content in this file)
 - CISA: *Enhanced Visibility and Hardening Guidance for Cloud Environments*
 - NIST SP 800-61 Rev. 2, *Computer Security Incident Handling Guide*
+- NIST SP 800-63B, *Digital Identity Guidelines — Authentication and Lifecycle Management*
+  (password policy basis)

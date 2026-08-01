@@ -37,6 +37,9 @@ Case intake (analyst supplies legitimate baseline)
 [IOC enrichment via MCP]  IPs, domains, URLs -> verdicts
   |
   v
+[Evasion check]  Set-AdminAuditLogConfig, eDiscovery purge, delete rules -> evidentiary gaps
+  |
+  v
 [Timeline merge]  all sources, normalised to UTC
   |
   v
@@ -128,6 +131,33 @@ Search-UnifiedAuditLog -StartDate $start -EndDate $end `
                     Where-Object Name -eq 'UserAgent' | Select-Object -Expand Value }} |
   Sort-Object CreationDate
 ```
+
+### Brute force and MFA errors (UAL)
+
+When Entra sign-in logs are unavailable or you want a second source, the UAL carries its own
+brute-force and MFA signal:
+
+```powershell
+Search-UnifiedAuditLog -StartDate $start -EndDate $end -UserIds $upn `
+  -Operations IdsLocked,UserLoginFailed,UserStrongAuthClientAuthNRequired,`
+UserStrongAuthClientAuthNRequiredInterrupt -ResultSize 5000 |
+  Select-Object CreationDate, Operations, UserIds,
+    @{n='IP'; e={ ($_.AuditData | ConvertFrom-Json).ClientIP }} |
+  Sort-Object CreationDate
+```
+
+| Operation | Meaning |
+|---|---|
+| `IdsLocked` | Account locked after repeated bad credentials |
+| `UserKey="Not Available"` (search text within failed-login records) | Attacker guessed a UPN that does not exist in the tenant |
+| `UserLoginFailed` | A single failed login |
+| `UserStrongAuthClientAuthNRequired` | MFA challenge issued |
+| `UserStrongAuthClientAuthNRequiredInterrupt` | MFA challenge issued and **failed** — the attacker had the password but not the second factor |
+
+A successful login immediately following a burst of these is the signature of a successful
+brute force or password-spray. **False-positive note:** a client performing a full mailbox
+sync can generate a similar burst of rapid auth events; check the client/app field before
+calling a burst malicious.
 
 ---
 
@@ -271,6 +301,50 @@ Get-RecipientPermission   -Identity $upn | Where-Object { $_.Trustee -notlike "N
 Get-Mailbox $upn | Select-Object ForwardingAddress, ForwardingSmtpAddress, DeliverToMailboxAndForward
 ```
 
+### Transport rules and broader permission changes
+
+Inbox rules are per-mailbox; **transport rules** (mail-flow rules) are organisation-wide and
+require Exchange admin rights — their presence in a BEC case points at a higher-privilege
+compromise than a single mailbox takeover.
+
+```powershell
+Search-UnifiedAuditLog -StartDate $start -EndDate $end `
+  -Operations New-TransportRule,Set-TransportRule -ResultSize 5000 |
+  ForEach-Object {
+    $d = $_.AuditData | ConvertFrom-Json
+    [pscustomobject]@{
+      Time = $_.CreationDate; User = $d.UserId
+      Rule = ($d.Parameters | Where-Object Name -eq 'Name').Value
+      Detail = ($d.Parameters | Where-Object Name -in
+        'RedirectMessageTo','BlindCopyTo','DeleteMessage','SubjectContainsWords') |
+        ForEach-Object { "$($_.Name)=$($_.Value)" }
+    }
+  } | Sort-Object Time
+
+Get-TransportRule | Select-Object Name, State, RedirectMessageTo, BlindCopyTo, Description
+```
+
+Permission and account-creation operations beyond `Add-MailboxPermission` grant the same
+practical access (SendAs, folder-level read) and are just as often used for persistence:
+
+```powershell
+Search-UnifiedAuditLog -StartDate $start -EndDate $end -ResultSize 5000 -Operations `
+  Add-RecipientPermission,Add-MailboxFolderPermission,Set-MailboxFolderPermission,`
+"Add member to role","Add member to group","Added user" |
+  ForEach-Object {
+    $d = $_.AuditData | ConvertFrom-Json
+    [pscustomobject]@{ Time=$_.CreationDate; Op=$_.Operations; Actor=$d.UserId
+                       Target=$d.ObjectId; Detail=($d.ModifiedProperties | ConvertTo-Json -Compress) }
+  } | Sort-Object Time
+```
+
+`Added user` and `Add member to role`/`group` catch an attacker creating a fallback account
+or self-elevating an existing one — cross-check any hit against IT/HR's expected joiner or
+role-change list before assuming it is illegitimate, and treat unexplained hits as persistence
+that will outlive a mailbox-level remediation. Roles worth alerting on if newly assigned:
+Global Administrator, Exchange Administrator, SharePoint Administrator, User Administrator,
+Password Administrator, Conditional Access Administrator, Security Administrator.
+
 ### What mail was actually read (requires Audit Premium)
 
 ```powershell
@@ -290,6 +364,56 @@ Search-UnifiedAuditLog -StartDate $start -EndDate $end `
 ```
 
 `Sync` access indicates a bulk mailbox pull; `Bind` indicates individual message reads.
+
+**Identifying exactly which emails were read**, once sessions belonging to the attacker are
+known (from IP/ASN identified in Step 4), is a three-step pivot:
+
+1. Filter `MailItemsAccessed` events to the attacker's `SessionId` or IP to isolate their
+   activity from the legitimate user's. `Bind` events carry an `OperationCount` — bind
+   operations within a 2-minute window are aggregated into one record, so a high count
+   means many individual messages read in a short burst.
+2. Each event's `Folders` field contains `InternetMessageId` value(s) for the accessed mail —
+   this is the durable identifier for a specific message, independent of mailbox or folder.
+3. Look up each `InternetMessageId` in `Get-MessageTrace` (10-day history limit) to recover
+   sender, subject, and recipient metadata for what was actually exposed.
+
+`MailItemsAccessed` requires Audit Premium (E5) — where it is unavailable, do not attempt to
+enumerate specific messages; state in the report that "which messages were read" is
+unanswerable from available logs, and scope impact from mailbox contents instead (see
+Step 5's phishing/impact analysis in `standards.md`).
+
+### Evasion and anti-forensics
+
+An attacker who suspects logging will expose them may try to defeat the very evidence this
+skill relies on. Check for all three before treating "nothing more found" as reassuring:
+
+```powershell
+# Audit Log disabled — itself a UAL event
+Search-UnifiedAuditLog -StartDate $start -EndDate $end `
+  -Operations Set-AdminAuditLogConfig -ResultSize 100 |
+  Select-Object CreationDate, UserIds, @{n='Params';e={($_.AuditData|ConvertFrom-Json).Parameters}}
+```
+
+```powershell
+# eDiscovery / compliance search used to purge evidence
+Search-UnifiedAuditLog -StartDate $start -EndDate $end -ResultSize 500 -Operations `
+  "New-ComplianceSearchAction","eDiscovery search started or exported" |
+  Select-Object CreationDate, UserIds, Operations,
+    @{n='Detail'; e={ ($_.AuditData | ConvertFrom-Json).Parameters }}
+```
+
+If `Set-AdminAuditLogConfig` shows logging toggled off, treat the surrounding window as an
+**evidentiary gap**, not as a quiet period — say explicitly in the report "logging was
+disabled from X to Y; this investigation cannot rule out activity in that window," rather
+than letting the absence of events read as an absence of activity.
+
+Purge rules — a rule or manual action that deletes a sent message and its replies — hide a
+fraudulent conversation from the real user. Check delete actions against `Sent Items`, not
+just `Inbox`, alongside the inbox-rule grading in Step 3.
+
+Any `New-ComplianceSearchAction` with a `-Purge` action, or an `eDiscovery search started or
+exported` alert, run by an account outside the legal/eDiscovery team during the incident
+window is a red flag on its own, regardless of what it searched for.
 
 ---
 
@@ -331,6 +455,22 @@ OfficeActivity
 | where UserId =~ "user@contoso.com" and Operation == "FileAccessed"
 | project TimeGenerated, OfficeObjectId, Site_Url, ClientIP, UserAgent
 | order by TimeGenerated asc
+```
+
+### External sharing links
+
+`AddedToSecureLink` shows documents shared via a link scoped to specific people, including
+external recipients — capture this alongside downloads, since sharing a link is exfiltration
+even when the recipient never triggers a `FileDownloaded` event server-side.
+
+```powershell
+Search-UnifiedAuditLog -StartDate $start -EndDate $end -UserIds $upn `
+  -Operations AddedToSecureLink -ResultSize 5000 |
+  ForEach-Object {
+    $d = $_.AuditData | ConvertFrom-Json
+    [pscustomobject]@{ Time=$_.CreationDate; File=$d.SourceFileName; Site=$d.SiteUrl
+                       SharedWith=$d.TargetUserOrGroupName; External=$d.TargetUserOrGroupType }
+  } | Where-Object { $_.External -notmatch 'Member|Internal' } | Sort-Object Time
 ```
 
 ### UAL equivalent
@@ -427,6 +567,8 @@ Mailbox bulk read                  -> MailItemsAccessed (Sync)
 OAuth consent granted              -> AuditLogs Consent to application
 File download spike                -> OfficeActivity FileDownloaded
 Fraudulent mail sent               -> UAL Send / SendAs
+Audit logging disabled (if found)  -> UAL Set-AdminAuditLogConfig
+Evidence purged (if found)         -> UAL New-ComplianceSearchAction -Purge
 Detection / user report            -> Alert or ticket
 Containment: sessions revoked      -> Analyst action
 Containment: credentials reset     -> Analyst action
@@ -473,9 +615,9 @@ Every row needs an owner and a deadline, or it will not happen.
 
 | Horizon | Typical actions |
 |---|---|
-| Immediate (0–24h) | Revoke sessions, reset credentials, remove attacker rules, revoke OAuth consent, notify counterparties on hijacked threads |
-| Short-term (1–30d) | Enforce phishing-resistant MFA for the affected cohort, block legacy auth, alert on inbox-rule creation, alert on bulk download |
-| Long-term (30d+) | Extend phishing-resistant MFA org-wide, enable Audit Premium for `MailItemsAccessed`, implement consent governance and admin consent workflow, targeted phishing training for high-risk roles |
+| Immediate (0–24h) | Revoke sessions, reset credentials, remove attacker rules and transport rules, revoke OAuth consent, remove unexplained role/group memberships and new accounts, notify counterparties on hijacked threads |
+| Short-term (1–30d) | Enforce phishing-resistant MFA for the affected cohort, block legacy auth, alert on inbox-rule and transport-rule creation, alert on bulk download, alert on `Set-AdminAuditLogConfig` |
+| Long-term (30d+) | Extend phishing-resistant MFA org-wide (all privileged roles, not just Global Admin), NIST-aligned password policy, enable Audit Premium for `MailItemsAccessed`, centralise O365 logging in a SIEM, implement consent governance and admin consent workflow, block external mail forwarding by policy, **four-eyes/dual-approval on bank-detail and payment-instruction changes**, targeted phishing training for high-risk roles |
 
 ---
 

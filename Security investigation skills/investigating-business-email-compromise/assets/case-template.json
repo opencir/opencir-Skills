@@ -105,7 +105,7 @@
 
   "mailbox_persistence": [
     {
-      "_comment": "Inbox rules, delegate permissions, forwarding. For inbox rules, grade TP/FP per SKILL.md Step 3 and references/standards.md - put the keyword filter, destination folder, and delete-all flag in 'detail', and the TP/FP verdict plus rationale in 'assessment'. Delete this example row.",
+      "_comment": "Inbox rules, transport rules, delegate/folder permissions, forwarding, new accounts/role changes, and evasion artefacts (Set-AdminAuditLogConfig, eDiscovery purge, purge rules - SKILL.md Step 8). For inbox rules, grade TP/FP per SKILL.md Step 3 and references/standards.md - put the keyword filter, destination folder, and delete-all flag in 'detail', and the TP/FP verdict plus rationale in 'assessment'. For an audit-log-disabled finding, set 'type' to 'evasion' and record the affected time window in 'detail' so the report shows it as an evidentiary gap, not a quiet period. Delete this example row.",
       "timestamp_utc": "UNKNOWN",
       "type": "UNKNOWN",
       "name": "UNKNOWN",

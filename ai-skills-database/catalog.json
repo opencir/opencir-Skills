@@ -1,0 +1,210 @@
+{
+  "scenarios": [
+    {
+      "id": "agent-workflows",
+      "solution": "agentWorkflow"
+    },
+    {
+      "id": "agent-support",
+      "solution": "agentSupport"
+    },
+    {
+      "id": "sales-growth",
+      "solution": "salesGrowth"
+    },
+    {
+      "id": "data-analytics",
+      "solution": "dataAnalytics"
+    },
+    {
+      "id": "social-analysis",
+      "solution": "socialAnalysis"
+    },
+    {
+      "id": "content-creation",
+      "solution": "contentOps"
+    },
+    {
+      "id": "digital-human",
+      "solution": "digitalHuman"
+    },
+    {
+      "id": "cyber-intel",
+      "solution": "cyberIntel"
+    },
+    {
+      "id": "governance",
+      "solution": "governance"
+    },
+    {
+      "id": "knowledge",
+      "solution": "knowledge"
+    },
+    {
+      "id": "skills-models",
+      "solution": "skillsModels"
+    },
+    {
+      "id": "training",
+      "solution": "training"
+    }
+  ],
+  "skills": [
+    {
+      "id": "support-agent-playbook",
+      "scenario": "agent-support",
+      "name": "support-agent-playbook",
+      "description": "Write the rules a customer-service agent follows: how to classify requests, answer from approved sources, and hand over to a human. Use when setting up or reviewing an AI support agent.",
+      "tags": [
+        "support",
+        "customer-service",
+        "handoff"
+      ],
+      "path": "skills/agent-support/support-agent-playbook/SKILL.md",
+      "content": "---\nname: support-agent-playbook\ndescription: \"Write the rules a customer-service agent follows: how to classify requests, answer from approved sources, and hand over to a human. Use when setting up or reviewing an AI support agent.\"\nmetadata:\n  scenario: agent-support\n  tags: support, customer-service, handoff\n---\n\n# Support agent playbook\n\nDefine how an AI agent handles customer messages, so answers are consistent and risky cases reach a person.\n\n## When to use\nA team is putting an agent on a website, chat app or inbox, or an existing agent gives inconsistent answers.\n\n## Inputs to collect\n- Approved sources: help articles, policies, price lists. Nothing else may be quoted as fact.\n- The top 10 request types and their usual answers.\n- Topics that always go to a person (refunds above a limit, legal, safety, complaints about staff).\n- Tone: how formal, which words to avoid.\n\n## Steps\n1. Group requests into types: question, problem, request for action, complaint, other.\n2. For each type write the answer pattern: greeting, answer or next step, what the customer should do next.\n3. Write the **handover rules**: the exact conditions, what the agent says to the customer, and what it passes on (summary, order number, what was already tried).\n4. Write the **do not** list: no promises about outcomes, no guessing at policy, no personal data in replies.\n5. Add 10 example conversations, three of which end in a handover.\n\n## Output format\nA one-page playbook with sections `Request types`, `Answer patterns`, `Handover rules`, `Do not`, `Examples`.\n\n## Quality checks\n- Every factual claim in an example points to an approved source.\n- A handover message always tells the customer what happens next and roughly when.\n"
+    },
+    {
+      "id": "workflow-planner",
+      "scenario": "agent-workflows",
+      "name": "workflow-planner",
+      "description": "Design a multi-step agent workflow: steps, tools, handoffs to people, and what happens when a step fails. Use when someone asks to automate a process with an AI agent.",
+      "tags": [
+        "agents",
+        "automation",
+        "planning"
+      ],
+      "path": "skills/agent-workflows/workflow-planner/SKILL.md",
+      "content": "---\nname: workflow-planner\ndescription: \"Design a multi-step agent workflow: steps, tools, handoffs to people, and what happens when a step fails. Use when someone asks to automate a process with an AI agent.\"\nmetadata:\n  scenario: agent-workflows\n  tags: agents, automation, planning\n---\n\n# Workflow planner\n\nTurn a described process into a workflow an AI agent can run safely.\n\n## When to use\nThe user wants to automate recurring work (reports, intake, reviews, follow-ups) and has not yet said which steps the agent should own.\n\n## Inputs to collect\n- The trigger: what starts the work (a message, a schedule, a new file).\n- The desired result and who receives it.\n- Tools and data the agent may touch, and anything it must never touch.\n- Who approves or takes over when the agent is unsure.\n\n## Steps\n1. Restate the process in one sentence and confirm it with the user.\n2. List the steps in order. For each step write: input, action, tool, output.\n3. Mark every step as **agent**, **agent + review** or **person**. Anything that spends money, sends messages outside the company or deletes data is at least *agent + review*.\n4. For each step write the failure case and the fallback: retry, skip, ask a person, or stop.\n5. Add a stop condition so the run cannot loop forever (maximum steps or time).\n6. Write a short test plan: one normal case, one empty input, one failing tool.\n\n## Output format\nA table with columns `Step | Owner | Tool | Output | If it fails`, followed by the stop condition and the test plan.\n\n## Quality checks\n- Every step has exactly one owner.\n- No step depends on information the agent was not given.\n- A person can see what the agent did afterwards (log or summary).\n"
+    },
+    {
+      "id": "brand-voice-article",
+      "scenario": "content-creation",
+      "name": "brand-voice-article",
+      "description": "Write an article in a defined brand voice from an outline, with facts checked against supplied sources. Use for blog posts, newsletters and landing-page copy.",
+      "tags": [
+        "writing",
+        "brand",
+        "articles"
+      ],
+      "path": "skills/content-creation/brand-voice-article/SKILL.md",
+      "content": "---\nname: brand-voice-article\ndescription: \"Write an article in a defined brand voice from an outline, with facts checked against supplied sources. Use for blog posts, newsletters and landing-page copy.\"\nmetadata:\n  scenario: content-creation\n  tags: writing, brand, articles\n---\n\n# Brand voice article\n\nDraft publishable copy that sounds like the brand and stays true to the sources.\n\n## When to use\nThe user has a topic and wants a first draft that needs light editing, not a rewrite.\n\n## Inputs to collect\n- Audience and the one thing they should do or understand after reading.\n- Brand voice in 3 to 5 adjectives, plus two sentences that sound right and two that do not.\n- Sources the article may rely on. Facts outside them must be marked for checking.\n- Length and format.\n\n## Steps\n1. Write a one-line promise for the article and a working title.\n2. Build an outline of 3 to 6 sections; each section answers one question the reader has.\n3. Draft with active voice, concrete examples and short paragraphs. Open with the most useful point, not background.\n4. Mark every statistic or claim with its source in brackets. Anything without a source gets `[check]`.\n5. Do a voice pass: remove filler, replace general words with specific ones, cut anything that sounds like every other article.\n6. Add a title, a meta description under 155 characters and two alternative headlines.\n\n## Output format\nThe article, then a list of `[check]` items, then the metadata.\n\n## Quality checks\n- No invented quotes, numbers or customers.\n- The reader knows what to do after the last paragraph.\n"
+    },
+    {
+      "id": "ioc-triage-note",
+      "scenario": "cyber-intel",
+      "name": "ioc-triage-note",
+      "description": "Triage a list of indicators of compromise into a defensive note: what each is, confidence, related techniques, and recommended actions. Use for threat-intel analysts and SOC handoffs.",
+      "tags": [
+        "security",
+        "ioc",
+        "threat-intel"
+      ],
+      "path": "skills/cyber-intel/ioc-triage-note/SKILL.md",
+      "content": "---\nname: ioc-triage-note\ndescription: \"Triage a list of indicators of compromise into a defensive note: what each is, confidence, related techniques, and recommended actions. Use for threat-intel analysts and SOC handoffs.\"\nmetadata:\n  scenario: cyber-intel\n  tags: security, ioc, threat-intel\n---\n\n# IOC triage note\n\nTurn a raw list of indicators into a note a SOC analyst can act on. Defensive use only.\n\n## When to use\nAn analyst has domains, URLs, IP addresses or file hashes from a feed, report or incident and needs a prioritized summary.\n\n## Inputs to collect\n- The indicators, with source and date for each.\n- Context: how they were found (report, alert, sandbox) and what is under investigation.\n- What the organization runs (email gateway, EDR, proxy, SIEM) so actions are realistic.\n\n## Steps\n1. Normalize indicators: remove defanging, lowercase domains, strip trailing characters, drop duplicates. Report how many remain.\n2. Group by type and by report or campaign if the source says so.\n3. For each group give **confidence** (high, medium, low) and the reason: how many independent sources, how recent, how specific.\n4. Map observed behavior to ATT&CK techniques only where the source states or clearly implies it; otherwise write \"not stated\".\n5. Flag likely false positives: shared infrastructure, parked domains, very old indicators.\n6. Recommend actions: block, monitor, hunt for, or ignore, each with the control that would apply it.\n\n## Output format\n`Summary`, `Indicators by group` (table with type, value, confidence, source, date), `Techniques`, `False-positive risks`, `Actions`.\n\n## Quality checks\n- Indicators are written defanged in the note.\n- Nothing is attributed to a named actor unless the cited source does so.\n- Expiry or review dates are suggested for blocks.\n"
+    },
+    {
+      "id": "question-to-analysis",
+      "scenario": "data-analytics",
+      "name": "question-to-analysis",
+      "description": "Turn a business question into an analysis plan: metric definitions, data needed, method, and how to present the answer. Use before writing queries or building a dashboard.",
+      "tags": [
+        "analytics",
+        "metrics",
+        "reporting"
+      ],
+      "path": "skills/data-analytics/question-to-analysis/SKILL.md",
+      "content": "---\nname: question-to-analysis\ndescription: \"Turn a business question into an analysis plan: metric definitions, data needed, method, and how to present the answer. Use before writing queries or building a dashboard.\"\nmetadata:\n  scenario: data-analytics\n  tags: analytics, metrics, reporting\n---\n\n# Question to analysis\n\nMake a vague business question precise enough to answer with data.\n\n## When to use\nA stakeholder asks things like \"why did sales drop?\" or \"which customers should we focus on?\" and nobody has defined what to measure.\n\n## Steps\n1. Rewrite the question as a decision: \"We will do X if the data shows Y.\"\n2. Define each metric in one line: formula, time window, what is included and excluded.\n3. List the tables or sources needed and the fields from each. Flag anything not available.\n4. Choose the method: comparison over time, breakdown by segment, cohort, or before/after. Say why.\n5. List the likely pitfalls: seasonality, small samples, double counting, changed definitions.\n6. Describe the result: the one chart or table that answers the question, and the one sentence under it.\n\n## Output format\n`Decision`, `Metric definitions`, `Data needed`, `Method`, `Pitfalls`, `Expected result`.\n\n## Quality checks\n- Two people reading the metric definitions would compute the same number.\n- The plan names what would change the decision, not just what to measure.\n- Numbers in the final answer always come with their time window and population.\n"
+    },
+    {
+      "id": "digital-presenter-script",
+      "scenario": "digital-human",
+      "name": "digital-presenter-script",
+      "description": "Write a script for an AI digital presenter: segments, spoken lines, on-screen text and timing, with a clear AI disclosure. Use for explainer videos and livestream segments.",
+      "tags": [
+        "video",
+        "presenter",
+        "script"
+      ],
+      "path": "skills/digital-human/digital-presenter-script/SKILL.md",
+      "content": "---\nname: digital-presenter-script\ndescription: \"Write a script for an AI digital presenter: segments, spoken lines, on-screen text and timing, with a clear AI disclosure. Use for explainer videos and livestream segments.\"\nmetadata:\n  scenario: digital-human\n  tags: video, presenter, script\n---\n\n# Digital presenter script\n\nWrite a script that works when spoken by a virtual presenter, and is honest about what the presenter is.\n\n## When to use\nThe user wants a video or livestream segment presented by an AI avatar or voice.\n\n## Inputs to collect\n- Topic, audience, target length and platform.\n- Presenter persona: name, tone, how they greet and sign off.\n- Visual assets available (slides, screen recordings, images).\n\n## Steps\n1. Open with a hook in the first 5 seconds that tells viewers what they will get.\n2. Split the script into segments of 15 to 40 seconds. For each: spoken lines, on-screen text, visual, and duration.\n3. Write for the ear: short sentences, no brackets, numbers spelled the way they should be said, one idea per line.\n4. Add a plain disclosure near the start, for example \"I'm an AI presenter\" or the platform's required label.\n5. Add pauses and emphasis marks only where the voice tool needs them.\n6. End with one call to action and a short recap line.\n\n## Output format\nA table with `Time | Spoken line | On-screen text | Visual`, then the disclosure line and the total running time.\n\n## Quality checks\n- Read aloud, no line takes more than one breath.\n- The presenter never claims human experiences, credentials or real customers.\n- Total time matches the target within 10 percent.\n"
+    },
+    {
+      "id": "ai-output-review",
+      "scenario": "governance",
+      "name": "ai-output-review",
+      "description": "Review an AI-generated output against a policy: sensitive data, unsupported claims, tone and required disclosures, and produce an audit record. Use before publishing or sending AI output.",
+      "tags": [
+        "compliance",
+        "review",
+        "audit"
+      ],
+      "path": "skills/governance/ai-output-review/SKILL.md",
+      "content": "---\nname: ai-output-review\ndescription: \"Review an AI-generated output against a policy: sensitive data, unsupported claims, tone and required disclosures, and produce an audit record. Use before publishing or sending AI output.\"\nmetadata:\n  scenario: governance\n  tags: compliance, review, audit\n---\n\n# AI output review\n\nCheck an AI-generated text before it leaves the building, and leave a record of the check.\n\n## When to use\nContent written or drafted by AI is about to be published, sent to a customer or filed.\n\n## Inputs to collect\n- The output to review and where it will go.\n- The policy to apply: disallowed data, required wording, regulated claims.\n- The sources the output was supposed to rely on.\n\n## Steps\n1. Scan for sensitive data: personal data, credentials, internal names, contract terms.\n2. Check each factual claim against the supplied sources; list those without support.\n3. Check regulated or risky claims: health, finance, legal, safety, guarantees.\n4. Check required disclosures and tone.\n5. Decide: **approve**, **approve with edits** (list the edits) or **reject** (state why).\n6. Write an audit record: date, reviewer, version reviewed, decision, issues found.\n\n## Output format\n`Decision`, `Issues` (table with location, issue, severity, fix), `Audit record`.\n\n## Quality checks\n- Every issue points to the exact sentence.\n- The decision follows from the severity of the issues, not the other way around.\n- The audit record contains no copy of the sensitive data it found.\n"
+    },
+    {
+      "id": "meeting-to-knowledge",
+      "scenario": "knowledge",
+      "name": "meeting-to-knowledge",
+      "description": "Convert meeting notes or documents into short, searchable knowledge-base entries with decisions, owners and open questions. Use after meetings and project milestones.",
+      "tags": [
+        "knowledge",
+        "notes",
+        "documentation"
+      ],
+      "path": "skills/knowledge/meeting-to-knowledge/SKILL.md",
+      "content": "---\nname: meeting-to-knowledge\ndescription: \"Convert meeting notes or documents into short, searchable knowledge-base entries with decisions, owners and open questions. Use after meetings and project milestones.\"\nmetadata:\n  scenario: knowledge\n  tags: knowledge, notes, documentation\n---\n\n# Meeting to knowledge\n\nTurn raw notes into entries that people can find and trust months later.\n\n## When to use\nThere are notes, a transcript or a long document and the team needs the durable parts written down.\n\n## Steps\n1. Separate what was **decided**, what was **discussed**, and what is **open**.\n2. For every decision write: the decision in one sentence, the reason, the date, and who owns it.\n3. For every open question write the question, who can answer it and by when.\n4. Create one entry per topic. Each entry has a plain-language title that someone would type into a search box.\n5. Add links to related entries and to the original notes; do not copy long passages.\n6. Add tags for team, product and period.\n\n## Output format\nA list of entries, each with `Title`, `Summary` (2 to 3 sentences), `Decisions`, `Open questions`, `Owner`, `Date`, `Tags`.\n\n## Quality checks\n- No entry depends on having attended the meeting to be understood.\n- Names and dates are exact; unclear items are marked `[confirm]`.\n"
+    },
+    {
+      "id": "lead-research-brief",
+      "scenario": "sales-growth",
+      "name": "lead-research-brief",
+      "description": "Research a prospect company from public information and write a one-page brief with fit, likely needs and a first-contact draft. Use before outreach.",
+      "tags": [
+        "sales",
+        "research",
+        "outreach"
+      ],
+      "path": "skills/sales-growth/lead-research-brief/SKILL.md",
+      "content": "---\nname: lead-research-brief\ndescription: \"Research a prospect company from public information and write a one-page brief with fit, likely needs and a first-contact draft. Use before outreach.\"\nmetadata:\n  scenario: sales-growth\n  tags: sales, research, outreach\n---\n\n# Lead research brief\n\nPrepare a short, honest brief about a company before anyone contacts them.\n\n## When to use\nSomeone is about to reach out to a prospect and needs context in minutes, not hours.\n\n## Inputs to collect\n- Company name and website.\n- What we offer and who it is for (one sentence).\n- Which public sources are allowed (website, press, job posts, public filings).\n\n## Steps\n1. Read the company's own site first: what they sell, to whom, in which markets.\n2. Look for signals of need in public sources: hiring, new products, funding, leadership changes. Note the source and date for each.\n3. Score fit as **strong / possible / weak** and give two sentences of reasoning. If information is missing, say so instead of guessing.\n4. Identify the most likely role to contact (by function, not by inventing a name).\n5. Draft a first message of under 90 words: one specific observation, one relevant benefit, one low-pressure question.\n\n## Output format\n`Company snapshot` (3 bullets), `Signals` (with sources), `Fit`, `Who to contact`, `Draft message`.\n\n## Quality checks\n- No private or scraped personal data; only public business information.\n- Every signal has a source and a date.\n- The draft contains no claim we cannot back up.\n"
+    },
+    {
+      "id": "skill-authoring-guide",
+      "scenario": "skills-models",
+      "name": "skill-authoring-guide",
+      "description": "Write a clear, reusable skill file for an AI agent: when it applies, what it needs, the steps and the checks. Use when creating or improving a skill.",
+      "tags": [
+        "skills",
+        "authoring",
+        "agents"
+      ],
+      "path": "skills/skills-models/skill-authoring-guide/SKILL.md",
+      "content": "---\nname: skill-authoring-guide\ndescription: \"Write a clear, reusable skill file for an AI agent: when it applies, what it needs, the steps and the checks. Use when creating or improving a skill.\"\nmetadata:\n  scenario: skills-models\n  tags: skills, authoring, agents\n---\n\n# Skill authoring guide\n\nHelp the user turn something they do repeatedly into a skill file other people can reuse.\n\n## When to use\nThe user describes a task they want an agent to do the same way every time.\n\n## Steps\n1. Ask for one real example of the task with its input and the result they were happy with.\n2. Name the skill with a short verb phrase in lowercase with hyphens.\n3. Write the `description` as one or two sentences: what it does and when to use it. This is what the agent reads to decide whether to load the skill, so make it specific.\n4. Write the body with these sections: `When to use`, `Inputs to collect`, `Steps`, `Output format`, `Quality checks`.\n5. Keep steps imperative and numbered. One action per step. Put long reference material in separate files and link to it.\n6. Test with two inputs: a typical one and a messy one. Fix steps that were ambiguous.\n\n## Output format\nA complete `SKILL.md` with front matter (`name`, `description`) and the sections above.\n\n## Quality checks\n- A new teammate could follow the steps without asking questions.\n- The description would not match unrelated tasks.\n- No secrets, keys or private URLs inside the skill.\n"
+    },
+    {
+      "id": "social-listening-report",
+      "scenario": "social-analysis",
+      "name": "social-listening-report",
+      "description": "Analyze a set of social posts or comments for topics, sentiment and notable voices, and write a short report with evidence. Use for brand, campaign or topic monitoring.",
+      "tags": [
+        "social",
+        "sentiment",
+        "monitoring"
+      ],
+      "path": "skills/social-analysis/social-listening-report/SKILL.md",
+      "content": "---\nname: social-listening-report\ndescription: \"Analyze a set of social posts or comments for topics, sentiment and notable voices, and write a short report with evidence. Use for brand, campaign or topic monitoring.\"\nmetadata:\n  scenario: social-analysis\n  tags: social, sentiment, monitoring\n---\n\n# Social listening report\n\nSummarize what people are saying about a topic, with evidence a reader can check.\n\n## When to use\nThe user supplies posts, comments or exported data and wants themes, sentiment and what to do next.\n\n## Inputs to collect\n- The topic or brand, and the period covered.\n- The posts (text, date, platform, public metrics if available).\n- Any known context: a launch, an outage, a news event.\n\n## Steps\n1. Clean the data: remove duplicates and obvious spam; note how many items remain.\n2. Group posts into 4 to 7 themes. Name each theme in plain words.\n3. For each theme give the share of posts, the dominant sentiment (positive, neutral, negative) and two short quotes with date and platform.\n4. Point out unusual spikes and what likely caused them, marked as *likely* unless the data proves it.\n5. Name notable voices only by their public handle and only when the posts are public.\n6. End with three actions ranked by impact.\n\n## Output format\n`Scope`, `Themes` (table), `Spikes`, `Notable voices`, `Recommended actions`, `Limits of this data`.\n\n## Quality checks\n- The limits section states sample size, platform coverage and language gaps.\n- Quotes are exact and short; no private accounts or personal details.\n"
+    },
+    {
+      "id": "lesson-plan-builder",
+      "scenario": "training",
+      "name": "lesson-plan-builder",
+      "description": "Build a lesson plan with objectives, activities, timing and a short check for understanding. Use for workshops, courses and team training.",
+      "tags": [
+        "training",
+        "education",
+        "workshops"
+      ],
+      "path": "skills/training/lesson-plan-builder/SKILL.md",
+      "content": "---\nname: lesson-plan-builder\ndescription: \"Build a lesson plan with objectives, activities, timing and a short check for understanding. Use for workshops, courses and team training.\"\nmetadata:\n  scenario: training\n  tags: training, education, workshops\n---\n\n# Lesson plan builder\n\nDesign a session people actually learn from.\n\n## When to use\nThe user has a topic and an audience and needs a plan for a class, workshop or onboarding session.\n\n## Inputs to collect\n- Audience and what they already know.\n- Session length and format (online, in person, self-paced).\n- The one thing learners must be able to do at the end.\n\n## Steps\n1. Write 2 to 4 objectives that start with an observable verb (explain, build, compare, fix).\n2. Split the time: opening (10%), teaching in short blocks, practice (at least 40%), wrap-up.\n3. For each block write the activity, what the instructor does, what learners do and the minutes.\n4. Add a practice task that uses a realistic example and has a clear result to check.\n5. Write a 5-question check that tests the objectives, with answers and a one-line explanation each.\n6. List materials and preparation.\n\n## Output format\n`Objectives`, `Agenda` (table with time, activity, instructor, learners), `Practice task`, `Check questions`, `Materials`.\n\n## Quality checks\n- Every objective is covered by a practice step and a check question.\n- The total time adds up to the session length.\n"
+    }
+  ]
+}

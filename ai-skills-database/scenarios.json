@@ -1,0 +1,14 @@
+[
+  { "id": "agent-workflows", "solution": "agentWorkflow" },
+  { "id": "agent-support", "solution": "agentSupport" },
+  { "id": "sales-growth", "solution": "salesGrowth" },
+  { "id": "data-analytics", "solution": "dataAnalytics" },
+  { "id": "social-analysis", "solution": "socialAnalysis" },
+  { "id": "content-creation", "solution": "contentOps" },
+  { "id": "digital-human", "solution": "digitalHuman" },
+  { "id": "cyber-intel", "solution": "cyberIntel" },
+  { "id": "governance", "solution": "governance" },
+  { "id": "knowledge", "solution": "knowledge" },
+  { "id": "skills-models", "solution": "skillsModels" },
+  { "id": "training", "solution": "training" }
+]

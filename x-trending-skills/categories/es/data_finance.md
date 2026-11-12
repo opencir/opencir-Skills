@@ -10,7 +10,7 @@ Puesto de la categoría: **#11** · Popularidad: **72.74** · Instantánea: 2026
 
 - **Uso**: Calcula la estructura de velas, los niveles de stop-loss y backtests para acciones A de China, de Hong Kong y de EE. UU. con datos de mercado reales.
 - **Descripción**: Sigue la especificación abierta de Agent Skills; se instala en Claude Code, Codex, Cursor, Gemini CLI y OpenCode.
-- **Popularidad**: 55.31 (#23 general)
+- **Popularidad**: 55.31 (#25 general)
 - **Referencias en X**: 1 posts que la mencionan · posts en X en 7 días: — · Me gusta: 54 · Reposts: 10 · citas: 1 · respuestas: 8 · guardados: 59 · Impresiones: 3,729
 - **Uso en GitHub**: — (ningún repositorio enlazado en los posts)
 - **Fuente**:

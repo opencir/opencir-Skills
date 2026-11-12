@@ -10,7 +10,7 @@ Puesto de la categoría: **#6** · Popularidad: **182.95** · Instantánea: 2026
 
 - **Uso**: Conecta agentes de IA con el marketplace de Swarms.
 - **Descripción**: Repositorio de código abierto de skills publicado por Swarms (swarms_corp).
-- **Popularidad**: 61.52 (#19 general)
+- **Popularidad**: 61.52 (#22 general)
 - **Referencias en X**: 3 posts que la mencionan · posts en X en 7 días: — · Me gusta: 72 · Reposts: 15 · citas: 1 · respuestas: 36 · guardados: 13 · Impresiones: 4,467
 - **Uso en GitHub**: — (ningún repositorio enlazado en los posts)
 - **Fuente**:
@@ -23,7 +23,7 @@ Puesto de la categoría: **#6** · Popularidad: **182.95** · Instantánea: 2026
 
 - **Uso**: Skills oficiales para los productos de Google y Google Cloud.
 - **Descripción**: Agent Skills para productos y tecnologías de Google.
-- **Popularidad**: 52.41 (#26 general)
+- **Popularidad**: 52.41 (#29 general)
 - **Referencias en X**: 4 posts que la mencionan · posts en X en 7 días: — · Me gusta: 4 · Reposts: 0 · citas: 1 · respuestas: 4 · guardados: 2 · Impresiones: 499
 - **Uso en GitHub**: [google/skills](https://github.com/google/skills) · ⭐ 23,980 · Forks: 1,998
 - **Fuente**:
@@ -38,7 +38,7 @@ Puesto de la categoría: **#6** · Popularidad: **182.95** · Instantánea: 2026
 
 - **Uso**: Enseña a los agentes a usar correctamente la API y el SDK de Gemini.
 - **Descripción**: Skills para la API de Gemini, el SDK y las interacciones entre modelo y agente.
-- **Popularidad**: 38.47 (#31 general)
+- **Popularidad**: 38.47 (#32 general)
 - **Referencias en X**: 1 posts que la mencionan · posts en X en 7 días: — · Me gusta: 1 · Reposts: 1 · citas: 0 · respuestas: 4 · guardados: 1 · Impresiones: 92
 - **Uso en GitHub**: [google-gemini/gemini-skills](https://github.com/google-gemini/gemini-skills) · ⭐ 4,460 · Forks: 497
 - **Fuente**:
@@ -50,7 +50,7 @@ Puesto de la categoría: **#6** · Popularidad: **182.95** · Instantánea: 2026
 
 - **Uso**: Permite que Claude Code, Codex o Cursor configuren y usen GPU en Runpod.
 - **Descripción**: Runpod for Agents: skills probadas y un servidor MCP alojado.
-- **Popularidad**: 30.55 (#33 general)
+- **Popularidad**: 30.55 (#34 general)
 - **Referencias en X**: 3 posts que la mencionan · posts en X en 7 días: — · Me gusta: 3 · Reposts: 0 · citas: 0 · respuestas: 3 · guardados: 0 · Impresiones: 98
 - **Uso en GitHub**: — (ningún repositorio enlazado en los posts)
 - **Fuente**:

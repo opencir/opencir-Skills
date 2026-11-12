@@ -2,7 +2,7 @@
 
 # Marketing y crecimiento
 
-Puesto de la categoría: **#10** · Popularidad: **81.56** · Instantánea: 2026-11-12
+Puesto de la categoría: **#10** · Popularidad: **84.80** · Instantánea: 2026-11-12
 
 [← Volver al resumen](../../README.es.md)
 
@@ -10,7 +10,7 @@ Puesto de la categoría: **#10** · Popularidad: **81.56** · Instantánea: 2026
 
 - **Uso**: Revisa un vídeo de YouTube antes de publicarlo: puntuación del gancho, coherencia entre título y miniatura y controles de retención.
 - **Descripción**: 12 skills de Claude y 9 pequeñas herramientas en Python; licencia MIT, sin clave de API.
-- **Popularidad**: 61.68 (#17 general)
+- **Popularidad**: 61.68 (#21 general)
 - **Referencias en X**: 1 posts que la mencionan · posts en X en 7 días: — · Me gusta: 83 · Reposts: 4 · citas: 0 · respuestas: 1 · guardados: 98 · Impresiones: 2,944
 - **Uso en GitHub**: [utillayer/youtube-agent-skill](https://github.com/utillayer/youtube-agent-skill) · ⭐ 15 · Forks: 2
 - **Fuente**:
@@ -21,10 +21,11 @@ Puesto de la categoría: **#10** · Popularidad: **81.56** · Instantánea: 2026
 
 - **Uso**: Skills de optimización de conversión (CRO), redacción publicitaria, SEO, analítica y crecimiento para agentes.
 - **Descripción**: Skills de marketing para Claude Code y agentes de IA.
-- **Popularidad**: 19.88 (#41 general)
-- **Referencias en X**: 1 posts que la mencionan · posts en X en 7 días: — · Me gusta: 0 · Reposts: 0 · citas: 0 · respuestas: 0 · guardados: 0 · Impresiones: 20
+- **Popularidad**: 23.12 (#41 general)
+- **Referencias en X**: 2 posts que la mencionan · posts en X en 7 días: — · Me gusta: 0 · Reposts: 0 · citas: 0 · respuestas: 0 · guardados: 0 · Impresiones: 93
 - **Uso en GitHub**: [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) · ⭐ 59,829 · Forks: 8,742
 - **Fuente**:
   - https://x.com/krblue_/status/2120275306435272847
-  - Enlaces: https://builderlog.net/?utm_source=x&utm_medium=social&utm_campaign=x-1111-01 · https://github.com/ · https://github.com/coreyhaines31/marketingskills
-- Primera / última aparición: 2026-11-10T22:00:00Z / 2026-11-10T22:00:00Z (UTC)
+  - https://x.com/opinion_bits/status/2120954617207103813
+  - Enlaces: https://builderlog.net/?utm_source=x&utm_medium=social&utm_campaign=x-1111-01 · https://github.com/ · https://github.com/coreyhaines31/marketingskills · https://github.com/gitroomhq/postiz-app
+- Primera / última aparición: 2026-11-10T22:00:00Z / 2026-11-12T18:59:20Z (UTC)

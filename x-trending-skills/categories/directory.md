@@ -2,7 +2,7 @@
 
 # Skill collections, directories & managers
 
-Category rank: **#3** · Heat: **455.19** · Snapshot: 2026-11-12
+Category rank: **#3** · Heat: **457.36** · Snapshot: 2026-11-12
 
 [← Back to overview](../README.md)
 
@@ -10,8 +10,8 @@ Category rank: **#3** · Heat: **455.19** · Snapshot: 2026-11-12
 
 - **Purpose**: Cross-agent installer: npx skills add owner/repo installs a skill into Claude Code, Codex, Cursor, etc.
 - **Description**: The open agent skills tool (npx skills) with the skills.sh directory.
-- **Heat**: 99.93 (#3 overall)
-- **X references**: 34 mention posts · X posts in 7 days: 808 · Likes: 116 · Reposts: 6 · quotes: 2 · replies: 54 · bookmarks: 132 · Impressions: 9,245
+- **Heat**: 102.10 (#4 overall)
+- **X references**: 44 mention posts · X posts in 7 days: 956 · Likes: 119 · Reposts: 6 · quotes: 2 · replies: 56 · bookmarks: 132 · Impressions: 9,554
 - **GitHub usage**: [vercel-labs/skills](https://github.com/vercel-labs/skills) · ⭐ 39,050 · Forks: 3,417
 - **Source**:
   - https://x.com/ArchiveExplorer/status/2119162437249167614
@@ -21,9 +21,9 @@ Category rank: **#3** · Heat: **455.19** · Snapshot: 2026-11-12
   - https://x.com/CheckPickaUppa/status/2119375717951521226
   - https://x.com/bpflmzj/status/2119408291839381961
   - https://x.com/eyishazyer/status/2118821732446556554
-  - https://x.com/Wuyxny/status/2119084751625838680
-  - Links: https://builderlog.net/?utm_source=x&utm_medium=social&utm_campaign=x-1111-01 · https://dioramas.dev/dither · https://gemini-api-docs-mcp.dev/ · https://github.com/ · https://github.com/Eli-yu-first/skillshub · https://github.com/Nutlope/hallmark
-- First / last seen: 2026-11-06T08:54:48Z / 2026-11-12T04:43:38Z (UTC)
+  - https://x.com/szdziedzic/status/2120947446461378888
+  - Links: https://api.0xinsider.com/ · https://builderlog.net/?utm_source=x&utm_medium=social&utm_campaign=x-1111-01 · https://dioramas.dev/dither · https://gemini-api-docs-mcp.dev/ · https://github.com/ · https://github.com/Eli-yu-first/skillshub
+- First / last seen: 2026-11-06T08:54:48Z / 2026-11-12T23:08:00Z (UTC)
 
 ## 2. Skill Leaderboard
 
@@ -41,7 +41,7 @@ Category rank: **#3** · Heat: **455.19** · Snapshot: 2026-11-12
 - **Purpose**: Huge catalog of reusable agent skills across development, security, SEO, SQL, data, science and business.
 - **Description**: 2,955+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI.
 - **Heat**: 85.63 (#10 overall)
-- **X references**: 3 mention posts · X posts in 7 days: 12 · Likes: 154 · Reposts: 70 · quotes: 1 · replies: 20 · bookmarks: 104 · Impressions: 8,087
+- **X references**: 3 mention posts · X posts in 7 days: 16 · Likes: 154 · Reposts: 70 · quotes: 1 · replies: 20 · bookmarks: 104 · Impressions: 8,087
 - **GitHub usage**: [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) · ⭐ 49,577 · Forks: 7,181
 - **Source**:
   - https://x.com/imryven/status/2119782191676723221
@@ -65,7 +65,7 @@ Category rank: **#3** · Heat: **455.19** · Snapshot: 2026-11-12
 
 - **Purpose**: Install a skill once and link/distribute it to every agent's skills folder.
 - **Description**: Desktop/CLI managers that keep one copy (e.g. ~/.skillshub, ~/.agents/skills) for Claude Code, Codex, Cursor, OpenCode.
-- **Heat**: 55.46 (#22 overall)
+- **Heat**: 55.46 (#24 overall)
 - **X references**: 6 mention posts · X posts in 7 days: — · Likes: 19 · Reposts: 0 · quotes: 1 · replies: 27 · bookmarks: 4 · Impressions: 1,026
 - **GitHub usage**: — (no repository linked in posts)
 - **Source**:
@@ -82,7 +82,7 @@ Category rank: **#3** · Heat: **455.19** · Snapshot: 2026-11-12
 
 - **Purpose**: Community-curated GitHub directory of agent skills, tutorials and guides.
 - **Description**: Separates official vs community skills to help find skills for a workflow.
-- **Heat**: 50.09 (#27 overall)
+- **Heat**: 50.09 (#30 overall)
 - **X references**: 1 mention posts · X posts in 7 days: — · Likes: 25 · Reposts: 7 · quotes: 0 · replies: 18 · bookmarks: 28 · Impressions: 2,063
 - **GitHub usage**: — (no repository linked in posts)
 - **Source**:

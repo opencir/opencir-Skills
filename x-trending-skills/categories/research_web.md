@@ -11,7 +11,7 @@ Category rank: **#7** · Heat: **137.59** · Snapshot: 2026-11-12
 - **Purpose**: Turns live web pages into clean text/data an agent can use (scrape, crawl, search).
 - **Description**: Web-data library with agent skill and MCP server integrations.
 - **Heat**: 82.57 (#12 overall)
-- **X references**: 2 mention posts · X posts in 7 days: 38 · Likes: 126 · Reposts: 12 · quotes: 4 · replies: 22 · bookmarks: 141 · Impressions: 49,904
+- **X references**: 2 mention posts · X posts in 7 days: 50 · Likes: 126 · Reposts: 12 · quotes: 4 · replies: 22 · bookmarks: 141 · Impressions: 49,904
 - **GitHub usage**: [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) · ⭐ 201,045 · Forks: 10,559
 - **Source**:
   - https://x.com/RoundtableSpace/status/2119267414902964501
@@ -23,7 +23,7 @@ Category rank: **#7** · Heat: **137.59** · Snapshot: 2026-11-12
 
 - **Purpose**: Gives agents search and scrape tools through the Oxylabs Web API.
 - **Description**: Claude Code plugin and agent skills for the Oxylabs Web API.
-- **Heat**: 28.44 (#35 overall)
+- **Heat**: 28.44 (#37 overall)
 - **X references**: 1 mention posts · X posts in 7 days: — · Likes: 4 · Reposts: 0 · quotes: 0 · replies: 1 · bookmarks: 1 · Impressions: 849
 - **GitHub usage**: [oxylabs/web-api-skills](https://github.com/oxylabs/web-api-skills) · ⭐ 13 · Forks: 1
 - **Source**:
@@ -35,7 +35,7 @@ Category rank: **#7** · Heat: **137.59** · Snapshot: 2026-11-12
 
 - **Purpose**: Browser automation CLI + skills so agents can operate real web pages.
 - **Description**: Browser automation CLI for AI agents with version-matched skills.
-- **Heat**: 26.58 (#37 overall)
+- **Heat**: 26.58 (#38 overall)
 - **X references**: 1 mention posts · X posts in 7 days: — · Likes: 0 · Reposts: 0 · quotes: 0 · replies: 1 · bookmarks: 0 · Impressions: 15
 - **GitHub usage**: [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) · ⭐ 50,055 · Forks: 3,492
 - **Source**:

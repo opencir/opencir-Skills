@@ -2,7 +2,7 @@
 
 # Colecciones, directorios y gestores de skills
 
-Puesto de la categoría: **#3** · Popularidad: **455.19** · Instantánea: 2026-11-12
+Puesto de la categoría: **#3** · Popularidad: **457.36** · Instantánea: 2026-11-12
 
 [← Volver al resumen](../../README.es.md)
 
@@ -10,8 +10,8 @@ Puesto de la categoría: **#3** · Popularidad: **455.19** · Instantánea: 2026
 
 - **Uso**: Instalador para varios agentes: npx skills add owner/repo instala una skill en Claude Code, Codex, Cursor, etc.
 - **Descripción**: La herramienta abierta de skills para agentes (npx skills), con el directorio skills.sh.
-- **Popularidad**: 99.93 (#3 general)
-- **Referencias en X**: 34 posts que la mencionan · posts en X en 7 días: 808 · Me gusta: 116 · Reposts: 6 · citas: 2 · respuestas: 54 · guardados: 132 · Impresiones: 9,245
+- **Popularidad**: 102.10 (#4 general)
+- **Referencias en X**: 44 posts que la mencionan · posts en X en 7 días: 956 · Me gusta: 119 · Reposts: 6 · citas: 2 · respuestas: 56 · guardados: 132 · Impresiones: 9,554
 - **Uso en GitHub**: [vercel-labs/skills](https://github.com/vercel-labs/skills) · ⭐ 39,050 · Forks: 3,417
 - **Fuente**:
   - https://x.com/ArchiveExplorer/status/2119162437249167614
@@ -21,9 +21,9 @@ Puesto de la categoría: **#3** · Popularidad: **455.19** · Instantánea: 2026
   - https://x.com/CheckPickaUppa/status/2119375717951521226
   - https://x.com/bpflmzj/status/2119408291839381961
   - https://x.com/eyishazyer/status/2118821732446556554
-  - https://x.com/Wuyxny/status/2119084751625838680
-  - Enlaces: https://builderlog.net/?utm_source=x&utm_medium=social&utm_campaign=x-1111-01 · https://dioramas.dev/dither · https://gemini-api-docs-mcp.dev/ · https://github.com/ · https://github.com/Eli-yu-first/skillshub · https://github.com/Nutlope/hallmark
-- Primera / última aparición: 2026-11-06T08:54:48Z / 2026-11-12T04:43:38Z (UTC)
+  - https://x.com/szdziedzic/status/2120947446461378888
+  - Enlaces: https://api.0xinsider.com/ · https://builderlog.net/?utm_source=x&utm_medium=social&utm_campaign=x-1111-01 · https://dioramas.dev/dither · https://gemini-api-docs-mcp.dev/ · https://github.com/ · https://github.com/Eli-yu-first/skillshub
+- Primera / última aparición: 2026-11-06T08:54:48Z / 2026-11-12T23:08:00Z (UTC)
 
 ## 2. Skill Leaderboard
 
@@ -41,7 +41,7 @@ Puesto de la categoría: **#3** · Popularidad: **455.19** · Instantánea: 2026
 - **Uso**: Enorme catálogo de skills reutilizables: desarrollo, seguridad, SEO, SQL, datos, ciencia y negocio.
 - **Descripción**: Más de 2.955 skills de IA reutilizables para Claude Code, Codex, Cursor y Gemini CLI.
 - **Popularidad**: 85.63 (#10 general)
-- **Referencias en X**: 3 posts que la mencionan · posts en X en 7 días: 12 · Me gusta: 154 · Reposts: 70 · citas: 1 · respuestas: 20 · guardados: 104 · Impresiones: 8,087
+- **Referencias en X**: 3 posts que la mencionan · posts en X en 7 días: 16 · Me gusta: 154 · Reposts: 70 · citas: 1 · respuestas: 20 · guardados: 104 · Impresiones: 8,087
 - **Uso en GitHub**: [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) · ⭐ 49,577 · Forks: 7,181
 - **Fuente**:
   - https://x.com/imryven/status/2119782191676723221
@@ -65,7 +65,7 @@ Puesto de la categoría: **#3** · Popularidad: **455.19** · Instantánea: 2026
 
 - **Uso**: Instalar una skill una sola vez y enlazarla o distribuirla en la carpeta de skills de cada agente.
 - **Descripción**: Gestores de escritorio/CLI que guardan una sola copia (p. ej. ~/.skillshub, ~/.agents/skills) para Claude Code, Codex, Cursor y OpenCode.
-- **Popularidad**: 55.46 (#22 general)
+- **Popularidad**: 55.46 (#24 general)
 - **Referencias en X**: 6 posts que la mencionan · posts en X en 7 días: — · Me gusta: 19 · Reposts: 0 · citas: 1 · respuestas: 27 · guardados: 4 · Impresiones: 1,026
 - **Uso en GitHub**: — (ningún repositorio enlazado en los posts)
 - **Fuente**:
@@ -82,7 +82,7 @@ Puesto de la categoría: **#3** · Popularidad: **455.19** · Instantánea: 2026
 
 - **Uso**: Directorio en GitHub, mantenido por la comunidad, de skills para agentes, tutoriales y guías.
 - **Descripción**: Separa las skills oficiales de las de la comunidad para ayudar a encontrar las adecuadas para cada flujo de trabajo.
-- **Popularidad**: 50.09 (#27 general)
+- **Popularidad**: 50.09 (#30 general)
 - **Referencias en X**: 1 posts que la mencionan · posts en X en 7 días: — · Me gusta: 25 · Reposts: 7 · citas: 0 · respuestas: 18 · guardados: 28 · Impresiones: 2,063
 - **Uso en GitHub**: — (ningún repositorio enlazado en los posts)
 - **Fuente**:

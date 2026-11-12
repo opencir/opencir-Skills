@@ -10,7 +10,7 @@ Category rank: **#6** · Heat: **182.95** · Snapshot: 2026-11-12
 
 - **Purpose**: Connects AI agents to the Swarms marketplace.
 - **Description**: Open-source repository of skills from Swarms (swarms_corp).
-- **Heat**: 61.52 (#19 overall)
+- **Heat**: 61.52 (#22 overall)
 - **X references**: 3 mention posts · X posts in 7 days: — · Likes: 72 · Reposts: 15 · quotes: 1 · replies: 36 · bookmarks: 13 · Impressions: 4,467
 - **GitHub usage**: — (no repository linked in posts)
 - **Source**:
@@ -23,7 +23,7 @@ Category rank: **#6** · Heat: **182.95** · Snapshot: 2026-11-12
 
 - **Purpose**: Official skills for Google products and Google Cloud.
 - **Description**: Agent Skills for Google products and technologies.
-- **Heat**: 52.41 (#26 overall)
+- **Heat**: 52.41 (#29 overall)
 - **X references**: 4 mention posts · X posts in 7 days: — · Likes: 4 · Reposts: 0 · quotes: 1 · replies: 4 · bookmarks: 2 · Impressions: 499
 - **GitHub usage**: [google/skills](https://github.com/google/skills) · ⭐ 23,980 · Forks: 1,998
 - **Source**:
@@ -38,7 +38,7 @@ Category rank: **#6** · Heat: **182.95** · Snapshot: 2026-11-12
 
 - **Purpose**: Teaches agents to use the Gemini API/SDK correctly.
 - **Description**: Skills for the Gemini API, SDK and model/agent interactions.
-- **Heat**: 38.47 (#31 overall)
+- **Heat**: 38.47 (#32 overall)
 - **X references**: 1 mention posts · X posts in 7 days: — · Likes: 1 · Reposts: 1 · quotes: 0 · replies: 4 · bookmarks: 1 · Impressions: 92
 - **GitHub usage**: [google-gemini/gemini-skills](https://github.com/google-gemini/gemini-skills) · ⭐ 4,460 · Forks: 497
 - **Source**:
@@ -50,7 +50,7 @@ Category rank: **#6** · Heat: **182.95** · Snapshot: 2026-11-12
 
 - **Purpose**: Lets Claude Code, Codex or Cursor set up and run GPUs on Runpod.
 - **Description**: Runpod for Agents: tested skills plus a hosted MCP server.
-- **Heat**: 30.55 (#33 overall)
+- **Heat**: 30.55 (#34 overall)
 - **X references**: 3 mention posts · X posts in 7 days: — · Likes: 3 · Reposts: 0 · quotes: 0 · replies: 3 · bookmarks: 0 · Impressions: 98
 - **GitHub usage**: — (no repository linked in posts)
 - **Source**:

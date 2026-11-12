@@ -10,7 +10,7 @@ Rang de la catégorie: **#11** · Popularité: **72.74** · Instantané: 2026-11
 
 - **Usage**: Calcule la structure des chandeliers, les niveaux de stop-loss et des backtests pour les actions A chinoises, de Hong Kong et américaines à partir de données de marché réelles.
 - **Description**: Suit la spécification ouverte Agent Skills ; s'installe dans Claude Code, Codex, Cursor, Gemini CLI et OpenCode.
-- **Popularité**: 55.31 (#23 général)
+- **Popularité**: 55.31 (#25 général)
 - **Références X**: 1 posts mentionnant · posts X sur 7 jours: — · J'aime: 54 · Reposts: 10 · citations: 1 · réponses: 8 · signets: 59 · Impressions: 3,729
 - **Usage GitHub**: — (aucun dépôt cité dans les posts)
 - **Source**:

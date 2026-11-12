@@ -10,7 +10,7 @@ Category rank: **#11** · Heat: **72.74** · Snapshot: 2026-11-12
 
 - **Purpose**: Computes candlestick structure, stop-loss levels and backtests for A-share, HK and US stocks from real market data.
 - **Description**: Follows the open Agent Skills spec; installs in Claude Code, Codex, Cursor, Gemini CLI, OpenCode.
-- **Heat**: 55.31 (#23 overall)
+- **Heat**: 55.31 (#25 overall)
 - **X references**: 1 mention posts · X posts in 7 days: — · Likes: 54 · Reposts: 10 · quotes: 1 · replies: 8 · bookmarks: 59 · Impressions: 3,729
 - **GitHub usage**: — (no repository linked in posts)
 - **Source**:

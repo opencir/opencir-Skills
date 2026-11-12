@@ -8,6 +8,8 @@
 
 Seguimiento de las skills reutilizables para agentes de IA más comentadas en X (Claude Agent Skills / SKILL.md, Codex, Cursor, paquetes de skills MCP y más), con fuente, uso, descripción y ranking de popularidad.
 
+📅 **Vista anual:** [Agent skills populares del año, por sector (nov. 2025 – nov. 2026)](annual-2026/README.es.md)
+
 ## Ranking de categorías
 
 | # | Categoría | Popularidad | Skills | Posts que la mencionan | Me gusta |
@@ -66,4 +68,4 @@ popularidad = 10·ln(1+E) + 8·ln(1+N) + 3·log10(1+S); E = me gusta + 2·repost
 - `categories/es/<categoría>.md` — skills por categoría (español)
 - `data/skills.json` — última instantánea (cuatro idiomas)
 - `data/snapshots/AAAA-MM-DD.json` — instantáneas diarias
-- Tabla de Databricks: `lab.lab.skill` (una fila por skill y por día)
+- Tablas de Databricks: lab.lab.`skills-en` (inglés) y lab.lab.`skills-cn` (chino), una fila por skill y por día

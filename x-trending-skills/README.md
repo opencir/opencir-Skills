@@ -8,6 +8,8 @@
 
 Tracks the most-discussed reusable AI agent skills on X (Claude Agent Skills / SKILL.md, Codex, Cursor, MCP skill packs and more), with source, purpose, description and a heat ranking.
 
+📅 **Annual view:** [Popular agent skills of the year, by industry (Nov 2025 – Nov 2026)](annual-2026/README.md)
+
 ## Category ranking
 
 | # | Category | Heat | Skills | Mention posts | Likes |
@@ -66,4 +68,4 @@ heat = 10*ln(1+E) + 8*ln(1+N) + 3*log10(1+S); E = likes + 2*reposts + 3*quotes +
 - `categories/<category>.md` — skills per category (English); `categories/fr|es|zh/` for other languages
 - `data/skills.json` — latest snapshot (all four languages)
 - `data/snapshots/YYYY-MM-DD.json` — daily snapshots
-- Databricks table: `lab.lab.skill` (one row per skill per day)
+- Databricks tables: lab.lab.`skills-en` (English) and lab.lab.`skills-cn` (Chinese), one row per skill per day

@@ -8,6 +8,8 @@
 
 追踪 X 上讨论最多的可复用 AI 智能体技能（Claude Agent Skills / SKILL.md、Codex、Cursor、MCP 技能包等），标注来源、用途、描述，并按热度排序。
 
+📅 **年度视图：**[年度热门智能体 Skills · 按行业（2025 年 11 月 – 2026 年 11 月）](annual-2026/README.zh.md)
+
 ## 分类热度排名
 
 | # | 分类 | 热度 | 技能 | 提及帖子 | 点赞 |
@@ -66,4 +68,4 @@
 - `categories/zh/<分类>.md` — 各分类技能详情（中文）
 - `data/skills.json` — 最新快照（四种语言）
 - `data/snapshots/YYYY-MM-DD.json` — 每日快照
-- Databricks 表：`lab.lab.skill`（每天每个技能一行）
+- Databricks 表：lab.lab.`skills-en`（英文）和 lab.lab.`skills-cn`（中文），每天每个技能一行

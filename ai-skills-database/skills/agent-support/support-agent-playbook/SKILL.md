@@ -1,6 +1,7 @@
 ---
 name: support-agent-playbook
 description: "Write the rules a customer-service agent follows: how to classify requests, answer from approved sources, and hand over to a human. Use when setting up or reviewing an AI support agent."
+license: CC-BY-4.0
 metadata:
   scenario: agent-support
   tags: support, customer-service, handoff
@@ -32,3 +33,5 @@ A one-page playbook with sections `Request types`, `Answer patterns`, `Handover 
 ## Quality checks
 - Every factual claim in an example points to an approved source.
 - A handover message always tells the customer what happens next and roughly when.
+
+*Source: Opencir AI Skills Database (https://opencir.com/skills-database), licensed CC BY 4.0. Keep this credit and link when you copy, adapt or share this skill.*

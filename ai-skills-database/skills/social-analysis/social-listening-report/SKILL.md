@@ -1,6 +1,7 @@
 ---
 name: social-listening-report
 description: "Analyze a set of social posts or comments for topics, sentiment and notable voices, and write a short report with evidence. Use for brand, campaign or topic monitoring."
+license: CC-BY-4.0
 metadata:
   scenario: social-analysis
   tags: social, sentiment, monitoring
@@ -32,3 +33,5 @@ The user supplies posts, comments or exported data and wants themes, sentiment a
 ## Quality checks
 - The limits section states sample size, platform coverage and language gaps.
 - Quotes are exact and short; no private accounts or personal details.
+
+*Source: Opencir AI Skills Database (https://opencir.com/skills-database), licensed CC BY 4.0. Keep this credit and link when you copy, adapt or share this skill.*

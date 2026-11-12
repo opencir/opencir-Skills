@@ -42,6 +42,8 @@ for (const scenario of readdirSync(join(root, "skills"))) {
       if (fm.name !== name) problems.push(`${file}: name "${fm.name}" must match the folder name`);
       if (!fm.description || fm.description.length < 40) problems.push(`${file}: description is missing or too short`);
       if (fm.description && fm.description.length > 400) problems.push(`${file}: description is longer than 400 characters`);
+      if (fm.license !== "CC-BY-4.0") problems.push(`${file}: front matter needs license: CC-BY-4.0`);
+      if (!body.includes("Source: Opencir AI Skills Database (https://opencir.com/skills-database), licensed CC BY 4.0.")) problems.push(`${file}: missing the closing credit line (see CONTRIBUTING.md)`);
       if (fm.metadata.scenario !== scenario) problems.push(`${file}: metadata.scenario must be "${scenario}"`);
       for (const h of ["## When to use", "## Steps", "## Quality checks"]) if (!body.includes(h)) problems.push(`${file}: missing section "${h}"`);
       skills.push({

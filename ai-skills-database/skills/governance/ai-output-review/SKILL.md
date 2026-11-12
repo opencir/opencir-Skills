@@ -1,6 +1,7 @@
 ---
 name: ai-output-review
 description: "Review an AI-generated output against a policy: sensitive data, unsupported claims, tone and required disclosures, and produce an audit record. Use before publishing or sending AI output."
+license: CC-BY-4.0
 metadata:
   scenario: governance
   tags: compliance, review, audit
@@ -33,3 +34,5 @@ Content written or drafted by AI is about to be published, sent to a customer or
 - Every issue points to the exact sentence.
 - The decision follows from the severity of the issues, not the other way around.
 - The audit record contains no copy of the sensitive data it found.
+
+*Source: Opencir AI Skills Database (https://opencir.com/skills-database), licensed CC BY 4.0. Keep this credit and link when you copy, adapt or share this skill.*

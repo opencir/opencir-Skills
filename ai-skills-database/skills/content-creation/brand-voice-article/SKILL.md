@@ -1,6 +1,7 @@
 ---
 name: brand-voice-article
 description: "Write an article in a defined brand voice from an outline, with facts checked against supplied sources. Use for blog posts, newsletters and landing-page copy."
+license: CC-BY-4.0
 metadata:
   scenario: content-creation
   tags: writing, brand, articles
@@ -33,3 +34,5 @@ The article, then a list of `[check]` items, then the metadata.
 ## Quality checks
 - No invented quotes, numbers or customers.
 - The reader knows what to do after the last paragraph.
+
+*Source: Opencir AI Skills Database (https://opencir.com/skills-database), licensed CC BY 4.0. Keep this credit and link when you copy, adapt or share this skill.*

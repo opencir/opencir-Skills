@@ -1,6 +1,7 @@
 ---
 name: skill-authoring-guide
 description: "Write a clear, reusable skill file for an AI agent: when it applies, what it needs, the steps and the checks. Use when creating or improving a skill."
+license: CC-BY-4.0
 metadata:
   scenario: skills-models
   tags: skills, authoring, agents
@@ -28,3 +29,5 @@ A complete `SKILL.md` with front matter (`name`, `description`) and the sections
 - A new teammate could follow the steps without asking questions.
 - The description would not match unrelated tasks.
 - No secrets, keys or private URLs inside the skill.
+
+*Source: Opencir AI Skills Database (https://opencir.com/skills-database), licensed CC BY 4.0. Keep this credit and link when you copy, adapt or share this skill.*

@@ -1,6 +1,7 @@
 ---
 name: meeting-to-knowledge
 description: "Convert meeting notes or documents into short, searchable knowledge-base entries with decisions, owners and open questions. Use after meetings and project milestones."
+license: CC-BY-4.0
 metadata:
   scenario: knowledge
   tags: knowledge, notes, documentation
@@ -27,3 +28,5 @@ A list of entries, each with `Title`, `Summary` (2 to 3 sentences), `Decisions`,
 ## Quality checks
 - No entry depends on having attended the meeting to be understood.
 - Names and dates are exact; unclear items are marked `[confirm]`.
+
+*Source: Opencir AI Skills Database (https://opencir.com/skills-database), licensed CC BY 4.0. Keep this credit and link when you copy, adapt or share this skill.*

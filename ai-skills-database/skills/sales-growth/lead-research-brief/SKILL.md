@@ -1,6 +1,7 @@
 ---
 name: lead-research-brief
 description: "Research a prospect company from public information and write a one-page brief with fit, likely needs and a first-contact draft. Use before outreach."
+license: CC-BY-4.0
 metadata:
   scenario: sales-growth
   tags: sales, research, outreach
@@ -32,3 +33,5 @@ Someone is about to reach out to a prospect and needs context in minutes, not ho
 - No private or scraped personal data; only public business information.
 - Every signal has a source and a date.
 - The draft contains no claim we cannot back up.
+
+*Source: Opencir AI Skills Database (https://opencir.com/skills-database), licensed CC BY 4.0. Keep this credit and link when you copy, adapt or share this skill.*

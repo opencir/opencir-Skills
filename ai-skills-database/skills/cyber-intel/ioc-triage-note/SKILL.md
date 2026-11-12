@@ -1,6 +1,7 @@
 ---
 name: ioc-triage-note
 description: "Triage a list of indicators of compromise into a defensive note: what each is, confidence, related techniques, and recommended actions. Use for threat-intel analysts and SOC handoffs."
+license: CC-BY-4.0
 metadata:
   scenario: cyber-intel
   tags: security, ioc, threat-intel
@@ -33,3 +34,5 @@ An analyst has domains, URLs, IP addresses or file hashes from a feed, report or
 - Indicators are written defanged in the note.
 - Nothing is attributed to a named actor unless the cited source does so.
 - Expiry or review dates are suggested for blocks.
+
+*Source: Opencir AI Skills Database (https://opencir.com/skills-database), licensed CC BY 4.0. Keep this credit and link when you copy, adapt or share this skill.*

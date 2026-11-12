@@ -1,6 +1,7 @@
 ---
 name: digital-presenter-script
 description: "Write a script for an AI digital presenter: segments, spoken lines, on-screen text and timing, with a clear AI disclosure. Use for explainer videos and livestream segments."
+license: CC-BY-4.0
 metadata:
   scenario: digital-human
   tags: video, presenter, script
@@ -33,3 +34,5 @@ A table with `Time | Spoken line | On-screen text | Visual`, then the disclosure
 - Read aloud, no line takes more than one breath.
 - The presenter never claims human experiences, credentials or real customers.
 - Total time matches the target within 10 percent.
+
+*Source: Opencir AI Skills Database (https://opencir.com/skills-database), licensed CC BY 4.0. Keep this credit and link when you copy, adapt or share this skill.*

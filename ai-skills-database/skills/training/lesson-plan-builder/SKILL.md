@@ -1,6 +1,7 @@
 ---
 name: lesson-plan-builder
 description: "Build a lesson plan with objectives, activities, timing and a short check for understanding. Use for workshops, courses and team training."
+license: CC-BY-4.0
 metadata:
   scenario: training
   tags: training, education, workshops
@@ -32,3 +33,5 @@ The user has a topic and an audience and needs a plan for a class, workshop or o
 ## Quality checks
 - Every objective is covered by a practice step and a check question.
 - The total time adds up to the session length.
+
+*Source: Opencir AI Skills Database (https://opencir.com/skills-database), licensed CC BY 4.0. Keep this credit and link when you copy, adapt or share this skill.*

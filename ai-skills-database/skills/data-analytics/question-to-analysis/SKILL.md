@@ -1,6 +1,7 @@
 ---
 name: question-to-analysis
 description: "Turn a business question into an analysis plan: metric definitions, data needed, method, and how to present the answer. Use before writing queries or building a dashboard."
+license: CC-BY-4.0
 metadata:
   scenario: data-analytics
   tags: analytics, metrics, reporting
@@ -28,3 +29,5 @@ A stakeholder asks things like "why did sales drop?" or "which customers should 
 - Two people reading the metric definitions would compute the same number.
 - The plan names what would change the decision, not just what to measure.
 - Numbers in the final answer always come with their time window and population.
+
+*Source: Opencir AI Skills Database (https://opencir.com/skills-database), licensed CC BY 4.0. Keep this credit and link when you copy, adapt or share this skill.*

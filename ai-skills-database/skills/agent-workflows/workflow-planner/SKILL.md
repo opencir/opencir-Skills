@@ -1,6 +1,7 @@
 ---
 name: workflow-planner
 description: "Design a multi-step agent workflow: steps, tools, handoffs to people, and what happens when a step fails. Use when someone asks to automate a process with an AI agent."
+license: CC-BY-4.0
 metadata:
   scenario: agent-workflows
   tags: agents, automation, planning
@@ -34,3 +35,5 @@ A table with columns `Step | Owner | Tool | Output | If it fails`, followed by t
 - Every step has exactly one owner.
 - No step depends on information the agent was not given.
 - A person can see what the agent did afterwards (log or summary).
+
+*Source: Opencir AI Skills Database (https://opencir.com/skills-database), licensed CC BY 4.0. Keep this credit and link when you copy, adapt or share this skill.*

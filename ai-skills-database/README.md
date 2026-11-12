@@ -2,7 +2,7 @@
 
 Reusable skills for AI agents, organized by the scenario they are used in. Each skill is one folder with a `SKILL.md` file: a short description the agent reads to decide when to load it, then the steps, the output format and the quality checks.
 
-All skills in this repository are original work written for this project.
+All skills in this repository are original work written for this project, licensed CC BY 4.0 (credit and link required, see [License](#license)).
 
 ## Scenarios
 
@@ -44,4 +44,4 @@ This fails if a skill has no front matter, a `name` that differs from its folder
 
 ## License
 
-These skills have no license file yet. The Apache-2.0 files elsewhere in this repository belong to the security skills under `skills/` and do not cover this folder. Add a license here before others reuse the content.
+Licensed under **CC BY 4.0**: free to use, adapt and share, including commercially, but you must credit the **Opencir AI Skills Database** and link to https://opencir.com/skills-database. Each skill ends with the credit line to keep. See [LICENSE.md](LICENSE.md).

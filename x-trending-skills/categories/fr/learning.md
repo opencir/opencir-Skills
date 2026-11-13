@@ -2,7 +2,7 @@
 
 # Apprentissage et transformation de savoirs en skills
 
-Rang de la catégorie: **#8** · Popularité: **125.46** · Instantané: 2026-11-12
+Rang de la catégorie: **#7** · Popularité: **133.11** · Instantané: 2026-11-13
 
 [← Retour à la vue d'ensemble](../../README.fr.md)
 
@@ -10,22 +10,25 @@ Rang de la catégorie: **#8** · Popularité: **125.46** · Instantané: 2026-11
 
 - **Usage**: Transforme Claude, ChatGPT ou n'importe quel agent de code en professeur socratique exigeant qui refuse de donner la réponse.
 - **Description**: Premier skill pour agents publié en open source par Jane Street (selon des posts sur X) ; le lien du dépôt n'apparaît pas dans les posts échantillonnés.
-- **Popularité**: 66.06 (#17 général)
-- **Références X**: 4 posts mentionnant · posts X sur 7 jours: — · J'aime: 96 · Reposts: 8 · citations: 2 · réponses: 32 · signets: 53 · Impressions: 4,504
+- **Popularité**: 73.71 (#18 général)
+- **Références X**: 7 posts mentionnant · posts X sur 7 jours: — · J'aime: 134 · Reposts: 10 · citations: 2 · réponses: 44 · signets: 96 · Impressions: 6,974
 - **Usage GitHub**: — (aucun dépôt cité dans les posts)
 - **Source**:
   - https://x.com/0xRicker/status/2119838664767254976
+  - https://x.com/51bodila/status/2121021937572839634
   - https://x.com/quietoraclex/status/2120999000996454843
   - https://x.com/think0921/status/2119969522442813500
   - https://x.com/__su888/status/2121002346029211869
-  - Liens: https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md
-- Première / dernière apparition: 2026-11-09T17:04:57Z / 2026-11-12T22:09:00Z (UTC)
+  - https://x.com/cc_lab_jp/status/2121370063886262581
+  - https://x.com/benou_irl/status/2121241683991859668
+  - Liens: https://github.com/janestreet/agent_skills · https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md
+- Première / dernière apparition: 2026-11-09T17:04:57Z / 2026-11-13T22:30:11Z (UTC)
 
 ## 2. book-to-skill (virgiliojr94)
 
 - **Usage**: Transforme le PDF d'un livre technique en skill Claude Code qui charge un chapitre à la fois.
 - **Description**: Transformez n'importe quel livre technique en PDF en skill Claude Code, prêt à étudier, consulter et utiliser.
-- **Popularité**: 59.40 (#23 général)
+- **Popularité**: 59.40 (#24 général)
 - **Références X**: 2 posts mentionnant · posts X sur 7 jours: — · J'aime: 20 · Reposts: 2 · citations: 0 · réponses: 3 · signets: 12 · Impressions: 592
 - **Usage GitHub**: [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) · ⭐ 37,640 · Forks: 3,991
 - **Source**:

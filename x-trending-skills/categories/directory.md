@@ -2,7 +2,7 @@
 
 # Skill collections, directories & managers
 
-Category rank: **#3** · Heat: **457.36** · Snapshot: 2026-11-12
+Category rank: **#3** · Heat: **472.95** · Snapshot: 2026-11-13
 
 [← Back to overview](../README.md)
 
@@ -10,26 +10,26 @@ Category rank: **#3** · Heat: **457.36** · Snapshot: 2026-11-12
 
 - **Purpose**: Cross-agent installer: npx skills add owner/repo installs a skill into Claude Code, Codex, Cursor, etc.
 - **Description**: The open agent skills tool (npx skills) with the skills.sh directory.
-- **Heat**: 102.10 (#4 overall)
-- **X references**: 44 mention posts · X posts in 7 days: 956 · Likes: 119 · Reposts: 6 · quotes: 2 · replies: 56 · bookmarks: 132 · Impressions: 9,554
+- **Heat**: 112.06 (#2 overall)
+- **X references**: 71 mention posts · X posts in 7 days: 960 · Likes: 228 · Reposts: 14 · quotes: 6 · replies: 85 · bookmarks: 246 · Impressions: 21,263
 - **GitHub usage**: [vercel-labs/skills](https://github.com/vercel-labs/skills) · ⭐ 39,050 · Forks: 3,417
 - **Source**:
   - https://x.com/ArchiveExplorer/status/2119162437249167614
   - https://x.com/shiri_shh/status/2120003262799659071
+  - https://x.com/Ash_uxi/status/2121206263304610125
+  - https://x.com/ctnicholasdev/status/2121245081407828182
+  - https://x.com/0xCodila/status/2121377290051317902
+  - https://x.com/GoSailGlobal/status/2121198885460914540
   - https://x.com/atanizamoglu/status/2119829279441821821
-  - https://x.com/f0rgent/status/2120162323893571723
-  - https://x.com/CheckPickaUppa/status/2119375717951521226
-  - https://x.com/bpflmzj/status/2119408291839381961
-  - https://x.com/eyishazyer/status/2118821732446556554
-  - https://x.com/szdziedzic/status/2120947446461378888
-  - Links: https://api.0xinsider.com/ · https://builderlog.net/?utm_source=x&utm_medium=social&utm_campaign=x-1111-01 · https://dioramas.dev/dither · https://gemini-api-docs-mcp.dev/ · https://github.com/ · https://github.com/Eli-yu-first/skillshub
-- First / last seen: 2026-11-06T08:54:48Z / 2026-11-12T23:08:00Z (UTC)
+  - https://x.com/OxG_Digz/status/2121290798423777726
+  - Links: https://api.0xinsider.com/ · https://builderlog.net/?utm_source=x&utm_medium=social&utm_campaign=x-1111-01 · https://dioramas.dev/dither · https://docs.doppler.lol · https://docs.doppler.lol/ · https://doppler.lol/skills
+- First / last seen: 2026-11-06T08:54:48Z / 2026-11-13T22:58:53Z (UTC)
 
 ## 2. Skill Leaderboard
 
 - **Purpose**: Website ranking agent skills from GitHub by specialty, popularity and growth speed.
 - **Description**: Aggregates Agent Skills from GitHub; search across coding, design, security and more.
-- **Heat**: 86.15 (#9 overall)
+- **Heat**: 86.15 (#11 overall)
 - **X references**: 1 mention posts · X posts in 7 days: 5 · Likes: 1,276 · Reposts: 88 · quotes: 0 · replies: 10 · bookmarks: 1,704 · Impressions: 55,759
 - **GitHub usage**: — (no repository linked in posts)
 - **Source**:
@@ -40,8 +40,8 @@ Category rank: **#3** · Heat: **457.36** · Snapshot: 2026-11-12
 
 - **Purpose**: Huge catalog of reusable agent skills across development, security, SEO, SQL, data, science and business.
 - **Description**: 2,955+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI.
-- **Heat**: 85.63 (#10 overall)
-- **X references**: 3 mention posts · X posts in 7 days: 16 · Likes: 154 · Reposts: 70 · quotes: 1 · replies: 20 · bookmarks: 104 · Impressions: 8,087
+- **Heat**: 85.63 (#13 overall)
+- **X references**: 3 mention posts · X posts in 7 days: 15 · Likes: 154 · Reposts: 70 · quotes: 1 · replies: 20 · bookmarks: 104 · Impressions: 8,087
 - **GitHub usage**: [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) · ⭐ 49,577 · Forks: 7,181
 - **Source**:
   - https://x.com/imryven/status/2119782191676723221
@@ -54,18 +54,20 @@ Category rank: **#3** · Heat: **457.36** · Snapshot: 2026-11-12
 
 - **Purpose**: Curated list of Claude Skills, resources and tools.
 - **Description**: A curated list of awesome Claude Skills (1,000+ entries).
-- **Heat**: 77.93 (#13 overall)
-- **X references**: 1 mention posts · X posts in 7 days: — · Likes: 129 · Reposts: 30 · quotes: 0 · replies: 3 · bookmarks: 127 · Impressions: 5,183
+- **Heat**: 83.56 (#15 overall)
+- **X references**: 3 mention posts · X posts in 7 days: — · Likes: 130 · Reposts: 30 · quotes: 0 · replies: 5 · bookmarks: 127 · Impressions: 5,264
 - **GitHub usage**: [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) · ⭐ 79,298 · Forks: 9,670
 - **Source**:
   - https://x.com/feednote_X/status/2119138901633966260
-- First / last seen: 2026-11-07T18:44:20Z / 2026-11-07T18:44:20Z (UTC)
+  - https://x.com/prima_labs/status/2121196408061710717
+  - https://x.com/prima_labs/status/2121196405385519382
+- First / last seen: 2026-11-07T18:44:20Z / 2026-11-13T11:00:08Z (UTC)
 
 ## 5. Skill managers (Skills Hub / Prism)
 
 - **Purpose**: Install a skill once and link/distribute it to every agent's skills folder.
 - **Description**: Desktop/CLI managers that keep one copy (e.g. ~/.skillshub, ~/.agents/skills) for Claude Code, Codex, Cursor, OpenCode.
-- **Heat**: 55.46 (#24 overall)
+- **Heat**: 55.46 (#27 overall)
 - **X references**: 6 mention posts · X posts in 7 days: — · Likes: 19 · Reposts: 0 · quotes: 1 · replies: 27 · bookmarks: 4 · Impressions: 1,026
 - **GitHub usage**: — (no repository linked in posts)
 - **Source**:
@@ -82,7 +84,7 @@ Category rank: **#3** · Heat: **457.36** · Snapshot: 2026-11-12
 
 - **Purpose**: Community-curated GitHub directory of agent skills, tutorials and guides.
 - **Description**: Separates official vs community skills to help find skills for a workflow.
-- **Heat**: 50.09 (#30 overall)
+- **Heat**: 50.09 (#31 overall)
 - **X references**: 1 mention posts · X posts in 7 days: — · Likes: 25 · Reposts: 7 · quotes: 0 · replies: 18 · bookmarks: 28 · Impressions: 2,063
 - **GitHub usage**: — (no repository linked in posts)
 - **Source**:

@@ -2,7 +2,7 @@
 
 # Marketing & growth
 
-Category rank: **#10** · Heat: **84.80** · Snapshot: 2026-11-12
+Category rank: **#8** · Heat: **117.55** · Snapshot: 2026-11-13
 
 [← Back to overview](../README.md)
 
@@ -10,7 +10,7 @@ Category rank: **#10** · Heat: **84.80** · Snapshot: 2026-11-12
 
 - **Purpose**: Checks a YouTube video before upload: hook score, title vs thumbnail, retention-related checks.
 - **Description**: 12 Claude skills plus 9 small Python tools; MIT, no API key.
-- **Heat**: 61.68 (#21 overall)
+- **Heat**: 61.68 (#22 overall)
 - **X references**: 1 mention posts · X posts in 7 days: — · Likes: 83 · Reposts: 4 · quotes: 0 · replies: 1 · bookmarks: 98 · Impressions: 2,944
 - **GitHub usage**: [utillayer/youtube-agent-skill](https://github.com/utillayer/youtube-agent-skill) · ⭐ 15 · Forks: 2
 - **Source**:
@@ -21,11 +21,12 @@ Category rank: **#10** · Heat: **84.80** · Snapshot: 2026-11-12
 
 - **Purpose**: CRO, copywriting, SEO, analytics and growth skills for agents.
 - **Description**: Marketing skills for Claude Code and AI agents.
-- **Heat**: 23.12 (#41 overall)
-- **X references**: 2 mention posts · X posts in 7 days: — · Likes: 0 · Reposts: 0 · quotes: 0 · replies: 0 · bookmarks: 0 · Impressions: 93
+- **Heat**: 55.87 (#26 overall)
+- **X references**: 3 mention posts · X posts in 7 days: — · Likes: 10 · Reposts: 1 · quotes: 0 · replies: 6 · bookmarks: 2 · Impressions: 886
 - **GitHub usage**: [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) · ⭐ 59,829 · Forks: 8,742
 - **Source**:
+  - https://x.com/coreyhainesco/status/2121342846037102785
   - https://x.com/krblue_/status/2120275306435272847
   - https://x.com/opinion_bits/status/2120954617207103813
   - Links: https://builderlog.net/?utm_source=x&utm_medium=social&utm_campaign=x-1111-01 · https://github.com/ · https://github.com/coreyhaines31/marketingskills · https://github.com/gitroomhq/postiz-app
-- First / last seen: 2026-11-10T22:00:00Z / 2026-11-12T18:59:20Z (UTC)
+- First / last seen: 2026-11-10T22:00:00Z / 2026-11-13T20:42:01Z (UTC)

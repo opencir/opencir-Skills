@@ -2,39 +2,24 @@
 
 # Automation & infrastructure
 
-Category rank: **#6** · Heat: **182.95** · Snapshot: 2026-11-12
+Category rank: **#6** · Heat: **137.11** · Snapshot: 2026-11-13
 
 [← Back to overview](../README.md)
 
-## 1. Swarms Skills
-
-- **Purpose**: Connects AI agents to the Swarms marketplace.
-- **Description**: Open-source repository of skills from Swarms (swarms_corp).
-- **Heat**: 61.52 (#22 overall)
-- **X references**: 3 mention posts · X posts in 7 days: — · Likes: 72 · Reposts: 15 · quotes: 1 · replies: 36 · bookmarks: 13 · Impressions: 4,467
-- **GitHub usage**: — (no repository linked in posts)
-- **Source**:
-  - https://x.com/swarms_corp/status/2118849370703671406
-  - https://x.com/swarms_corp/status/2118849373631369314
-  - https://x.com/winiam4444/status/2119135930498064606
-- First / last seen: 2026-11-06T23:33:50Z / 2026-11-07T18:32:32Z (UTC)
-
-## 2. Google skills (google/skills)
+## 1. Google skills (google/skills)
 
 - **Purpose**: Official skills for Google products and Google Cloud.
 - **Description**: Agent Skills for Google products and technologies.
-- **Heat**: 52.41 (#29 overall)
-- **X references**: 4 mention posts · X posts in 7 days: — · Likes: 4 · Reposts: 0 · quotes: 1 · replies: 4 · bookmarks: 2 · Impressions: 499
+- **Heat**: 51.31 (#30 overall)
+- **X references**: 3 mention posts · X posts in 7 days: — · Likes: 7 · Reposts: 0 · quotes: 1 · replies: 1 · bookmarks: 3 · Impressions: 418
 - **GitHub usage**: [google/skills](https://github.com/google/skills) · ⭐ 23,980 · Forks: 1,998
 - **Source**:
-  - https://x.com/xx_Tge/status/2118637923876692162
+  - https://x.com/aidevnewss/status/2121305652895396039
   - https://x.com/stretchcloud/status/2118990338710729003
   - https://x.com/so_sthbryan/status/2119912413856444599
-  - https://x.com/bvsbharat/status/2118875398197154036
-  - Links: https://github.com/google/skills
-- First / last seen: 2026-11-06T09:33:38Z / 2026-11-09T21:58:00Z (UTC)
+- First / last seen: 2026-11-06T09:33:38Z / 2026-11-13T18:14:14Z (UTC)
 
-## 3. Gemini API skills (google-gemini/gemini-skills)
+## 2. Gemini API skills (google-gemini/gemini-skills)
 
 - **Purpose**: Teaches agents to use the Gemini API/SDK correctly.
 - **Description**: Skills for the Gemini API, SDK and model/agent interactions.
@@ -46,16 +31,28 @@ Category rank: **#6** · Heat: **182.95** · Snapshot: 2026-11-12
   - Links: https://gemini-api-docs-mcp.dev/
 - First / last seen: 2026-11-10T08:30:16Z / 2026-11-10T08:30:16Z (UTC)
 
-## 4. Runpod skills + MCP
+## 3. Runpod skills + MCP
 
 - **Purpose**: Lets Claude Code, Codex or Cursor set up and run GPUs on Runpod.
 - **Description**: Runpod for Agents: tested skills plus a hosted MCP server.
-- **Heat**: 30.55 (#34 overall)
-- **X references**: 3 mention posts · X posts in 7 days: — · Likes: 3 · Reposts: 0 · quotes: 0 · replies: 3 · bookmarks: 0 · Impressions: 98
+- **Heat**: 34.85 (#33 overall)
+- **X references**: 4 mention posts · X posts in 7 days: — · Likes: 5 · Reposts: 0 · quotes: 0 · replies: 3 · bookmarks: 0 · Impressions: 151
 - **GitHub usage**: — (no repository linked in posts)
 - **Source**:
   - https://x.com/saiitoshii/status/2120221387402961257
+  - https://x.com/aladagberk/status/2121136948832260557
   - https://x.com/FOMAnews/status/2120082576798801961
   - https://x.com/GetUseThisAI/status/2120516899167518970
-  - Links: https://agents.runpod.io/ · https://www.runpod.io/blog/whats-new-runpod-agents-november-2026
-- First / last seen: 2026-11-10T09:14:10Z / 2026-11-11T14:00:00Z (UTC)
+  - Links: https://agents.runpod.io/ · https://github.com/runpod/runpod-plugins-official · https://github.com/runpod/runpod-plugins-official.git · https://mcp.runpod.io/ · https://www.runpod.io/blog/whats-new-runpod-agents-november-2026
+- First / last seen: 2026-11-10T09:14:10Z / 2026-11-13T07:03:52Z (UTC)
+
+## 4. Swarms Skills
+
+- **Purpose**: Connects AI agents to the Swarms marketplace.
+- **Description**: Open-source repository of skills from Swarms (swarms_corp).
+- **Heat**: 12.48 (#41 overall)
+- **X references**: 1 mention posts · X posts in 7 days: — · Likes: 0 · Reposts: 0 · quotes: 0 · replies: 1 · bookmarks: 0 · Impressions: 83
+- **GitHub usage**: — (no repository linked in posts)
+- **Source**:
+  - https://x.com/winiam4444/status/2119135930498064606
+- First / last seen: 2026-11-06T23:33:50Z / 2026-11-07T18:32:32Z (UTC)

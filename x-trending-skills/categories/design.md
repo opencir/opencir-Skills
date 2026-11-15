@@ -2,7 +2,7 @@
 
 # Design & frontend UI
 
-Category rank: **#1** · Heat: **580.81** · Snapshot: 2026-11-13
+Category rank: **#1** · Heat: **583.50** · Snapshot: 2026-11-15
 
 [← Back to overview](../README.md)
 
@@ -10,8 +10,8 @@ Category rank: **#1** · Heat: **580.81** · Snapshot: 2026-11-13
 
 - **Purpose**: Animation and UI-craft guidance (easing, review, choreography) in the Vercel/Linear style.
 - **Description**: Skills for designers and engineers.
-- **Heat**: 106.75 (#4 overall)
-- **X references**: 6 mention posts · X posts in 7 days: — · Likes: 747 · Reposts: 44 · quotes: 0 · replies: 26 · bookmarks: 1,331 · Impressions: 24,100
+- **Heat**: 107.82 (#2 overall)
+- **X references**: 7 mention posts · X posts in 7 days: — · Likes: 747 · Reposts: 44 · quotes: 0 · replies: 27 · bookmarks: 1,331 · Impressions: 24,105
 - **GitHub usage**: [emilkowalski/skills](https://github.com/emilkowalski/skills) · ⭐ 56,210 · Forks: 3,283
 - **Source**:
   - https://x.com/MengTo/status/2121264403530293624
@@ -20,89 +20,72 @@ Category rank: **#1** · Heat: **580.81** · Snapshot: 2026-11-13
   - https://x.com/virastack/status/2121206001030541388
   - https://x.com/jesto_cost/status/2119780372892573860
   - https://x.com/Dayou_555/status/2120940923098157403
+  - https://x.com/nanmi_dev/status/2121937726094418086
   - Links: https://emilkowal.ski/skill · https://github.com/achimala/dream-loop · https://github.com/virastack/start · https://hairline.lucasmarkes.com/ · https://virastack.com/start
-- First / last seen: 2026-11-09T13:13:19Z / 2026-11-13T15:30:19Z (UTC)
+- First / last seen: 2026-11-09T13:13:19Z / 2026-11-15T12:05:52Z (UTC)
 
-## 2. Impeccable (pbakaus/impeccable)
+## 2. UI UX Pro Max (nextlevelbuilder/ui-ux-pro-max-skill)
+
+- **Purpose**: Design intelligence: styles, palettes, font pairings and design systems for professional UI/UX.
+- **Description**: An AI skill that provides design intelligence for building professional UI/UX across platforms.
+- **Heat**: 96.33 (#6 overall)
+- **X references**: 10 mention posts · X posts in 7 days: 74 · Likes: 171 · Reposts: 20 · quotes: 0 · replies: 18 · bookmarks: 245 · Impressions: 13,212
+- **GitHub usage**: [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) · ⭐ 148,328 · Forks: 15,699
+- **Source**:
+  - https://x.com/X1Kafadzhy/status/2119875170915569977
+  - https://x.com/BkashJosi/status/2121725128191218131
+  - https://x.com/TarasOnChain/status/2121673399093129475
+  - https://x.com/ChetanK81816140/status/2120343812950127047
+  - https://x.com/Deeen_Codes/status/2121179259611844928
+  - https://x.com/grok/status/2121676584000094478
+  - https://x.com/Phoenix21ovo/status/2121844555658240442
+  - https://x.com/jesto_cost/status/2119780252008456456
+  - Links: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill · https://skills.sh/Leonxlnx/taste-skill · https://skills.sh/VoltAgent/awesome-design-md · https://skills.sh/nextlevelbuilder/ui-ux-pro-max-skill · https://skills.sh/pbakaus/impeccable
+- First / last seen: 2026-11-07T12:00:22Z / 2026-11-15T12:05:52Z (UTC)
+
+## 3. Impeccable (pbakaus/impeccable)
 
 - **Purpose**: Design vocabulary and commands (polish, bolder, critique) to steer and review agent-made UI.
 - **Description**: The design vocabulary for your coding agent.
-- **Heat**: 101.52 (#6 overall)
-- **X references**: 22 mention posts · X posts in 7 days: 184 · Likes: 193 · Reposts: 32 · quotes: 0 · replies: 14 · bookmarks: 189 · Impressions: 9,138
+- **Heat**: 93.33 (#8 overall)
+- **X references**: 30 mention posts · X posts in 7 days: 175 · Likes: 73 · Reposts: 3 · quotes: 0 · replies: 17 · bookmarks: 63 · Impressions: 4,399
 - **GitHub usage**: [pbakaus/impeccable](https://github.com/pbakaus/impeccable) · ⭐ 108,528 · Forks: 6,453
 - **Source**:
-  - https://x.com/feednote_X/status/2119138901633966260
   - https://x.com/zayn0x28/status/2119779868342702342
   - https://x.com/kanesy0x/status/2119779883052118276
   - https://x.com/zazzy_stardust/status/2120981408873374196
   - https://x.com/kiss_my_grits01/status/2120975682536890447
   - https://x.com/chenbuwan1995/status/2120835748756705473
   - https://x.com/rege_dev/status/2121161369592414642
+  - https://x.com/thecalbees/status/2121656418675917240
   - https://x.com/louis_raille/status/2121217624520470935
   - Links: https://github.com/anthropics/skills · https://github.com/impeccable · https://github.com/kylezantos/design-motion-principles · https://skills.sh/Leonxlnx/taste-skill · https://skills.sh/VoltAgent/awesome-design-md · https://skills.sh/nextlevelbuilder/ui-ux-pro-max-skill
-- First / last seen: 2026-11-06T18:25:37Z / 2026-11-13T21:05:42Z (UTC)
-
-## 3. UI UX Pro Max (nextlevelbuilder/ui-ux-pro-max-skill)
-
-- **Purpose**: Design intelligence: styles, palettes, font pairings and design systems for professional UI/UX.
-- **Description**: An AI skill that provides design intelligence for building professional UI/UX across platforms.
-- **Heat**: 99.96 (#7 overall)
-- **X references**: 8 mention posts · X posts in 7 days: 85 · Likes: 308 · Reposts: 49 · quotes: 0 · replies: 27 · bookmarks: 368 · Impressions: 17,771
-- **GitHub usage**: [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) · ⭐ 148,328 · Forks: 15,699
-- **Source**:
-  - https://x.com/X1Kafadzhy/status/2119875170915569977
-  - https://x.com/feednote_X/status/2119138901633966260
-  - https://x.com/ITangieff/status/2119134498528829837
-  - https://x.com/ChetanK81816140/status/2120343812950127047
-  - https://x.com/0xShoopy/status/2119171758297170024
-  - https://x.com/Deeen_Codes/status/2121179259611844928
-  - https://x.com/jesto_cost/status/2119780252008456456
-  - https://x.com/i_am_wami/status/2119037241343267236
-  - Links: https://github.com/anthropics/skills · https://github.com/nextlevelbuilder/ui-ux-pro-max-skill · https://skills.sh/Leonxlnx/taste-skill · https://skills.sh/VoltAgent/awesome-design-md · https://skills.sh/nextlevelbuilder/ui-ux-pro-max-skill · https://skills.sh/pbakaus/impeccable
-- First / last seen: 2026-11-07T12:00:22Z / 2026-11-13T09:51:59Z (UTC)
+- First / last seen: 2026-11-06T18:25:37Z / 2026-11-15T22:18:51Z (UTC)
 
 ## 4. Taste skill (Leonxlnx/taste-skill)
 
 - **Purpose**: Gives coding agents art direction and taste using reference images and a browser.
 - **Description**: Agent skills that give coding agents taste: art direction, reference images and a browser.
-- **Heat**: 76.80 (#17 overall)
-- **X references**: 7 mention posts · X posts in 7 days: — · Likes: 14 · Reposts: 2 · quotes: 1 · replies: 8 · bookmarks: 60 · Impressions: 5,294
-- **GitHub usage**: [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) · ⭐ 113,769 · Forks: 7,658
+- **Heat**: 79.26 (#12 overall)
+- **X references**: 9 mention posts · X posts in 7 days: — · Likes: 17 · Reposts: 2 · quotes: 1 · replies: 11 · bookmarks: 60 · Impressions: 5,385
+- **GitHub usage**: [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) · ⭐ 116,208 · Forks: 7,791
 - **Source**:
   - https://x.com/OxG_Digz/status/2121290798423777726
   - https://x.com/xtiandela/status/2121303657723416820
+  - https://x.com/thecalbees/status/2121656418675917240
   - https://x.com/louis_raille/status/2121217624520470935
   - https://x.com/Deeen_Codes/status/2121179259611844928
-  - https://x.com/i_am_wami/status/2119037241343267236
   - https://x.com/MAHIN01645114/status/2120927479930261807
   - https://x.com/dev_maks/status/2121317869980119485
+  - https://x.com/kdramnath_/status/2121718636725391790
   - Links: https://skills.sh/Leonxlnx/taste-skill · https://skills.sh/VoltAgent/awesome-design-md · https://skills.sh/nextlevelbuilder/ui-ux-pro-max-skill · https://skills.sh/pbakaus/impeccable
-- First / last seen: 2026-11-06T18:25:37Z / 2026-11-13T19:02:47Z (UTC)
+- First / last seen: 2026-11-06T18:25:37Z / 2026-11-15T12:05:52Z (UTC)
 
-## 5. frontend-design (Anthropic official)
-
-- **Purpose**: Makes pages and UIs built by Claude look less like generic AI output.
-- **Description**: Official Anthropic skill/plugin (anthropics/skills/frontend-design) loaded automatically when Claude Code builds pages.
-- **Heat**: 68.53 (#19 overall)
-- **X references**: 10 mention posts · X posts in 7 days: — · Likes: 68 · Reposts: 4 · quotes: 0 · replies: 12 · bookmarks: 50 · Impressions: 3,530
-- **GitHub usage**: — (no repository linked in posts)
-- **Source**:
-  - https://x.com/ClaudeCode_aca/status/2119384450320716108
-  - https://x.com/ITangieff/status/2119134498528829837
-  - https://x.com/Chlowcr9/status/2121174532492853326
-  - https://x.com/f0rgent/status/2120162323893571723
-  - https://x.com/0xCortexq/status/2119916533069623692
-  - https://x.com/i_am_wami/status/2119037241343267236
-  - https://x.com/JM688688/status/2121218518163329320
-  - https://x.com/aoryandev/status/2121272823415206145
-  - Links: https://github.com/anthropics/skills · https://github.com/google-gemini/demolab · https://swarmnest.ai/agent-skills/anthropics-frontend-design/
-- First / last seen: 2026-11-06T18:25:37Z / 2026-11-13T16:03:47Z (UTC)
-
-## 6. Design Motion Principles (kylezantos)
+## 5. Design Motion Principles (kylezantos)
 
 - **Purpose**: Build interactive components with purposeful motion, or audit existing animation.
 - **Description**: A motion design skill with two modes: build and audit.
-- **Heat**: 63.36 (#20 overall)
+- **Heat**: 63.36 (#18 overall)
 - **X references**: 2 mention posts · X posts in 7 days: — · Likes: 38 · Reposts: 2 · quotes: 0 · replies: 1 · bookmarks: 46 · Impressions: 1,975
 - **GitHub usage**: [kylezantos/design-motion-principles](https://github.com/kylezantos/design-motion-principles) · ⭐ 1,554 · Forks: 121
 - **Source**:
@@ -111,25 +94,48 @@ Category rank: **#1** · Heat: **580.81** · Snapshot: 2026-11-13
   - Links: https://github.com/kylezantos/design-motion-principles
 - First / last seen: 2026-11-09T13:11:18Z / 2026-11-09T13:11:22Z (UTC)
 
+## 6. frontend-design (Anthropic official)
+
+- **Purpose**: Makes pages and UIs built by Claude look less like generic AI output.
+- **Description**: Official Anthropic skill/plugin (anthropics/skills/frontend-design) loaded automatically when Claude Code builds pages.
+- **Heat**: 60.82 (#21 overall)
+- **X references**: 13 mention posts · X posts in 7 days: — · Likes: 27 · Reposts: 3 · quotes: 0 · replies: 6 · bookmarks: 13 · Impressions: 1,229
+- **GitHub usage**: — (no repository linked in posts)
+- **Source**:
+  - https://x.com/Chlowcr9/status/2121174532492853326
+  - https://x.com/skizzyy2/status/2121951384924725533
+  - https://x.com/f0rgent/status/2120162323893571723
+  - https://x.com/0xCortexq/status/2119916533069623692
+  - https://x.com/miluan1995/status/2121784133848379592
+  - https://x.com/autthakorn/status/2122091991110504664
+  - https://x.com/JM688688/status/2121218518163329320
+  - https://x.com/aoryandev/status/2121272823415206145
+  - Links: https://claude.ai/ · https://github.com/anthropics/claude-plugins-official · https://github.com/anthropics/skills · https://github.com/google-gemini/demolab · https://swarmnest.ai/agent-skills/anthropics-frontend-design/
+- First / last seen: 2026-11-06T18:25:37Z / 2026-11-15T22:18:51Z (UTC)
+
 ## 7. Hallmark (Nutlope/hallmark)
 
 - **Purpose**: Anti-AI-slop frontend design: 50 design themes, detects common AI design flaws, redesign/review across 8 screen widths.
 - **Description**: Anti-AI-slop design skill for Claude Code, Cursor and Codex.
-- **Heat**: 33.96 (#34 overall)
-- **X references**: 2 mention posts · X posts in 7 days: — · Likes: 0 · Reposts: 0 · quotes: 0 · replies: 1 · bookmarks: 1 · Impressions: 29
+- **Heat**: 46.52 (#25 overall)
+- **X references**: 4 mention posts · X posts in 7 days: — · Likes: 1 · Reposts: 0 · quotes: 0 · replies: 4 · bookmarks: 1 · Impressions: 100
 - **GitHub usage**: [Nutlope/hallmark](https://github.com/Nutlope/hallmark) · ⭐ 53,589 · Forks: 2,855
 - **Source**:
+  - https://x.com/Doyo_ai/status/2121837181761380656
   - https://x.com/jesto_cost/status/2119780372892573860
   - https://x.com/NmvsiN/status/2120923558100742454
-- First / last seen: 2026-11-06T08:54:48Z / 2026-11-12T16:55:55Z (UTC)
+  - https://x.com/nanmi_dev/status/2121937726094418086
+  - Links: https://github.com/nutlope/hallmark
+- First / last seen: 2026-11-06T08:54:48Z / 2026-11-15T12:05:52Z (UTC)
 
 ## 8. Huashu Design 花叔设计 (alchaincyf/huashu-design)
 
 - **Purpose**: One sentence in an agent yields deliverable design: web/app prototypes, editable PPTX, animation, infographics.
 - **Description**: Huashu Design 3.0: generates six candidates and picks three directions.
-- **Heat**: 29.93 (#35 overall)
-- **X references**: 1 mention posts · X posts in 7 days: — · Likes: 1 · Reposts: 0 · quotes: 0 · replies: 1 · bookmarks: 0 · Impressions: 44
-- **GitHub usage**: [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) · ⭐ 29,295 · Forks: 3,145
+- **Heat**: 36.06 (#30 overall)
+- **X references**: 2 mention posts · X posts in 7 days: — · Likes: 1 · Reposts: 0 · quotes: 0 · replies: 2 · bookmarks: 0 · Impressions: 49
+- **GitHub usage**: [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) · ⭐ 29,499 · Forks: 3,164
 - **Source**:
   - https://x.com/XuShifu100/status/2120739272437514635
-- First / last seen: 2026-11-12T04:43:38Z / 2026-11-12T04:43:38Z (UTC)
+  - https://x.com/nanmi_dev/status/2121937726094418086
+- First / last seen: 2026-11-12T04:43:38Z / 2026-11-15T12:05:52Z (UTC)

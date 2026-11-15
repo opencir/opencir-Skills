@@ -2,7 +2,7 @@
 
 # Diseño e interfaz front-end
 
-Puesto de la categoría: **#1** · Popularidad: **580.81** · Instantánea: 2026-11-13
+Puesto de la categoría: **#1** · Popularidad: **583.50** · Instantánea: 2026-11-15
 
 [← Volver al resumen](../../README.es.md)
 
@@ -10,8 +10,8 @@ Puesto de la categoría: **#1** · Popularidad: **580.81** · Instantánea: 2026
 
 - **Uso**: Guía de animación y acabado de interfaces (easing, revisión, coreografía) al estilo de Vercel/Linear.
 - **Descripción**: Skills para diseñadores e ingenieros.
-- **Popularidad**: 106.75 (#4 general)
-- **Referencias en X**: 6 posts que la mencionan · posts en X en 7 días: — · Me gusta: 747 · Reposts: 44 · citas: 0 · respuestas: 26 · guardados: 1,331 · Impresiones: 24,100
+- **Popularidad**: 107.82 (#2 general)
+- **Referencias en X**: 7 posts que la mencionan · posts en X en 7 días: — · Me gusta: 747 · Reposts: 44 · citas: 0 · respuestas: 27 · guardados: 1,331 · Impresiones: 24,105
 - **Uso en GitHub**: [emilkowalski/skills](https://github.com/emilkowalski/skills) · ⭐ 56,210 · Forks: 3,283
 - **Fuente**:
   - https://x.com/MengTo/status/2121264403530293624
@@ -20,89 +20,72 @@ Puesto de la categoría: **#1** · Popularidad: **580.81** · Instantánea: 2026
   - https://x.com/virastack/status/2121206001030541388
   - https://x.com/jesto_cost/status/2119780372892573860
   - https://x.com/Dayou_555/status/2120940923098157403
+  - https://x.com/nanmi_dev/status/2121937726094418086
   - Enlaces: https://emilkowal.ski/skill · https://github.com/achimala/dream-loop · https://github.com/virastack/start · https://hairline.lucasmarkes.com/ · https://virastack.com/start
-- Primera / última aparición: 2026-11-09T13:13:19Z / 2026-11-13T15:30:19Z (UTC)
+- Primera / última aparición: 2026-11-09T13:13:19Z / 2026-11-15T12:05:52Z (UTC)
 
-## 2. Impeccable (pbakaus/impeccable)
+## 2. UI UX Pro Max (nextlevelbuilder/ui-ux-pro-max-skill)
+
+- **Uso**: Inteligencia de diseño: estilos, paletas, combinaciones tipográficas y sistemas de diseño para una UI/UX profesional.
+- **Descripción**: Skill de IA que aporta inteligencia de diseño para crear UI/UX profesionales en todas las plataformas.
+- **Popularidad**: 96.33 (#6 general)
+- **Referencias en X**: 10 posts que la mencionan · posts en X en 7 días: 74 · Me gusta: 171 · Reposts: 20 · citas: 0 · respuestas: 18 · guardados: 245 · Impresiones: 13,212
+- **Uso en GitHub**: [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) · ⭐ 148,328 · Forks: 15,699
+- **Fuente**:
+  - https://x.com/X1Kafadzhy/status/2119875170915569977
+  - https://x.com/BkashJosi/status/2121725128191218131
+  - https://x.com/TarasOnChain/status/2121673399093129475
+  - https://x.com/ChetanK81816140/status/2120343812950127047
+  - https://x.com/Deeen_Codes/status/2121179259611844928
+  - https://x.com/grok/status/2121676584000094478
+  - https://x.com/Phoenix21ovo/status/2121844555658240442
+  - https://x.com/jesto_cost/status/2119780252008456456
+  - Enlaces: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill · https://skills.sh/Leonxlnx/taste-skill · https://skills.sh/VoltAgent/awesome-design-md · https://skills.sh/nextlevelbuilder/ui-ux-pro-max-skill · https://skills.sh/pbakaus/impeccable
+- Primera / última aparición: 2026-11-07T12:00:22Z / 2026-11-15T12:05:52Z (UTC)
+
+## 3. Impeccable (pbakaus/impeccable)
 
 - **Uso**: Vocabulario y comandos de diseño (polish, bolder, critique) para orientar y revisar las interfaces creadas por un agente.
 - **Descripción**: El vocabulario de diseño para tu agente de programación.
-- **Popularidad**: 101.52 (#6 general)
-- **Referencias en X**: 22 posts que la mencionan · posts en X en 7 días: 184 · Me gusta: 193 · Reposts: 32 · citas: 0 · respuestas: 14 · guardados: 189 · Impresiones: 9,138
+- **Popularidad**: 93.33 (#8 general)
+- **Referencias en X**: 30 posts que la mencionan · posts en X en 7 días: 175 · Me gusta: 73 · Reposts: 3 · citas: 0 · respuestas: 17 · guardados: 63 · Impresiones: 4,399
 - **Uso en GitHub**: [pbakaus/impeccable](https://github.com/pbakaus/impeccable) · ⭐ 108,528 · Forks: 6,453
 - **Fuente**:
-  - https://x.com/feednote_X/status/2119138901633966260
   - https://x.com/zayn0x28/status/2119779868342702342
   - https://x.com/kanesy0x/status/2119779883052118276
   - https://x.com/zazzy_stardust/status/2120981408873374196
   - https://x.com/kiss_my_grits01/status/2120975682536890447
   - https://x.com/chenbuwan1995/status/2120835748756705473
   - https://x.com/rege_dev/status/2121161369592414642
+  - https://x.com/thecalbees/status/2121656418675917240
   - https://x.com/louis_raille/status/2121217624520470935
   - Enlaces: https://github.com/anthropics/skills · https://github.com/impeccable · https://github.com/kylezantos/design-motion-principles · https://skills.sh/Leonxlnx/taste-skill · https://skills.sh/VoltAgent/awesome-design-md · https://skills.sh/nextlevelbuilder/ui-ux-pro-max-skill
-- Primera / última aparición: 2026-11-06T18:25:37Z / 2026-11-13T21:05:42Z (UTC)
-
-## 3. UI UX Pro Max (nextlevelbuilder/ui-ux-pro-max-skill)
-
-- **Uso**: Inteligencia de diseño: estilos, paletas, combinaciones tipográficas y sistemas de diseño para una UI/UX profesional.
-- **Descripción**: Skill de IA que aporta inteligencia de diseño para crear UI/UX profesionales en todas las plataformas.
-- **Popularidad**: 99.96 (#7 general)
-- **Referencias en X**: 8 posts que la mencionan · posts en X en 7 días: 85 · Me gusta: 308 · Reposts: 49 · citas: 0 · respuestas: 27 · guardados: 368 · Impresiones: 17,771
-- **Uso en GitHub**: [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) · ⭐ 148,328 · Forks: 15,699
-- **Fuente**:
-  - https://x.com/X1Kafadzhy/status/2119875170915569977
-  - https://x.com/feednote_X/status/2119138901633966260
-  - https://x.com/ITangieff/status/2119134498528829837
-  - https://x.com/ChetanK81816140/status/2120343812950127047
-  - https://x.com/0xShoopy/status/2119171758297170024
-  - https://x.com/Deeen_Codes/status/2121179259611844928
-  - https://x.com/jesto_cost/status/2119780252008456456
-  - https://x.com/i_am_wami/status/2119037241343267236
-  - Enlaces: https://github.com/anthropics/skills · https://github.com/nextlevelbuilder/ui-ux-pro-max-skill · https://skills.sh/Leonxlnx/taste-skill · https://skills.sh/VoltAgent/awesome-design-md · https://skills.sh/nextlevelbuilder/ui-ux-pro-max-skill · https://skills.sh/pbakaus/impeccable
-- Primera / última aparición: 2026-11-07T12:00:22Z / 2026-11-13T09:51:59Z (UTC)
+- Primera / última aparición: 2026-11-06T18:25:37Z / 2026-11-15T22:18:51Z (UTC)
 
 ## 4. Taste skill (Leonxlnx/taste-skill)
 
 - **Uso**: Da a los agentes de programación dirección de arte y buen gusto mediante imágenes de referencia y un navegador.
 - **Descripción**: Skills que dan buen gusto a los agentes de programación: dirección de arte, imágenes de referencia y un navegador.
-- **Popularidad**: 76.80 (#17 general)
-- **Referencias en X**: 7 posts que la mencionan · posts en X en 7 días: — · Me gusta: 14 · Reposts: 2 · citas: 1 · respuestas: 8 · guardados: 60 · Impresiones: 5,294
-- **Uso en GitHub**: [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) · ⭐ 113,769 · Forks: 7,658
+- **Popularidad**: 79.26 (#12 general)
+- **Referencias en X**: 9 posts que la mencionan · posts en X en 7 días: — · Me gusta: 17 · Reposts: 2 · citas: 1 · respuestas: 11 · guardados: 60 · Impresiones: 5,385
+- **Uso en GitHub**: [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) · ⭐ 116,208 · Forks: 7,791
 - **Fuente**:
   - https://x.com/OxG_Digz/status/2121290798423777726
   - https://x.com/xtiandela/status/2121303657723416820
+  - https://x.com/thecalbees/status/2121656418675917240
   - https://x.com/louis_raille/status/2121217624520470935
   - https://x.com/Deeen_Codes/status/2121179259611844928
-  - https://x.com/i_am_wami/status/2119037241343267236
   - https://x.com/MAHIN01645114/status/2120927479930261807
   - https://x.com/dev_maks/status/2121317869980119485
+  - https://x.com/kdramnath_/status/2121718636725391790
   - Enlaces: https://skills.sh/Leonxlnx/taste-skill · https://skills.sh/VoltAgent/awesome-design-md · https://skills.sh/nextlevelbuilder/ui-ux-pro-max-skill · https://skills.sh/pbakaus/impeccable
-- Primera / última aparición: 2026-11-06T18:25:37Z / 2026-11-13T19:02:47Z (UTC)
+- Primera / última aparición: 2026-11-06T18:25:37Z / 2026-11-15T12:05:52Z (UTC)
 
-## 5. frontend-design (Anthropic official)
-
-- **Uso**: Hace que las páginas e interfaces creadas por Claude parezcan menos genéricas, menos «hechas por IA».
-- **Descripción**: Skill/plugin oficial de Anthropic (anthropics/skills/frontend-design) que se carga automáticamente cuando Claude Code crea páginas.
-- **Popularidad**: 68.53 (#19 general)
-- **Referencias en X**: 10 posts que la mencionan · posts en X en 7 días: — · Me gusta: 68 · Reposts: 4 · citas: 0 · respuestas: 12 · guardados: 50 · Impresiones: 3,530
-- **Uso en GitHub**: — (ningún repositorio enlazado en los posts)
-- **Fuente**:
-  - https://x.com/ClaudeCode_aca/status/2119384450320716108
-  - https://x.com/ITangieff/status/2119134498528829837
-  - https://x.com/Chlowcr9/status/2121174532492853326
-  - https://x.com/f0rgent/status/2120162323893571723
-  - https://x.com/0xCortexq/status/2119916533069623692
-  - https://x.com/i_am_wami/status/2119037241343267236
-  - https://x.com/JM688688/status/2121218518163329320
-  - https://x.com/aoryandev/status/2121272823415206145
-  - Enlaces: https://github.com/anthropics/skills · https://github.com/google-gemini/demolab · https://swarmnest.ai/agent-skills/anthropics-frontend-design/
-- Primera / última aparición: 2026-11-06T18:25:37Z / 2026-11-13T16:03:47Z (UTC)
-
-## 6. Design Motion Principles (kylezantos)
+## 5. Design Motion Principles (kylezantos)
 
 - **Uso**: Crear componentes interactivos con animaciones con propósito, o auditar animaciones existentes.
 - **Descripción**: Skill de motion design con dos modos: creación y auditoría.
-- **Popularidad**: 63.36 (#20 general)
+- **Popularidad**: 63.36 (#18 general)
 - **Referencias en X**: 2 posts que la mencionan · posts en X en 7 días: — · Me gusta: 38 · Reposts: 2 · citas: 0 · respuestas: 1 · guardados: 46 · Impresiones: 1,975
 - **Uso en GitHub**: [kylezantos/design-motion-principles](https://github.com/kylezantos/design-motion-principles) · ⭐ 1,554 · Forks: 121
 - **Fuente**:
@@ -111,25 +94,48 @@ Puesto de la categoría: **#1** · Popularidad: **580.81** · Instantánea: 2026
   - Enlaces: https://github.com/kylezantos/design-motion-principles
 - Primera / última aparición: 2026-11-09T13:11:18Z / 2026-11-09T13:11:22Z (UTC)
 
+## 6. frontend-design (Anthropic official)
+
+- **Uso**: Hace que las páginas e interfaces creadas por Claude parezcan menos genéricas, menos «hechas por IA».
+- **Descripción**: Skill/plugin oficial de Anthropic (anthropics/skills/frontend-design) que se carga automáticamente cuando Claude Code crea páginas.
+- **Popularidad**: 60.82 (#21 general)
+- **Referencias en X**: 13 posts que la mencionan · posts en X en 7 días: — · Me gusta: 27 · Reposts: 3 · citas: 0 · respuestas: 6 · guardados: 13 · Impresiones: 1,229
+- **Uso en GitHub**: — (ningún repositorio enlazado en los posts)
+- **Fuente**:
+  - https://x.com/Chlowcr9/status/2121174532492853326
+  - https://x.com/skizzyy2/status/2121951384924725533
+  - https://x.com/f0rgent/status/2120162323893571723
+  - https://x.com/0xCortexq/status/2119916533069623692
+  - https://x.com/miluan1995/status/2121784133848379592
+  - https://x.com/autthakorn/status/2122091991110504664
+  - https://x.com/JM688688/status/2121218518163329320
+  - https://x.com/aoryandev/status/2121272823415206145
+  - Enlaces: https://claude.ai/ · https://github.com/anthropics/claude-plugins-official · https://github.com/anthropics/skills · https://github.com/google-gemini/demolab · https://swarmnest.ai/agent-skills/anthropics-frontend-design/
+- Primera / última aparición: 2026-11-06T18:25:37Z / 2026-11-15T22:18:51Z (UTC)
+
 ## 7. Hallmark (Nutlope/hallmark)
 
 - **Uso**: Diseño front-end sin «aspecto de IA»: 50 temas de diseño, detección de los fallos de diseño típicos de la IA y rediseño o revisión en 8 anchos de pantalla.
 - **Descripción**: Skill de diseño contra el «AI slop» para Claude Code, Cursor y Codex.
-- **Popularidad**: 33.96 (#34 general)
-- **Referencias en X**: 2 posts que la mencionan · posts en X en 7 días: — · Me gusta: 0 · Reposts: 0 · citas: 0 · respuestas: 1 · guardados: 1 · Impresiones: 29
+- **Popularidad**: 46.52 (#25 general)
+- **Referencias en X**: 4 posts que la mencionan · posts en X en 7 días: — · Me gusta: 1 · Reposts: 0 · citas: 0 · respuestas: 4 · guardados: 1 · Impresiones: 100
 - **Uso en GitHub**: [Nutlope/hallmark](https://github.com/Nutlope/hallmark) · ⭐ 53,589 · Forks: 2,855
 - **Fuente**:
+  - https://x.com/Doyo_ai/status/2121837181761380656
   - https://x.com/jesto_cost/status/2119780372892573860
   - https://x.com/NmvsiN/status/2120923558100742454
-- Primera / última aparición: 2026-11-06T08:54:48Z / 2026-11-12T16:55:55Z (UTC)
+  - https://x.com/nanmi_dev/status/2121937726094418086
+  - Enlaces: https://github.com/nutlope/hallmark
+- Primera / última aparición: 2026-11-06T08:54:48Z / 2026-11-15T12:05:52Z (UTC)
 
 ## 8. Huashu Design 花叔设计 (alchaincyf/huashu-design)
 
 - **Uso**: Una sola frase en un agente produce un diseño entregable: prototipos web/app, PPTX editables, animaciones e infografías.
 - **Descripción**: Huashu Design 3.0: genera seis propuestas y elige tres direcciones.
-- **Popularidad**: 29.93 (#35 general)
-- **Referencias en X**: 1 posts que la mencionan · posts en X en 7 días: — · Me gusta: 1 · Reposts: 0 · citas: 0 · respuestas: 1 · guardados: 0 · Impresiones: 44
-- **Uso en GitHub**: [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) · ⭐ 29,295 · Forks: 3,145
+- **Popularidad**: 36.06 (#30 general)
+- **Referencias en X**: 2 posts que la mencionan · posts en X en 7 días: — · Me gusta: 1 · Reposts: 0 · citas: 0 · respuestas: 2 · guardados: 0 · Impresiones: 49
+- **Uso en GitHub**: [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) · ⭐ 29,499 · Forks: 3,164
 - **Fuente**:
   - https://x.com/XuShifu100/status/2120739272437514635
-- Primera / última aparición: 2026-11-12T04:43:38Z / 2026-11-12T04:43:38Z (UTC)
+  - https://x.com/nanmi_dev/status/2121937726094418086
+- Primera / última aparición: 2026-11-12T04:43:38Z / 2026-11-15T12:05:52Z (UTC)

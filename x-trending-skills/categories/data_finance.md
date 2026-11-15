@@ -2,7 +2,7 @@
 
 # Data analysis & finance
 
-Category rank: **#11** · Heat: **72.74** · Snapshot: 2026-11-13
+Category rank: **#9** · Heat: **72.74** · Snapshot: 2026-11-14
 
 [← Back to overview](../README.md)
 
@@ -10,7 +10,7 @@ Category rank: **#11** · Heat: **72.74** · Snapshot: 2026-11-13
 
 - **Purpose**: Computes candlestick structure, stop-loss levels and backtests for A-share, HK and US stocks from real market data.
 - **Description**: Follows the open Agent Skills spec; installs in Claude Code, Codex, Cursor, Gemini CLI, OpenCode.
-- **Heat**: 55.31 (#28 overall)
+- **Heat**: 55.31 (#23 overall)
 - **X references**: 1 mention posts · X posts in 7 days: — · Likes: 54 · Reposts: 10 · quotes: 1 · replies: 8 · bookmarks: 59 · Impressions: 3,729
 - **GitHub usage**: — (no repository linked in posts)
 - **Source**:
@@ -21,7 +21,7 @@ Category rank: **#11** · Heat: **72.74** · Snapshot: 2026-11-13
 
 - **Purpose**: Options and derivatives: Black-Scholes, Greeks, multi-leg strategies.
 - **Description**: Agent skills focused on options trading and derivatives.
-- **Heat**: 17.43 (#40 overall)
+- **Heat**: 17.43 (#39 overall)
 - **X references**: 1 mention posts · X posts in 7 days: — · Likes: 1 · Reposts: 0 · quotes: 0 · replies: 1 · bookmarks: 0 · Impressions: 23
 - **GitHub usage**: [dongzhuoyao/finance-option-skills](https://github.com/dongzhuoyao/finance-option-skills) · ⭐ 1 · Forks: 0
 - **Source**:

@@ -2,9 +2,9 @@
 
 # X 热门 AI 智能体 Skills
 
-> 快照日期: **2026-11-13** (每天温哥华时间 16:00 更新)  
-> 数据窗口：最近 7 天的 X 帖子 (2026-11-07T07:00:00Z → 2026-11-14T07:00:00Z UTC)  
-> 样本帖子: 770 · 技能: 41 · 分类: 11
+> 快照日期: **2026-11-15** (每天温哥华时间 16:00 更新)  
+> 数据窗口：最近 7 天的 X 帖子 (2026-11-09T07:00:00Z → 2026-11-16T07:00:00Z UTC)  
+> 样本帖子: 1189 · 技能: 33 · 分类: 10
 
 追踪 X 上讨论最多的可复用 AI 智能体技能（Claude Agent Skills / SKILL.md、Codex、Cursor、MCP 技能包等），标注来源、用途、描述，并按热度排序。
 
@@ -14,42 +14,41 @@
 
 | # | 分类 | 热度 | 技能 | 提及帖子 | 点赞 |
 |---|---|---:|---:|---:|---:|
-| 1 | [设计与前端 UI](categories/zh/design.md) | 580.81 | 8 | 58 | 1,369 |
-| 2 | [编程与开发工作流](categories/zh/coding.md) | 509.56 | 7 | 50 | 618 |
-| 3 | [技能合集/目录/管理器](categories/zh/directory.md) | 472.95 | 6 | 85 | 1,832 |
-| 4 | [视频/图像/多媒体创作](categories/zh/media.md) | 251.08 | 5 | 12 | 238 |
-| 5 | [安全审计与逆向](categories/zh/security.md) | 206.22 | 2 | 18 | 1,550 |
-| 6 | [自动化与基础设施](categories/zh/automation.md) | 137.11 | 4 | 9 | 13 |
-| 7 | [学习与知识转技能](categories/zh/learning.md) | 133.11 | 2 | 9 | 154 |
-| 8 | [营销与增长](categories/zh/marketing.md) | 117.55 | 2 | 4 | 93 |
-| 9 | [网页数据与研究](categories/zh/research_web.md) | 109.15 | 2 | 3 | 126 |
-| 10 | [文档与办公](categories/zh/documents.md) | 108.91 | 1 | 36 | 269 |
-| 11 | [数据分析与金融](categories/zh/data_finance.md) | 72.74 | 2 | 2 | 55 |
+| 1 | [设计与前端 UI](categories/zh/design.md) | 583.50 | 8 | 77 | 1,075 |
+| 2 | [编程与开发工作流](categories/zh/coding.md) | 512.49 | 7 | 67 | 323 |
+| 3 | [技能合集/目录/管理器](categories/zh/directory.md) | 285.42 | 4 | 112 | 598 |
+| 4 | [视频/图像/多媒体创作](categories/zh/media.md) | 194.87 | 3 | 27 | 390 |
+| 5 | [安全审计与逆向](categories/zh/security.md) | 183.46 | 2 | 18 | 300 |
+| 6 | [学习与知识转技能](categories/zh/learning.md) | 175.74 | 3 | 12 | 170 |
+| 7 | [自动化与基础设施](categories/zh/automation.md) | 135.95 | 3 | 12 | 17 |
+| 8 | [文档与办公](categories/zh/documents.md) | 105.03 | 1 | 44 | 165 |
+| 9 | [营销与增长](categories/zh/marketing.md) | 61.27 | 1 | 6 | 11 |
+| 10 | [网页数据与研究](categories/zh/research_web.md) | 22.93 | 1 | 2 | 0 |
 
 ## 总榜前 20
 
 | # | 技能 | 分类 | 热度 | 样本帖子 | X 7 天帖数 | 点赞 | 转发 | 曝光 | GitHub ⭐ | Forks |
 |---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|
-| 1 | [REA - Reverse Engineer Anything (morluto/rea)](https://github.com/morluto/rea) | [安全审计与逆向](categories/zh/security.md) | 114.32 | 6 | 424 | 1,442 | 164 | 56,734 | 453,494 | 111,470 |
-| 2 | [skills CLI / skills.sh (vercel-labs/skills, npx skills)](https://github.com/vercel-labs/skills) | [技能合集/目录/管理器](categories/zh/directory.md) | 112.06 | 71 | 960 | 228 | 14 | 21,263 | 39,050 | 3,417 |
-| 3 | [Anthropic Agent Skills (anthropics/skills, incl. document-skills)](https://github.com/anthropics/skills) | [文档与办公](categories/zh/documents.md) | 108.91 | 36 | 403 | 269 | 39 | 10,154 | 193,313 | 22,746 |
-| 4 | [Emil Kowalski skills (emilkowalski/skills)](https://github.com/emilkowalski/skills) | [设计与前端 UI](categories/zh/design.md) | 106.75 | 6 | — | 747 | 44 | 24,100 | 56,210 | 3,283 |
-| 5 | [Superpowers (obra/superpowers)](https://github.com/obra/superpowers) | [编程与开发工作流](categories/zh/coding.md) | 106.16 | 23 | 211 | 253 | 46 | 9,836 | 316,424 | 28,155 |
-| 6 | [Impeccable (pbakaus/impeccable)](https://github.com/pbakaus/impeccable) | [设计与前端 UI](categories/zh/design.md) | 101.52 | 22 | 184 | 193 | 32 | 9,138 | 108,528 | 6,453 |
-| 7 | [UI UX Pro Max (nextlevelbuilder/ui-ux-pro-max-skill)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | [设计与前端 UI](categories/zh/design.md) | 99.96 | 8 | 85 | 308 | 49 | 17,771 | 148,328 | 15,699 |
-| 8 | [Cloudflare security-audit-skill](https://github.com/cloudflare/security-audit-skill) | [安全审计与逆向](categories/zh/security.md) | 91.90 | 12 | 448 | 108 | 6 | 6,895 | 70,561 | 4,682 |
-| 9 | [Remotion skills (remotion-dev/skills & community Remotion skills)](https://github.com/remotion-dev/skills) | [视频/图像/多媒体创作](categories/zh/media.md) | 87.12 | 5 | — | 198 | 31 | 5,555 | 6,882 | 741 |
-| 10 | [claude-mem (thedotmack/claude-mem)](https://github.com/thedotmack/claude-mem) | [编程与开发工作流](categories/zh/coding.md) | 86.71 | 3 | 369 | 162 | 18 | 53,064 | 116,332 | 10,094 |
-| 11 | Skill Leaderboard | [技能合集/目录/管理器](categories/zh/directory.md) | 86.15 | 1 | 5 | 1,276 | 88 | 55,759 | — | — |
-| 12 | [Andrej Karpathy skills (forrestchang/andrej-karpathy-skills)](https://github.com/multica-ai/andrej-karpathy-skills) | [编程与开发工作流](categories/zh/coding.md) | 86.04 | 5 | 51 | 122 | 7 | 6,747 | 232,302 | 23,100 |
-| 13 | [Agentic Awesome Skills (sickn33, 2,955+ skills)](https://github.com/sickn33/agentic-awesome-skills) | [技能合集/目录/管理器](categories/zh/directory.md) | 85.63 | 3 | 15 | 154 | 70 | 8,087 | 49,577 | 7,181 |
-| 14 | [Matt Pocock skills (mattpocock/skills)](https://github.com/mattpocock/skills) | [编程与开发工作流](categories/zh/coding.md) | 84.34 | 8 | — | 56 | 6 | 2,749 | 322,295 | 27,029 |
-| 15 | [awesome-claude-skills (ComposioHQ)](https://github.com/ComposioHQ/awesome-claude-skills) | [技能合集/目录/管理器](categories/zh/directory.md) | 83.56 | 3 | — | 130 | 30 | 5,264 | 79,298 | 9,670 |
-| 16 | [Firecrawl (skill + MCP)](https://github.com/firecrawl/firecrawl) | [网页数据与研究](categories/zh/research_web.md) | 82.57 | 2 | 52 | 126 | 12 | 49,904 | 201,045 | 10,559 |
-| 17 | [Taste skill (Leonxlnx/taste-skill)](https://github.com/Leonxlnx/taste-skill) | [设计与前端 UI](categories/zh/design.md) | 76.80 | 7 | — | 14 | 2 | 5,294 | 113,769 | 7,658 |
-| 18 | Jane Street Socratic tutor skill | [学习与知识转技能](categories/zh/learning.md) | 73.71 | 7 | — | 134 | 10 | 6,974 | — | — |
-| 19 | frontend-design (Anthropic official) | [设计与前端 UI](categories/zh/design.md) | 68.53 | 10 | — | 68 | 4 | 3,530 | — | — |
-| 20 | [Design Motion Principles (kylezantos)](https://github.com/kylezantos/design-motion-principles) | [设计与前端 UI](categories/zh/design.md) | 63.36 | 2 | — | 38 | 2 | 1,975 | 1,554 | 121 |
+| 1 | [skills CLI / skills.sh (vercel-labs/skills, npx skills)](https://github.com/vercel-labs/skills) | [技能合集/目录/管理器](categories/zh/directory.md) | 122.35 | 106 | 925 | 436 | 23 | 37,755 | 39,511 | 3,477 |
+| 2 | [Emil Kowalski skills (emilkowalski/skills)](https://github.com/emilkowalski/skills) | [设计与前端 UI](categories/zh/design.md) | 107.82 | 7 | — | 747 | 44 | 24,105 | 56,210 | 3,283 |
+| 3 | [Anthropic Agent Skills (anthropics/skills, incl. document-skills)](https://github.com/anthropics/skills) | [文档与办公](categories/zh/documents.md) | 105.03 | 44 | 372 | 165 | 11 | 7,588 | 193,313 | 22,746 |
+| 4 | [Remotion skills (remotion-dev/skills & community Remotion skills)](https://github.com/remotion-dev/skills) | [视频/图像/多媒体创作](categories/zh/media.md) | 103.60 | 19 | — | 365 | 56 | 18,988 | 7,268 | 787 |
+| 5 | [Superpowers (obra/superpowers)](https://github.com/obra/superpowers) | [编程与开发工作流](categories/zh/coding.md) | 102.53 | 33 | 180 | 131 | 18 | 5,801 | 318,058 | 28,337 |
+| 6 | [UI UX Pro Max (nextlevelbuilder/ui-ux-pro-max-skill)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | [设计与前端 UI](categories/zh/design.md) | 96.33 | 10 | 74 | 171 | 20 | 13,212 | 148,328 | 15,699 |
+| 7 | [Cloudflare security-audit-skill](https://github.com/cloudflare/security-audit-skill) | [安全审计与逆向](categories/zh/security.md) | 94.33 | 12 | 283 | 148 | 10 | 9,528 | 70,561 | 4,682 |
+| 8 | [Impeccable (pbakaus/impeccable)](https://github.com/pbakaus/impeccable) | [设计与前端 UI](categories/zh/design.md) | 93.33 | 30 | 175 | 73 | 3 | 4,399 | 108,528 | 6,453 |
+| 9 | [REA - Reverse Engineer Anything (morluto/rea)](https://github.com/morluto/rea) | [安全审计与逆向](categories/zh/security.md) | 89.13 | 6 | 358 | 152 | 20 | 7,586 | 453,494 | 111,470 |
+| 10 | [Matt Pocock skills (mattpocock/skills)](https://github.com/mattpocock/skills) | [编程与开发工作流](categories/zh/coding.md) | 88.99 | 11 | — | 76 | 7 | 3,240 | 325,132 | 27,293 |
+| 11 | [Agentic Awesome Skills (sickn33, 2,955+ skills)](https://github.com/sickn33/agentic-awesome-skills) | [技能合集/目录/管理器](categories/zh/directory.md) | 83.26 | 2 | 16 | 152 | 70 | 8,037 | 49,711 | 7,191 |
+| 12 | [Taste skill (Leonxlnx/taste-skill)](https://github.com/Leonxlnx/taste-skill) | [设计与前端 UI](categories/zh/design.md) | 79.26 | 9 | — | 17 | 2 | 5,385 | 116,208 | 7,791 |
+| 13 | [Vercel agent-skills (vercel-labs/agent-skills)](https://github.com/vercel-labs/agent-skills) | [编程与开发工作流](categories/zh/coding.md) | 73.81 | 3 | — | 54 | 3 | 2,968 | 33,925 | 2,962 |
+| 14 | Jane Street Socratic tutor skill | [学习与知识转技能](categories/zh/learning.md) | 73.71 | 7 | — | 134 | 10 | 6,974 | — | — |
+| 15 | [ffmpeg-skill (kajisho5)](https://github.com/kajisho5/ffmpeg-skill) | [视频/图像/多媒体创作](categories/zh/media.md) | 68.90 | 7 | — | 25 | 0 | 897 | 5,956 | 524 |
+| 16 | [book-to-skill (virgiliojr94)](https://github.com/virgiliojr94/book-to-skill) | [学习与知识转技能](categories/zh/learning.md) | 67.04 | 4 | — | 27 | 3 | 924 | 37,975 | 4,039 |
+| 17 | [claude-mem (thedotmack/claude-mem)](https://github.com/thedotmack/claude-mem) | [编程与开发工作流](categories/zh/coding.md) | 65.09 | 2 | 324 | 29 | 2 | 541 | 116,332 | 10,094 |
+| 18 | [Design Motion Principles (kylezantos)](https://github.com/kylezantos/design-motion-principles) | [设计与前端 UI](categories/zh/design.md) | 63.36 | 2 | — | 38 | 2 | 1,975 | 1,554 | 121 |
+| 19 | [Addy Osmani agent-skills](https://github.com/addyosmani/agent-skills) | [编程与开发工作流](categories/zh/coding.md) | 62.71 | 10 | — | 6 | 0 | 408 | 116,165 | 12,173 |
+| 20 | [Marketing Skills (coreyhaines31/marketingskills)](https://github.com/coreyhaines31/marketingskills) | [营销与增长](categories/zh/marketing.md) | 61.27 | 6 | — | 11 | 1 | 926 | 60,572 | 8,828 |
 
 ## 热度公式
 

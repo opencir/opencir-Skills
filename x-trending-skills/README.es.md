@@ -2,9 +2,9 @@
 
 # Skills de agentes de IA en tendencia en X
 
-> Instantánea: **2026-11-13** (se actualiza a diario a las 16:00 (hora de Vancouver))  
-> Ventana: posts de X de los últimos 7 días (2026-11-07T07:00:00Z → 2026-11-14T07:00:00Z UTC)  
-> Posts muestreados: 770 · Skills: 41 · Categorías: 11
+> Instantánea: **2026-11-15** (se actualiza a diario a las 16:00 (hora de Vancouver))  
+> Ventana: posts de X de los últimos 7 días (2026-11-09T07:00:00Z → 2026-11-16T07:00:00Z UTC)  
+> Posts muestreados: 1189 · Skills: 33 · Categorías: 10
 
 Seguimiento de las skills reutilizables para agentes de IA más comentadas en X (Claude Agent Skills / SKILL.md, Codex, Cursor, paquetes de skills MCP y más), con fuente, uso, descripción y ranking de popularidad.
 
@@ -14,42 +14,41 @@ Seguimiento de las skills reutilizables para agentes de IA más comentadas en X 
 
 | # | Categoría | Popularidad | Skills | Posts que la mencionan | Me gusta |
 |---|---|---:|---:|---:|---:|
-| 1 | [Diseño e interfaz front-end](categories/es/design.md) | 580.81 | 8 | 58 | 1,369 |
-| 2 | [Programación y flujo de desarrollo](categories/es/coding.md) | 509.56 | 7 | 50 | 618 |
-| 3 | [Colecciones, directorios y gestores de skills](categories/es/directory.md) | 472.95 | 6 | 85 | 1,832 |
-| 4 | [Creación de vídeo, imagen y medios](categories/es/media.md) | 251.08 | 5 | 12 | 238 |
-| 5 | [Auditoría de seguridad e ingeniería inversa](categories/es/security.md) | 206.22 | 2 | 18 | 1,550 |
-| 6 | [Automatización e infraestructura](categories/es/automation.md) | 137.11 | 4 | 9 | 13 |
-| 7 | [Aprendizaje y conocimiento convertido en skills](categories/es/learning.md) | 133.11 | 2 | 9 | 154 |
-| 8 | [Marketing y crecimiento](categories/es/marketing.md) | 117.55 | 2 | 4 | 93 |
-| 9 | [Datos web e investigación](categories/es/research_web.md) | 109.15 | 2 | 3 | 126 |
-| 10 | [Documentos y ofimática](categories/es/documents.md) | 108.91 | 1 | 36 | 269 |
-| 11 | [Análisis de datos y finanzas](categories/es/data_finance.md) | 72.74 | 2 | 2 | 55 |
+| 1 | [Diseño e interfaz front-end](categories/es/design.md) | 583.50 | 8 | 77 | 1,075 |
+| 2 | [Programación y flujo de desarrollo](categories/es/coding.md) | 512.49 | 7 | 67 | 323 |
+| 3 | [Colecciones, directorios y gestores de skills](categories/es/directory.md) | 285.42 | 4 | 112 | 598 |
+| 4 | [Creación de vídeo, imagen y medios](categories/es/media.md) | 194.87 | 3 | 27 | 390 |
+| 5 | [Auditoría de seguridad e ingeniería inversa](categories/es/security.md) | 183.46 | 2 | 18 | 300 |
+| 6 | [Aprendizaje y conocimiento convertido en skills](categories/es/learning.md) | 175.74 | 3 | 12 | 170 |
+| 7 | [Automatización e infraestructura](categories/es/automation.md) | 135.95 | 3 | 12 | 17 |
+| 8 | [Documentos y ofimática](categories/es/documents.md) | 105.03 | 1 | 44 | 165 |
+| 9 | [Marketing y crecimiento](categories/es/marketing.md) | 61.27 | 1 | 6 | 11 |
+| 10 | [Datos web e investigación](categories/es/research_web.md) | 22.93 | 1 | 2 | 0 |
 
 ## Top 20 general
 
 | # | Skill | Categoría | Popularidad | Posts muestreados | Posts en X (7 d) | Me gusta | Reposts | Impresiones | GitHub ⭐ | Forks |
 |---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|
-| 1 | [REA - Reverse Engineer Anything (morluto/rea)](https://github.com/morluto/rea) | [Auditoría de seguridad e ingeniería inversa](categories/es/security.md) | 114.32 | 6 | 424 | 1,442 | 164 | 56,734 | 453,494 | 111,470 |
-| 2 | [skills CLI / skills.sh (vercel-labs/skills, npx skills)](https://github.com/vercel-labs/skills) | [Colecciones, directorios y gestores de skills](categories/es/directory.md) | 112.06 | 71 | 960 | 228 | 14 | 21,263 | 39,050 | 3,417 |
-| 3 | [Anthropic Agent Skills (anthropics/skills, incl. document-skills)](https://github.com/anthropics/skills) | [Documentos y ofimática](categories/es/documents.md) | 108.91 | 36 | 403 | 269 | 39 | 10,154 | 193,313 | 22,746 |
-| 4 | [Emil Kowalski skills (emilkowalski/skills)](https://github.com/emilkowalski/skills) | [Diseño e interfaz front-end](categories/es/design.md) | 106.75 | 6 | — | 747 | 44 | 24,100 | 56,210 | 3,283 |
-| 5 | [Superpowers (obra/superpowers)](https://github.com/obra/superpowers) | [Programación y flujo de desarrollo](categories/es/coding.md) | 106.16 | 23 | 211 | 253 | 46 | 9,836 | 316,424 | 28,155 |
-| 6 | [Impeccable (pbakaus/impeccable)](https://github.com/pbakaus/impeccable) | [Diseño e interfaz front-end](categories/es/design.md) | 101.52 | 22 | 184 | 193 | 32 | 9,138 | 108,528 | 6,453 |
-| 7 | [UI UX Pro Max (nextlevelbuilder/ui-ux-pro-max-skill)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | [Diseño e interfaz front-end](categories/es/design.md) | 99.96 | 8 | 85 | 308 | 49 | 17,771 | 148,328 | 15,699 |
-| 8 | [Cloudflare security-audit-skill](https://github.com/cloudflare/security-audit-skill) | [Auditoría de seguridad e ingeniería inversa](categories/es/security.md) | 91.90 | 12 | 448 | 108 | 6 | 6,895 | 70,561 | 4,682 |
-| 9 | [Remotion skills (remotion-dev/skills & community Remotion skills)](https://github.com/remotion-dev/skills) | [Creación de vídeo, imagen y medios](categories/es/media.md) | 87.12 | 5 | — | 198 | 31 | 5,555 | 6,882 | 741 |
-| 10 | [claude-mem (thedotmack/claude-mem)](https://github.com/thedotmack/claude-mem) | [Programación y flujo de desarrollo](categories/es/coding.md) | 86.71 | 3 | 369 | 162 | 18 | 53,064 | 116,332 | 10,094 |
-| 11 | Skill Leaderboard | [Colecciones, directorios y gestores de skills](categories/es/directory.md) | 86.15 | 1 | 5 | 1,276 | 88 | 55,759 | — | — |
-| 12 | [Andrej Karpathy skills (forrestchang/andrej-karpathy-skills)](https://github.com/multica-ai/andrej-karpathy-skills) | [Programación y flujo de desarrollo](categories/es/coding.md) | 86.04 | 5 | 51 | 122 | 7 | 6,747 | 232,302 | 23,100 |
-| 13 | [Agentic Awesome Skills (sickn33, 2,955+ skills)](https://github.com/sickn33/agentic-awesome-skills) | [Colecciones, directorios y gestores de skills](categories/es/directory.md) | 85.63 | 3 | 15 | 154 | 70 | 8,087 | 49,577 | 7,181 |
-| 14 | [Matt Pocock skills (mattpocock/skills)](https://github.com/mattpocock/skills) | [Programación y flujo de desarrollo](categories/es/coding.md) | 84.34 | 8 | — | 56 | 6 | 2,749 | 322,295 | 27,029 |
-| 15 | [awesome-claude-skills (ComposioHQ)](https://github.com/ComposioHQ/awesome-claude-skills) | [Colecciones, directorios y gestores de skills](categories/es/directory.md) | 83.56 | 3 | — | 130 | 30 | 5,264 | 79,298 | 9,670 |
-| 16 | [Firecrawl (skill + MCP)](https://github.com/firecrawl/firecrawl) | [Datos web e investigación](categories/es/research_web.md) | 82.57 | 2 | 52 | 126 | 12 | 49,904 | 201,045 | 10,559 |
-| 17 | [Taste skill (Leonxlnx/taste-skill)](https://github.com/Leonxlnx/taste-skill) | [Diseño e interfaz front-end](categories/es/design.md) | 76.80 | 7 | — | 14 | 2 | 5,294 | 113,769 | 7,658 |
-| 18 | Jane Street Socratic tutor skill | [Aprendizaje y conocimiento convertido en skills](categories/es/learning.md) | 73.71 | 7 | — | 134 | 10 | 6,974 | — | — |
-| 19 | frontend-design (Anthropic official) | [Diseño e interfaz front-end](categories/es/design.md) | 68.53 | 10 | — | 68 | 4 | 3,530 | — | — |
-| 20 | [Design Motion Principles (kylezantos)](https://github.com/kylezantos/design-motion-principles) | [Diseño e interfaz front-end](categories/es/design.md) | 63.36 | 2 | — | 38 | 2 | 1,975 | 1,554 | 121 |
+| 1 | [skills CLI / skills.sh (vercel-labs/skills, npx skills)](https://github.com/vercel-labs/skills) | [Colecciones, directorios y gestores de skills](categories/es/directory.md) | 122.35 | 106 | 925 | 436 | 23 | 37,755 | 39,511 | 3,477 |
+| 2 | [Emil Kowalski skills (emilkowalski/skills)](https://github.com/emilkowalski/skills) | [Diseño e interfaz front-end](categories/es/design.md) | 107.82 | 7 | — | 747 | 44 | 24,105 | 56,210 | 3,283 |
+| 3 | [Anthropic Agent Skills (anthropics/skills, incl. document-skills)](https://github.com/anthropics/skills) | [Documentos y ofimática](categories/es/documents.md) | 105.03 | 44 | 372 | 165 | 11 | 7,588 | 193,313 | 22,746 |
+| 4 | [Remotion skills (remotion-dev/skills & community Remotion skills)](https://github.com/remotion-dev/skills) | [Creación de vídeo, imagen y medios](categories/es/media.md) | 103.60 | 19 | — | 365 | 56 | 18,988 | 7,268 | 787 |
+| 5 | [Superpowers (obra/superpowers)](https://github.com/obra/superpowers) | [Programación y flujo de desarrollo](categories/es/coding.md) | 102.53 | 33 | 180 | 131 | 18 | 5,801 | 318,058 | 28,337 |
+| 6 | [UI UX Pro Max (nextlevelbuilder/ui-ux-pro-max-skill)](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | [Diseño e interfaz front-end](categories/es/design.md) | 96.33 | 10 | 74 | 171 | 20 | 13,212 | 148,328 | 15,699 |
+| 7 | [Cloudflare security-audit-skill](https://github.com/cloudflare/security-audit-skill) | [Auditoría de seguridad e ingeniería inversa](categories/es/security.md) | 94.33 | 12 | 283 | 148 | 10 | 9,528 | 70,561 | 4,682 |
+| 8 | [Impeccable (pbakaus/impeccable)](https://github.com/pbakaus/impeccable) | [Diseño e interfaz front-end](categories/es/design.md) | 93.33 | 30 | 175 | 73 | 3 | 4,399 | 108,528 | 6,453 |
+| 9 | [REA - Reverse Engineer Anything (morluto/rea)](https://github.com/morluto/rea) | [Auditoría de seguridad e ingeniería inversa](categories/es/security.md) | 89.13 | 6 | 358 | 152 | 20 | 7,586 | 453,494 | 111,470 |
+| 10 | [Matt Pocock skills (mattpocock/skills)](https://github.com/mattpocock/skills) | [Programación y flujo de desarrollo](categories/es/coding.md) | 88.99 | 11 | — | 76 | 7 | 3,240 | 325,132 | 27,293 |
+| 11 | [Agentic Awesome Skills (sickn33, 2,955+ skills)](https://github.com/sickn33/agentic-awesome-skills) | [Colecciones, directorios y gestores de skills](categories/es/directory.md) | 83.26 | 2 | 16 | 152 | 70 | 8,037 | 49,711 | 7,191 |
+| 12 | [Taste skill (Leonxlnx/taste-skill)](https://github.com/Leonxlnx/taste-skill) | [Diseño e interfaz front-end](categories/es/design.md) | 79.26 | 9 | — | 17 | 2 | 5,385 | 116,208 | 7,791 |
+| 13 | [Vercel agent-skills (vercel-labs/agent-skills)](https://github.com/vercel-labs/agent-skills) | [Programación y flujo de desarrollo](categories/es/coding.md) | 73.81 | 3 | — | 54 | 3 | 2,968 | 33,925 | 2,962 |
+| 14 | Jane Street Socratic tutor skill | [Aprendizaje y conocimiento convertido en skills](categories/es/learning.md) | 73.71 | 7 | — | 134 | 10 | 6,974 | — | — |
+| 15 | [ffmpeg-skill (kajisho5)](https://github.com/kajisho5/ffmpeg-skill) | [Creación de vídeo, imagen y medios](categories/es/media.md) | 68.90 | 7 | — | 25 | 0 | 897 | 5,956 | 524 |
+| 16 | [book-to-skill (virgiliojr94)](https://github.com/virgiliojr94/book-to-skill) | [Aprendizaje y conocimiento convertido en skills](categories/es/learning.md) | 67.04 | 4 | — | 27 | 3 | 924 | 37,975 | 4,039 |
+| 17 | [claude-mem (thedotmack/claude-mem)](https://github.com/thedotmack/claude-mem) | [Programación y flujo de desarrollo](categories/es/coding.md) | 65.09 | 2 | 324 | 29 | 2 | 541 | 116,332 | 10,094 |
+| 18 | [Design Motion Principles (kylezantos)](https://github.com/kylezantos/design-motion-principles) | [Diseño e interfaz front-end](categories/es/design.md) | 63.36 | 2 | — | 38 | 2 | 1,975 | 1,554 | 121 |
+| 19 | [Addy Osmani agent-skills](https://github.com/addyosmani/agent-skills) | [Programación y flujo de desarrollo](categories/es/coding.md) | 62.71 | 10 | — | 6 | 0 | 408 | 116,165 | 12,173 |
+| 20 | [Marketing Skills (coreyhaines31/marketingskills)](https://github.com/coreyhaines31/marketingskills) | [Marketing y crecimiento](categories/es/marketing.md) | 61.27 | 6 | — | 11 | 1 | 926 | 60,572 | 8,828 |
 
 ## Fórmula de popularidad
 

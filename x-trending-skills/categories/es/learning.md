@@ -2,7 +2,7 @@
 
 # Aprendizaje y conocimiento convertido en skills
 
-Puesto de la categoría: **#6** · Popularidad: **175.74** · Instantánea: 2026-11-15
+Puesto de la categoría: **#6** · Popularidad: **151.90** · Instantánea: 2026-11-16
 
 [← Volver al resumen](../../README.es.md)
 
@@ -10,29 +10,28 @@ Puesto de la categoría: **#6** · Popularidad: **175.74** · Instantánea: 2026
 
 - **Uso**: Convierte a Claude, ChatGPT o cualquier agente de programación en un tutor socrático estricto que se niega a dar la respuesta.
 - **Descripción**: Primera skill para agentes publicada en código abierto por Jane Street (según posts en X); el enlace al repositorio no aparece en los posts muestreados.
-- **Popularidad**: 73.71 (#14 general)
-- **Referencias en X**: 7 posts que la mencionan · posts en X en 7 días: — · Me gusta: 134 · Reposts: 10 · citas: 2 · respuestas: 44 · guardados: 96 · Impresiones: 6,974
+- **Popularidad**: 63.18 (#19 general)
+- **Referencias en X**: 7 posts que la mencionan · posts en X en 7 días: — · Me gusta: 43 · Reposts: 2 · citas: 0 · respuestas: 12 · guardados: 45 · Impresiones: 2,689
 - **Uso en GitHub**: — (ningún repositorio enlazado en los posts)
 - **Fuente**:
-  - https://x.com/0xRicker/status/2119838664767254976
   - https://x.com/51bodila/status/2121021937572839634
   - https://x.com/quietoraclex/status/2120999000996454843
-  - https://x.com/think0921/status/2119969522442813500
   - https://x.com/__su888/status/2121002346029211869
   - https://x.com/cc_lab_jp/status/2121370063886262581
   - https://x.com/benou_irl/status/2121241683991859668
+  - https://x.com/AIDailyGems/status/2122344963765658003
+  - https://x.com/AIDailyGems/status/2122345163339227251
   - Enlaces: https://github.com/janestreet/agent_skills · https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md
-- Primera / última aparición: 2026-11-09T17:04:57Z / 2026-11-13T22:30:11Z (UTC)
+- Primera / última aparición: 2026-11-09T17:04:57Z / 2026-11-16T15:04:52Z (UTC)
 
 ## 2. book-to-skill (virgiliojr94)
 
 - **Uso**: Convierte el PDF de un libro técnico en una skill de Claude Code que carga un capítulo cada vez.
 - **Descripción**: Convierte cualquier libro técnico en PDF en una skill de Claude Code lista para estudiar, consultar y usar.
-- **Popularidad**: 67.04 (#16 general)
-- **Referencias en X**: 4 posts que la mencionan · posts en X en 7 días: — · Me gusta: 27 · Reposts: 3 · citas: 0 · respuestas: 7 · guardados: 16 · Impresiones: 924
+- **Popularidad**: 53.73 (#24 general)
+- **Referencias en X**: 3 posts que la mencionan · posts en X en 7 días: — · Me gusta: 7 · Reposts: 1 · citas: 0 · respuestas: 4 · guardados: 4 · Impresiones: 334
 - **Uso en GitHub**: [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) · ⭐ 37,975 · Forks: 4,039
 - **Fuente**:
-  - https://x.com/Vexo200/status/2119810180716139005
   - https://x.com/Chenfacai0/status/2121731651554451464
   - https://x.com/grok/status/2121640123422982490
   - https://x.com/grok/status/2121646537734250829
@@ -43,7 +42,7 @@ Puesto de la categoría: **#6** · Popularidad: **175.74** · Instantánea: 2026
 
 - **Uso**: Convierte vídeos tutoriales de YouTube o locales en skills: extrae comandos y parámetros con marcas de tiempo y los verifica en un entorno aislado.
 - **Descripción**: Analiza la narración y la pantalla; después, un agente independiente verifica los pasos.
-- **Popularidad**: 34.99 (#31 general)
+- **Popularidad**: 34.99 (#30 general)
 - **Referencias en X**: 1 posts que la mencionan · posts en X en 7 días: — · Me gusta: 9 · Reposts: 0 · citas: 0 · respuestas: 2 · guardados: 7 · Impresiones: 142
 - **Uso en GitHub**: — (ningún repositorio enlazado en los posts)
 - **Fuente**:

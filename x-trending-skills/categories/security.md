@@ -2,7 +2,7 @@
 
 # Security audit & reverse engineering
 
-Category rank: **#5** · Heat: **169.86** · Snapshot: 2026-11-16
+Category rank: **#5** · Heat: **170.45** · Snapshot: 2026-11-17
 
 [← Back to overview](../README.md)
 
@@ -10,8 +10,8 @@ Category rank: **#5** · Heat: **169.86** · Snapshot: 2026-11-16
 
 - **Purpose**: Multi-phase security audit where the agent that finds a vulnerability never verifies it; findings are independently proven.
 - **Description**: A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings.
-- **Heat**: 90.04 (#11 overall)
-- **X references**: 12 mention posts · X posts in 7 days: 255 · Likes: 110 · Reposts: 9 · quotes: 2 · replies: 19 · bookmarks: 90 · Impressions: 6,432
+- **Heat**: 90.63 (#13 overall)
+- **X references**: 13 mention posts · X posts in 7 days: 245 · Likes: 110 · Reposts: 9 · quotes: 2 · replies: 19 · bookmarks: 90 · Impressions: 6,450
 - **GitHub usage**: [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) · ⭐ 70,561 · Forks: 4,682
 - **Source**:
   - https://x.com/0xSolty/status/2120512971314970897
@@ -23,14 +23,14 @@ Category rank: **#5** · Heat: **169.86** · Snapshot: 2026-11-16
   - https://x.com/triggerkkk/status/2121091816371912998
   - https://x.com/ntones_net/status/2121855385242140975
   - Links: https://blog.google/intl/en-in/products/introducing-gemini-4-hydrogen/ · https://github.com/NVIDIA/SkillSpector · https://github.com/aquasecurity/trivy · https://github.com/cloudflare/security-audit-skill · https://github.com/qybaihe/bla · https://github.com/trufflesecurity/trufflehog
-- First / last seen: 2026-11-07T01:27:00Z / 2026-11-16T22:44:48Z (UTC)
+- First / last seen: 2026-11-07T01:27:00Z / 2026-11-17T22:30:01Z (UTC)
 
 ## 2. REA - Reverse Engineer Anything (morluto/rea)
 
 - **Purpose**: Lets agents reverse-engineer apps from behaviour down to native binaries; widely discussed together with defences against it.
 - **Description**: "Reverse engineer anything with agents, from app behavior down to native binaries."
-- **Heat**: 79.82 (#13 overall)
-- **X references**: 5 mention posts · X posts in 7 days: 355 · Likes: 71 · Reposts: 14 · quotes: 0 · replies: 20 · bookmarks: 8 · Impressions: 4,410
+- **Heat**: 79.82 (#14 overall)
+- **X references**: 5 mention posts · X posts in 7 days: 343 · Likes: 71 · Reposts: 14 · quotes: 0 · replies: 20 · bookmarks: 8 · Impressions: 4,410
 - **GitHub usage**: [morluto/rea](https://github.com/morluto/rea) · ⭐ 453,494 · Forks: 111,470
 - **Source**:
   - https://x.com/Defi_Warhol/status/2121309375910531374

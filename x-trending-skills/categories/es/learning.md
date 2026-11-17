@@ -2,7 +2,7 @@
 
 # Aprendizaje y conocimiento convertido en skills
 
-Puesto de la categoría: **#6** · Popularidad: **151.90** · Instantánea: 2026-11-16
+Puesto de la categoría: **#6** · Popularidad: **155.23** · Instantánea: 2026-11-17
 
 [← Volver al resumen](../../README.es.md)
 
@@ -10,7 +10,7 @@ Puesto de la categoría: **#6** · Popularidad: **151.90** · Instantánea: 2026
 
 - **Uso**: Convierte a Claude, ChatGPT o cualquier agente de programación en un tutor socrático estricto que se niega a dar la respuesta.
 - **Descripción**: Primera skill para agentes publicada en código abierto por Jane Street (según posts en X); el enlace al repositorio no aparece en los posts muestreados.
-- **Popularidad**: 63.18 (#19 general)
+- **Popularidad**: 63.18 (#20 general)
 - **Referencias en X**: 7 posts que la mencionan · posts en X en 7 días: — · Me gusta: 43 · Reposts: 2 · citas: 0 · respuestas: 12 · guardados: 45 · Impresiones: 2,689
 - **Uso en GitHub**: — (ningún repositorio enlazado en los posts)
 - **Fuente**:
@@ -28,21 +28,22 @@ Puesto de la categoría: **#6** · Popularidad: **151.90** · Instantánea: 2026
 
 - **Uso**: Convierte el PDF de un libro técnico en una skill de Claude Code que carga un capítulo cada vez.
 - **Descripción**: Convierte cualquier libro técnico en PDF en una skill de Claude Code lista para estudiar, consultar y usar.
-- **Popularidad**: 53.73 (#24 general)
-- **Referencias en X**: 3 posts que la mencionan · posts en X en 7 días: — · Me gusta: 7 · Reposts: 1 · citas: 0 · respuestas: 4 · guardados: 4 · Impresiones: 334
+- **Popularidad**: 57.06 (#24 general)
+- **Referencias en X**: 4 posts que la mencionan · posts en X en 7 días: — · Me gusta: 8 · Reposts: 1 · citas: 0 · respuestas: 6 · guardados: 4 · Impresiones: 355
 - **Uso en GitHub**: [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) · ⭐ 37,975 · Forks: 4,039
 - **Fuente**:
   - https://x.com/Chenfacai0/status/2121731651554451464
+  - https://x.com/0xKillCoin/status/2122820828828209653
   - https://x.com/grok/status/2121640123422982490
   - https://x.com/grok/status/2121646537734250829
   - Enlaces: https://github.com/virgiliojr94/book-to-skill.git
-- Primera / última aparición: 2026-11-08T12:00:05Z / 2026-11-14T22:27:00Z (UTC)
+- Primera / última aparición: 2026-11-08T12:00:05Z / 2026-11-17T22:35:00Z (UTC)
 
 ## 3. video-to-skill
 
 - **Uso**: Convierte vídeos tutoriales de YouTube o locales en skills: extrae comandos y parámetros con marcas de tiempo y los verifica en un entorno aislado.
 - **Descripción**: Analiza la narración y la pantalla; después, un agente independiente verifica los pasos.
-- **Popularidad**: 34.99 (#30 general)
+- **Popularidad**: 34.99 (#29 general)
 - **Referencias en X**: 1 posts que la mencionan · posts en X en 7 días: — · Me gusta: 9 · Reposts: 0 · citas: 0 · respuestas: 2 · guardados: 7 · Impresiones: 142
 - **Uso en GitHub**: — (ningún repositorio enlazado en los posts)
 - **Fuente**:

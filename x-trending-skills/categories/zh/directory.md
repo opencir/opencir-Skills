@@ -2,7 +2,7 @@
 
 # 技能合集/目录/管理器
 
-分类排名: **#4** · 热度: **202.99** · 快照日期: 2026-11-16
+分类排名: **#4** · 热度: **211.86** · 快照日期: 2026-11-17
 
 [← 返回总览](../../README.zh.md)
 
@@ -10,10 +10,11 @@
 
 - **用途**：跨智能体技能安装器：npx skills add owner/repo 一键装到 Claude Code、Codex、Cursor 等。
 - **描述**：开放的智能体技能工具（npx skills）及 skills.sh 目录。
-- **热度**：123.18 (#1 总榜)
-- **X 引用**：130 条提及帖子 · X 7 天总帖数: 917 · 点赞: 408 · 转发: 24 · 引用: 7 · 回复: 103 · 收藏: 559 · 曝光: 36,022
+- **热度**：127.51 (#1 总榜)
+- **X 引用**：140 条提及帖子 · X 7 天总帖数: 914 · 点赞: 631 · 转发: 32 · 引用: 11 · 回复: 118 · 收藏: 810 · 曝光: 43,754
 - **GitHub 使用量**：[vercel-labs/skills](https://github.com/vercel-labs/skills) · ⭐ 39,511 · Forks: 3,477
 - **来源**:
+  - https://x.com/ctatedev/status/2122816672625275030
   - https://x.com/yonasbe/status/2121738233117900800
   - https://x.com/awe0_io/status/2121924977276699099
   - https://x.com/Voxyz_ai/status/2122072146411438294
@@ -21,9 +22,8 @@
   - https://x.com/ctnicholasdev/status/2121245081407828182
   - https://x.com/Lonerwb/status/2122019106291396821
   - https://x.com/0xCodila/status/2121377290051317902
-  - https://x.com/GoSailGlobal/status/2121198885460914540
-  - 链接: https://aidesignworkflows.com · https://aidesignworkflows.com/ · https://api.0xinsider.com/ · https://builderlog.net/?utm_source=x&utm_medium=social&utm_campaign=x-1111-01 · https://docs.doppler.lol · https://docs.doppler.lol/
-- 首次 / 最近出现: 2026-11-06T08:54:48Z / 2026-11-16T22:39:29Z (UTC)
+  - 链接: https://aidesignworkflows.com · https://aidesignworkflows.com/ · https://api.0xinsider.com/ · https://docs.doppler.lol · https://docs.doppler.lol/ · https://docs.miget.com
+- 首次 / 最近出现: 2026-11-06T08:54:48Z / 2026-11-17T22:56:01Z (UTC)
 
 ## 2. Skill managers (Skills Hub / Prism)
 
@@ -42,10 +42,12 @@
 
 - **用途**：精选 Claude Skills、资源与工具清单。
 - **描述**：精选 Claude 技能清单（1000+ 条）。
-- **热度**：37.35 (#28 总榜)
-- **X 引用**：2 条提及帖子 · X 7 天总帖数: — · 点赞: 1 · 转发: 0 · 引用: 0 · 回复: 2 · 收藏: 0 · 曝光: 81
+- **热度**：41.89 (#27 总榜)
+- **X 引用**：3 条提及帖子 · X 7 天总帖数: — · 点赞: 2 · 转发: 0 · 引用: 0 · 回复: 2 · 收藏: 0 · 曝光: 90
 - **GitHub 使用量**：[ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) · ⭐ 79,578 · Forks: 9,727
 - **来源**:
   - https://x.com/prima_labs/status/2121196408061710717
+  - https://x.com/aitrendings/status/2122691939568910413
   - https://x.com/prima_labs/status/2121196405385519382
-- 首次 / 最近出现: 2026-11-07T18:44:20Z / 2026-11-13T11:00:08Z (UTC)
+  - 链接: https://trendtoknow.com/ComposioHQ/awesome-claude-skills
+- 首次 / 最近出现: 2026-11-07T18:44:20Z / 2026-11-17T14:02:50Z (UTC)

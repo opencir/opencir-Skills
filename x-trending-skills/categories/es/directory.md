@@ -2,7 +2,7 @@
 
 # Colecciones, directorios y gestores de skills
 
-Puesto de la categoría: **#4** · Popularidad: **202.99** · Instantánea: 2026-11-16
+Puesto de la categoría: **#4** · Popularidad: **211.86** · Instantánea: 2026-11-17
 
 [← Volver al resumen](../../README.es.md)
 
@@ -10,10 +10,11 @@ Puesto de la categoría: **#4** · Popularidad: **202.99** · Instantánea: 2026
 
 - **Uso**: Instalador para varios agentes: npx skills add owner/repo instala una skill en Claude Code, Codex, Cursor, etc.
 - **Descripción**: La herramienta abierta de skills para agentes (npx skills), con el directorio skills.sh.
-- **Popularidad**: 123.18 (#1 general)
-- **Referencias en X**: 130 posts que la mencionan · posts en X en 7 días: 917 · Me gusta: 408 · Reposts: 24 · citas: 7 · respuestas: 103 · guardados: 559 · Impresiones: 36,022
+- **Popularidad**: 127.51 (#1 general)
+- **Referencias en X**: 140 posts que la mencionan · posts en X en 7 días: 914 · Me gusta: 631 · Reposts: 32 · citas: 11 · respuestas: 118 · guardados: 810 · Impresiones: 43,754
 - **Uso en GitHub**: [vercel-labs/skills](https://github.com/vercel-labs/skills) · ⭐ 39,511 · Forks: 3,477
 - **Fuente**:
+  - https://x.com/ctatedev/status/2122816672625275030
   - https://x.com/yonasbe/status/2121738233117900800
   - https://x.com/awe0_io/status/2121924977276699099
   - https://x.com/Voxyz_ai/status/2122072146411438294
@@ -21,9 +22,8 @@ Puesto de la categoría: **#4** · Popularidad: **202.99** · Instantánea: 2026
   - https://x.com/ctnicholasdev/status/2121245081407828182
   - https://x.com/Lonerwb/status/2122019106291396821
   - https://x.com/0xCodila/status/2121377290051317902
-  - https://x.com/GoSailGlobal/status/2121198885460914540
-  - Enlaces: https://aidesignworkflows.com · https://aidesignworkflows.com/ · https://api.0xinsider.com/ · https://builderlog.net/?utm_source=x&utm_medium=social&utm_campaign=x-1111-01 · https://docs.doppler.lol · https://docs.doppler.lol/
-- Primera / última aparición: 2026-11-06T08:54:48Z / 2026-11-16T22:39:29Z (UTC)
+  - Enlaces: https://aidesignworkflows.com · https://aidesignworkflows.com/ · https://api.0xinsider.com/ · https://docs.doppler.lol · https://docs.doppler.lol/ · https://docs.miget.com
+- Primera / última aparición: 2026-11-06T08:54:48Z / 2026-11-17T22:56:01Z (UTC)
 
 ## 2. Skill managers (Skills Hub / Prism)
 
@@ -42,10 +42,12 @@ Puesto de la categoría: **#4** · Popularidad: **202.99** · Instantánea: 2026
 
 - **Uso**: Lista seleccionada de Claude Skills, recursos y herramientas.
 - **Descripción**: Lista seleccionada de las mejores Claude Skills (más de 1.000 entradas).
-- **Popularidad**: 37.35 (#28 general)
-- **Referencias en X**: 2 posts que la mencionan · posts en X en 7 días: — · Me gusta: 1 · Reposts: 0 · citas: 0 · respuestas: 2 · guardados: 0 · Impresiones: 81
+- **Popularidad**: 41.89 (#27 general)
+- **Referencias en X**: 3 posts que la mencionan · posts en X en 7 días: — · Me gusta: 2 · Reposts: 0 · citas: 0 · respuestas: 2 · guardados: 0 · Impresiones: 90
 - **Uso en GitHub**: [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) · ⭐ 79,578 · Forks: 9,727
 - **Fuente**:
   - https://x.com/prima_labs/status/2121196408061710717
+  - https://x.com/aitrendings/status/2122691939568910413
   - https://x.com/prima_labs/status/2121196405385519382
-- Primera / última aparición: 2026-11-07T18:44:20Z / 2026-11-13T11:00:08Z (UTC)
+  - Enlaces: https://trendtoknow.com/ComposioHQ/awesome-claude-skills
+- Primera / última aparición: 2026-11-07T18:44:20Z / 2026-11-17T14:02:50Z (UTC)

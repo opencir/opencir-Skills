@@ -2,7 +2,7 @@
 
 # Marketing et croissance
 
-Rang de la catégorie: **#10** · Popularité: **67.90** · Instantané: 2026-11-17
+Rang de la catégorie: **#9** · Popularité: **95.57** · Instantané: 2026-11-18
 
 [← Retour à la vue d'ensemble](../../README.fr.md)
 
@@ -10,10 +10,11 @@ Rang de la catégorie: **#10** · Popularité: **67.90** · Instantané: 2026-11
 
 - **Usage**: Skills d'optimisation de conversion (CRO), de rédaction, de SEO, d'analytics et de growth pour les agents.
 - **Description**: Skills marketing pour Claude Code et les agents IA.
-- **Popularité**: 67.90 (#16 général)
-- **Références X**: 11 posts mentionnant · posts X sur 7 jours: — · J'aime: 12 · Reposts: 1 · citations: 0 · réponses: 10 · signets: 4 · Impressions: 1,597
+- **Popularité**: 95.57 (#12 général)
+- **Références X**: 14 posts mentionnant · posts X sur 7 jours: — · J'aime: 141 · Reposts: 45 · citations: 1 · réponses: 22 · signets: 129 · Impressions: 7,157
 - **Usage GitHub**: [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) · ⭐ 60,572 · Forks: 8,828
 - **Source**:
+  - https://x.com/feednote_X/status/2122999131140747543
   - https://x.com/coreyhainesco/status/2121342846037102785
   - https://x.com/Gang550304/status/2121575499243884624
   - https://x.com/VaibhavSisinty/status/2122366654319632891
@@ -21,6 +22,5 @@ Rang de la catégorie: **#10** · Popularité: **67.90** · Instantané: 2026-11
   - https://x.com/Gang550304/status/2121574680767107439
   - https://x.com/faraujoj/status/2122097994451595498
   - https://x.com/0xmehedi_dev/status/2122391794269004119
-  - https://x.com/Yashpatil/status/2122176667418542202
   - Liens: https://github.com/aaron-he-zhu/aaron-marketing-skills · https://github.com/coreyhaines31/marketingskills · https://github.com/gitroomhq/postiz-app
-- Première / dernière apparition: 2026-11-10T22:00:00Z / 2026-11-17T22:43:03Z (UTC)
+- Première / dernière apparition: 2026-11-10T22:00:00Z / 2026-11-18T10:23:30Z (UTC)

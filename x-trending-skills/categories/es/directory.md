@@ -2,7 +2,7 @@
 
 # Colecciones, directorios y gestores de skills
 
-Puesto de la categoría: **#4** · Popularidad: **211.86** · Instantánea: 2026-11-17
+Puesto de la categoría: **#4** · Popularidad: **186.10** · Instantánea: 2026-11-18
 
 [← Volver al resumen](../../README.es.md)
 
@@ -10,8 +10,8 @@ Puesto de la categoría: **#4** · Popularidad: **211.86** · Instantánea: 2026
 
 - **Uso**: Instalador para varios agentes: npx skills add owner/repo instala una skill en Claude Code, Codex, Cursor, etc.
 - **Descripción**: La herramienta abierta de skills para agentes (npx skills), con el directorio skills.sh.
-- **Popularidad**: 127.51 (#1 general)
-- **Referencias en X**: 140 posts que la mencionan · posts en X en 7 días: 914 · Me gusta: 631 · Reposts: 32 · citas: 11 · respuestas: 118 · guardados: 810 · Impresiones: 43,754
+- **Popularidad**: 129.44 (#1 general)
+- **Referencias en X**: 167 posts que la mencionan · posts en X en 7 días: 926 · Me gusta: 664 · Reposts: 34 · citas: 11 · respuestas: 135 · guardados: 847 · Impresiones: 47,282
 - **Uso en GitHub**: [vercel-labs/skills](https://github.com/vercel-labs/skills) · ⭐ 39,511 · Forks: 3,477
 - **Fuente**:
   - https://x.com/ctatedev/status/2122816672625275030
@@ -21,33 +21,23 @@ Puesto de la categoría: **#4** · Popularidad: **211.86** · Instantánea: 2026
   - https://x.com/Ash_uxi/status/2121206263304610125
   - https://x.com/ctnicholasdev/status/2121245081407828182
   - https://x.com/Lonerwb/status/2122019106291396821
-  - https://x.com/0xCodila/status/2121377290051317902
+  - https://x.com/exploraX_/status/2123133227107844435
   - Enlaces: https://aidesignworkflows.com · https://aidesignworkflows.com/ · https://api.0xinsider.com/ · https://docs.doppler.lol · https://docs.doppler.lol/ · https://docs.miget.com
-- Primera / última aparición: 2026-11-06T08:54:48Z / 2026-11-17T22:56:01Z (UTC)
+- Primera / última aparición: 2026-11-06T08:54:48Z / 2026-11-18T21:03:06Z (UTC)
 
-## 2. Skill managers (Skills Hub / Prism)
-
-- **Uso**: Instalar una skill una sola vez y enlazarla o distribuirla en la carpeta de skills de cada agente.
-- **Descripción**: Gestores de escritorio/CLI que guardan una sola copia (p. ej. ~/.skillshub, ~/.agents/skills) para Claude Code, Codex, Cursor y OpenCode.
-- **Popularidad**: 42.46 (#26 general)
-- **Referencias en X**: 2 posts que la mencionan · posts en X en 7 días: — · Me gusta: 9 · Reposts: 0 · citas: 0 · respuestas: 19 · guardados: 0 · Impresiones: 238
-- **Uso en GitHub**: — (ningún repositorio enlazado en los posts)
-- **Fuente**:
-  - https://x.com/gooonzick/status/2120483653121986897
-  - https://x.com/Lumizqj1/status/2120613785614295401
-  - Enlaces: https://github.com/gooonzick/prism
-- Primera / última aparición: 2026-11-07T08:11:00Z / 2026-11-11T20:25:00Z (UTC)
-
-## 3. awesome-claude-skills (ComposioHQ)
+## 2. awesome-claude-skills (ComposioHQ)
 
 - **Uso**: Lista seleccionada de Claude Skills, recursos y herramientas.
 - **Descripción**: Lista seleccionada de las mejores Claude Skills (más de 1.000 entradas).
-- **Popularidad**: 41.89 (#27 general)
-- **Referencias en X**: 3 posts que la mencionan · posts en X en 7 días: — · Me gusta: 2 · Reposts: 0 · citas: 0 · respuestas: 2 · guardados: 0 · Impresiones: 90
+- **Popularidad**: 56.66 (#24 general)
+- **Referencias en X**: 6 posts que la mencionan · posts en X en 7 días: — · Me gusta: 3 · Reposts: 0 · citas: 0 · respuestas: 9 · guardados: 1 · Impresiones: 435
 - **Uso en GitHub**: [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) · ⭐ 79,578 · Forks: 9,727
 - **Fuente**:
   - https://x.com/prima_labs/status/2121196408061710717
   - https://x.com/aitrendings/status/2122691939568910413
+  - https://x.com/xqliu/status/2122976353070784766
   - https://x.com/prima_labs/status/2121196405385519382
-  - Enlaces: https://trendtoknow.com/ComposioHQ/awesome-claude-skills
-- Primera / última aparición: 2026-11-07T18:44:20Z / 2026-11-17T14:02:50Z (UTC)
+  - https://x.com/BestGithubRepos/status/2123121588761473091
+  - https://x.com/taketokennn/status/2123037050219938234
+  - Enlaces: https://Claude.ai · https://bestgithubrepositories.com/ComposioHQ/awesome-claude-skills · https://claude.ai/ · https://github.com/ComposioHQ/awesome-claude-skills · https://trendtoknow.com/ComposioHQ/awesome-claude-skills
+- Primera / última aparición: 2026-11-07T18:44:20Z / 2026-11-18T18:30:07Z (UTC)

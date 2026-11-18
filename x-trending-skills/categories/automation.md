@@ -2,7 +2,7 @@
 
 # Automation & infrastructure
 
-Category rank: **#7** · Heat: **131.64** · Snapshot: 2026-11-17
+Category rank: **#7** · Heat: **129.34** · Snapshot: 2026-11-18
 
 [← Back to overview](../README.md)
 
@@ -10,7 +10,7 @@ Category rank: **#7** · Heat: **131.64** · Snapshot: 2026-11-17
 
 - **Purpose**: Official skills for Google products and Google Cloud.
 - **Description**: Agent Skills for Google products and technologies.
-- **Heat**: 59.63 (#21 overall)
+- **Heat**: 59.63 (#22 overall)
 - **X references**: 6 mention posts · X posts in 7 days: — · Likes: 10 · Reposts: 0 · quotes: 0 · replies: 7 · bookmarks: 4 · Impressions: 580
 - **GitHub usage**: [google/skills](https://github.com/google/skills) · ⭐ 24,268 · Forks: 2,017
 - **Source**:
@@ -39,12 +39,11 @@ Category rank: **#7** · Heat: **131.64** · Snapshot: 2026-11-17
 
 - **Purpose**: Lets Claude Code, Codex or Cursor set up and run GPUs on Runpod.
 - **Description**: Runpod for Agents: tested skills plus a hosted MCP server.
-- **Heat**: 27.18 (#31 overall)
-- **X references**: 3 mention posts · X posts in 7 days: — · Likes: 3 · Reposts: 0 · quotes: 0 · replies: 0 · bookmarks: 1 · Impressions: 107
+- **Heat**: 24.88 (#29 overall)
+- **X references**: 2 mention posts · X posts in 7 days: — · Likes: 3 · Reposts: 0 · quotes: 0 · replies: 0 · bookmarks: 1 · Impressions: 106
 - **GitHub usage**: — (no repository linked in posts)
 - **Source**:
   - https://x.com/aladagberk/status/2121136948832260557
   - https://x.com/aladagberk/status/2122038441512751328
-  - https://x.com/GetUseThisAI/status/2120516899167518970
-  - Links: https://agents.runpod.io/ · https://github.com/KKKKhazix/agent-autoloop · https://github.com/backnotprop/plannotator · https://github.com/google/skills · https://github.com/govijr/terminal-mac · https://github.com/open-mercato/cezar
+  - Links: https://github.com/KKKKhazix/agent-autoloop · https://github.com/backnotprop/plannotator · https://github.com/google/skills · https://github.com/govijr/terminal-mac · https://github.com/open-mercato/cezar · https://github.com/runpod/runpod-plugins-official
 - First / last seen: 2026-11-10T09:14:10Z / 2026-11-15T18:46:04Z (UTC)

@@ -2,7 +2,7 @@
 
 # Automatización e infraestructura
 
-Puesto de la categoría: **#7** · Popularidad: **131.64** · Instantánea: 2026-11-17
+Puesto de la categoría: **#7** · Popularidad: **129.34** · Instantánea: 2026-11-18
 
 [← Volver al resumen](../../README.es.md)
 
@@ -10,7 +10,7 @@ Puesto de la categoría: **#7** · Popularidad: **131.64** · Instantánea: 2026
 
 - **Uso**: Skills oficiales para los productos de Google y Google Cloud.
 - **Descripción**: Agent Skills para productos y tecnologías de Google.
-- **Popularidad**: 59.63 (#21 general)
+- **Popularidad**: 59.63 (#22 general)
 - **Referencias en X**: 6 posts que la mencionan · posts en X en 7 días: — · Me gusta: 10 · Reposts: 0 · citas: 0 · respuestas: 7 · guardados: 4 · Impresiones: 580
 - **Uso en GitHub**: [google/skills](https://github.com/google/skills) · ⭐ 24,268 · Forks: 2,017
 - **Fuente**:
@@ -39,12 +39,11 @@ Puesto de la categoría: **#7** · Popularidad: **131.64** · Instantánea: 2026
 
 - **Uso**: Permite que Claude Code, Codex o Cursor configuren y usen GPU en Runpod.
 - **Descripción**: Runpod for Agents: skills probadas y un servidor MCP alojado.
-- **Popularidad**: 27.18 (#31 general)
-- **Referencias en X**: 3 posts que la mencionan · posts en X en 7 días: — · Me gusta: 3 · Reposts: 0 · citas: 0 · respuestas: 0 · guardados: 1 · Impresiones: 107
+- **Popularidad**: 24.88 (#29 general)
+- **Referencias en X**: 2 posts que la mencionan · posts en X en 7 días: — · Me gusta: 3 · Reposts: 0 · citas: 0 · respuestas: 0 · guardados: 1 · Impresiones: 106
 - **Uso en GitHub**: — (ningún repositorio enlazado en los posts)
 - **Fuente**:
   - https://x.com/aladagberk/status/2121136948832260557
   - https://x.com/aladagberk/status/2122038441512751328
-  - https://x.com/GetUseThisAI/status/2120516899167518970
-  - Enlaces: https://agents.runpod.io/ · https://github.com/KKKKhazix/agent-autoloop · https://github.com/backnotprop/plannotator · https://github.com/google/skills · https://github.com/govijr/terminal-mac · https://github.com/open-mercato/cezar
+  - Enlaces: https://github.com/KKKKhazix/agent-autoloop · https://github.com/backnotprop/plannotator · https://github.com/google/skills · https://github.com/govijr/terminal-mac · https://github.com/open-mercato/cezar · https://github.com/runpod/runpod-plugins-official
 - Primera / última aparición: 2026-11-10T09:14:10Z / 2026-11-15T18:46:04Z (UTC)

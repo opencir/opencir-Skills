@@ -2,7 +2,7 @@
 
 # Auditoría de seguridad e ingeniería inversa
 
-Puesto de la categoría: **#5** · Popularidad: **170.45** · Instantánea: 2026-11-17
+Puesto de la categoría: **#6** · Popularidad: **162.53** · Instantánea: 2026-11-18
 
 [← Volver al resumen](../../README.es.md)
 
@@ -10,28 +10,28 @@ Puesto de la categoría: **#5** · Popularidad: **170.45** · Instantánea: 2026
 
 - **Uso**: Auditoría de seguridad en varias fases en la que el agente que encuentra una vulnerabilidad nunca la verifica; cada hallazgo se demuestra de forma independiente.
 - **Descripción**: Skill para agentes de programación que realiza auditorías de seguridad en varias fases, con hallazgos verificados de forma independiente y legibles por máquina.
-- **Popularidad**: 90.63 (#13 general)
-- **Referencias en X**: 13 posts que la mencionan · posts en X en 7 días: 245 · Me gusta: 110 · Reposts: 9 · citas: 2 · respuestas: 19 · guardados: 90 · Impresiones: 6,450
+- **Popularidad**: 82.66 (#14 general)
+- **Referencias en X**: 13 posts que la mencionan · posts en X en 7 días: 229 · Me gusta: 50 · Reposts: 4 · citas: 2 · respuestas: 15 · guardados: 30 · Impresiones: 3,412
 - **Uso en GitHub**: [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) · ⭐ 70,561 · Forks: 4,682
 - **Fuente**:
-  - https://x.com/0xSolty/status/2120512971314970897
   - https://x.com/Rascal_AI_Dev/status/2121845985546846700
   - https://x.com/HeLi8866/status/2121706358806581383
-  - https://x.com/Lonerwb/status/2120526629000691905
   - https://x.com/vibeeval/status/2121967740722335896
   - https://x.com/Ayrton09_1193/status/2121853977734066251
   - https://x.com/triggerkkk/status/2121091816371912998
   - https://x.com/ntones_net/status/2121855385242140975
+  - https://x.com/0xCodila/status/2122460909914271839
+  - https://x.com/LeoAgentAI/status/2120985426982773025
   - Enlaces: https://blog.google/intl/en-in/products/introducing-gemini-4-hydrogen/ · https://github.com/NVIDIA/SkillSpector · https://github.com/aquasecurity/trivy · https://github.com/cloudflare/security-audit-skill · https://github.com/qybaihe/bla · https://github.com/trufflesecurity/trufflehog
-- Primera / última aparición: 2026-11-07T01:27:00Z / 2026-11-17T22:30:01Z (UTC)
+- Primera / última aparición: 2026-11-07T01:27:00Z / 2026-11-18T09:41:00Z (UTC)
 
 ## 2. REA - Reverse Engineer Anything (morluto/rea)
 
 - **Uso**: Permite a los agentes hacer ingeniería inversa de aplicaciones, desde su comportamiento hasta los binarios nativos; se comenta a menudo junto con cómo defenderse de ella.
 - **Descripción**: «Ingeniería inversa de cualquier cosa con agentes, desde el comportamiento de la app hasta los binarios nativos.»
-- **Popularidad**: 79.82 (#14 general)
-- **Referencias en X**: 5 posts que la mencionan · posts en X en 7 días: 343 · Me gusta: 71 · Reposts: 14 · citas: 0 · respuestas: 20 · guardados: 8 · Impresiones: 4,410
-- **Uso en GitHub**: [morluto/rea](https://github.com/morluto/rea) · ⭐ 453,494 · Forks: 111,470
+- **Popularidad**: 79.87 (#15 general)
+- **Referencias en X**: 5 posts que la mencionan · posts en X en 7 días: 324 · Me gusta: 71 · Reposts: 14 · citas: 0 · respuestas: 20 · guardados: 8 · Impresiones: 4,410
+- **Uso en GitHub**: [morluto/rea](https://github.com/morluto/rea) · ⭐ 468,208 · Forks: 114,449
 - **Fuente**:
   - https://x.com/Defi_Warhol/status/2121309375910531374
   - https://x.com/_aicentral/status/2121143613899858137

@@ -2,7 +2,7 @@
 
 # Coding & dev workflow
 
-Category rank: **#2** · Heat: **556.38** · Snapshot: 2026-11-17
+Category rank: **#2** · Heat: **512.70** · Snapshot: 2026-11-18
 
 [← Back to overview](../README.md)
 
@@ -10,26 +10,26 @@ Category rank: **#2** · Heat: **556.38** · Snapshot: 2026-11-17
 
 - **Purpose**: Full software-development methodology for agents: brainstorm, plan, TDD, parallel agents, code review, git workflow.
 - **Description**: An agentic skills framework & software development methodology; install with npx skills add obra/superpowers.
-- **Heat**: 110.67 (#5 overall)
-- **X references**: 49 mention posts · X posts in 7 days: 169 · Likes: 214 · Reposts: 37 · quotes: 2 · replies: 90 · bookmarks: 152 · Impressions: 10,999
+- **Heat**: 119.54 (#4 overall)
+- **X references**: 65 mention posts · X posts in 7 days: 212 · Likes: 404 · Reposts: 79 · quotes: 3 · replies: 122 · bookmarks: 350 · Impressions: 21,028
 - **GitHub usage**: [obra/superpowers](https://github.com/obra/superpowers) · ⭐ 318,673 · Forks: 28,393
 - **Source**:
+  - https://x.com/feednote_X/status/2122999131140747543
   - https://x.com/Cranefomo/status/2120929864739922241
+  - https://x.com/HeLi8866/status/2123091821433897236
   - https://x.com/spiraldotai/status/2122752287605174466
   - https://x.com/0xVarian/status/2122104767040082050
-  - https://x.com/JasonKHood/status/2120414718204801322
-  - https://x.com/Slonski_rt/status/2120603499323068649
+  - https://x.com/ai_gojo1/status/2123153076542701811
+  - https://x.com/elbyron0/status/2122838321181438376
   - https://x.com/Lonerwb/status/2122384440571662603
-  - https://x.com/mballersz/status/2122751637512949869
-  - https://x.com/BkashJosi/status/2121725128191218131
-  - Links: https://claude.ai/artifact/6HMpKg7ewxp2FFZUSuZGq8#6710821b-50ad · https://github.com/anthropics/ski · https://github.com/kasidit-wansudon/kasidit · https://github.com/obra/superpowe · https://github.com/obra/superpowers · https://github.com/obra/superpowers/tree/main/skills/brainstorming
-- First / last seen: 2026-11-06T15:15:24Z / 2026-11-17T23:02:35Z (UTC)
+  - Links: https://claude.ai/artifact/6HMpKg7ewxp2FFZUSuZGq8#6710821b-50ad · https://github.com/elementalsouls/Claude-BugHunter · https://github.com/kasidit-wansudon/kasidit · https://github.com/obra/superpowers · https://github.com/obra/superpowers/tree/main/skills/brainstorming · https://gotchishadows.com/agent/
+- First / last seen: 2026-11-06T15:15:24Z / 2026-11-18T22:30:20Z (UTC)
 
 ## 2. Vercel agent-skills (vercel-labs/agent-skills)
 
 - **Purpose**: Vercel's official skills, e.g. React/Next.js best practices and deployment.
 - **Description**: Vercel's official collection of agent skills.
-- **Heat**: 106.74 (#6 overall)
+- **Heat**: 106.74 (#7 overall)
 - **X references**: 5 mention posts · X posts in 7 days: — · Likes: 1,156 · Reposts: 90 · quotes: 2 · replies: 29 · bookmarks: 1,276 · Impressions: 34,046
 - **GitHub usage**: [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) · ⭐ 33,925 · Forks: 2,962
 - **Source**:
@@ -45,26 +45,40 @@ Category rank: **#2** · Heat: **556.38** · Snapshot: 2026-11-17
 
 - **Purpose**: Engineering skills for real-world TypeScript/software work from Matt Pocock's own .agents directory.
 - **Description**: "Skills for Real Engineers. Straight from my .agents directory."
-- **Heat**: 92.19 (#11 overall)
-- **X references**: 15 mention posts · X posts in 7 days: — · Likes: 87 · Reposts: 8 · quotes: 0 · replies: 28 · bookmarks: 78 · Impressions: 4,103
-- **GitHub usage**: [mattpocock/skills](https://github.com/mattpocock/skills) · ⭐ 325,935 · Forks: 27,351
+- **Heat**: 96.08 (#11 overall)
+- **X references**: 19 mention posts · X posts in 7 days: — · Likes: 108 · Reposts: 11 · quotes: 0 · replies: 30 · bookmarks: 98 · Impressions: 5,253
+- **GitHub usage**: [mattpocock/skills](https://github.com/mattpocock/skills) · ⭐ 327,429 · Forks: 27,494
 - **Source**:
   - https://x.com/0xNeuroBlue/status/2122079887720886666
   - https://x.com/yurshevv/status/2120969608416887061
   - https://x.com/eng_khairallah1/status/2121347653938344194
   - https://x.com/yurshevv/status/2120960521860005960
+  - https://x.com/0xClodex/status/2123160533650313347
+  - https://x.com/Slonski_rt/status/2123153526667026530
   - https://x.com/UKecom/status/2122091813057987013
   - https://x.com/skillleaderbd/status/2122051917304230341
-  - https://x.com/duduyun_net/status/2121322994450772370
-  - https://x.com/yaro360/status/2121310887222944143
   - Links: https://github.com/anthropics/skills · https://github.com/janestreet/agent_skills · https://github.com/mattpocock/skills · https://github.com/vercel-labs/agent-browser · https://github.com/vercel-labs/skills · https://skills.sh
-- First / last seen: 2026-11-06T07:15:50Z / 2026-11-17T19:20:07Z (UTC)
+- First / last seen: 2026-11-06T07:15:50Z / 2026-11-18T21:04:52Z (UTC)
 
-## 4. Addy Osmani agent-skills
+## 4. claude-mem (thedotmack/claude-mem)
+
+- **Purpose**: Persistent memory: records what the agent did, compresses it and feeds it back in later sessions.
+- **Description**: Plugin/skill giving persistent context across sessions for Claude Code and other agents.
+- **Heat**: 67.57 (#18 overall)
+- **X references**: 3 mention posts · X posts in 7 days: 250 · Likes: 30 · Reposts: 2 · quotes: 0 · replies: 6 · bookmarks: 21 · Impressions: 609
+- **GitHub usage**: [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) · ⭐ 117,682 · Forks: 10,221
+- **Source**:
+  - https://x.com/plusxbt/status/2122081429517426929
+  - https://x.com/divid_lu49394/status/2123187746562798036
+  - https://x.com/TheEasySale1/status/2121720293198880827
+  - Links: https://github.com/thedotmack/claude-mem
+- First / last seen: 2026-11-06T16:58:02Z / 2026-11-18T22:53:00Z (UTC)
+
+## 5. Addy Osmani agent-skills
 
 - **Purpose**: Production-grade engineering skills for AI coding agents (performance, quality, web best practices).
 - **Description**: "Production-grade engineering skills for AI coding agents."
-- **Heat**: 65.52 (#18 overall)
+- **Heat**: 65.52 (#20 overall)
 - **X references**: 11 mention posts · X posts in 7 days: — · Likes: 9 · Reposts: 0 · quotes: 0 · replies: 7 · bookmarks: 4 · Impressions: 671
 - **GitHub usage**: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) · ⭐ 116,165 · Forks: 12,173
 - **Source**:
@@ -79,37 +93,12 @@ Category rank: **#2** · Heat: **556.38** · Snapshot: 2026-11-17
   - Links: https://github.com/addyosmani/agent-skills
 - First / last seen: 2026-11-10T11:58:05Z / 2026-11-17T13:03:58Z (UTC)
 
-## 5. claude-mem (thedotmack/claude-mem)
-
-- **Purpose**: Persistent memory: records what the agent did, compresses it and feeds it back in later sessions.
-- **Description**: Plugin/skill giving persistent context across sessions for Claude Code and other agents.
-- **Heat**: 65.11 (#19 overall)
-- **X references**: 2 mention posts · X posts in 7 days: 255 · Likes: 29 · Reposts: 2 · quotes: 0 · replies: 6 · bookmarks: 21 · Impressions: 541
-- **GitHub usage**: [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) · ⭐ 117,682 · Forks: 10,221
-- **Source**:
-  - https://x.com/plusxbt/status/2122081429517426929
-  - https://x.com/TheEasySale1/status/2121720293198880827
-  - Links: https://github.com/thedotmack/claude-mem
-- First / last seen: 2026-11-06T16:58:02Z / 2026-11-15T21:36:53Z (UTC)
-
-## 6. Context7 (upstash/context7)
-
-- **Purpose**: Feeds up-to-date library documentation to coding agents (MCP server + skill).
-- **Description**: Context7 platform: up-to-date docs for AI agents.
-- **Heat**: 58.90 (#22 overall)
-- **X references**: 1 mention posts · X posts in 7 days: — · Likes: 19 · Reposts: 10 · quotes: 0 · replies: 4 · bookmarks: 5 · Impressions: 721
-- **GitHub usage**: [upstash/context7](https://github.com/upstash/context7) · ⭐ 64,648 · Forks: 3,241
-- **Source**:
-  - https://x.com/JasonKHood/status/2120414718204801322
-  - Links: https://github.com/anthropics/ski · https://github.com/obra/superpowe · https://github.com/upstash/contex
-- First / last seen: 2026-11-06T15:15:24Z / 2026-11-11T07:13:58Z (UTC)
-
-## 7. Andrej Karpathy skills (forrestchang/andrej-karpathy-skills)
+## 6. Andrej Karpathy skills (forrestchang/andrej-karpathy-skills)
 
 - **Purpose**: Coding-behaviour rules distilled from Andrej Karpathy's observations on LLM coding pitfalls.
 - **Description**: A CLAUDE.md/skill pack with a few guidelines (think before coding, simplicity, surgical changes, goal-driven) to improve agent coding.
 - **Heat**: 57.25 (#23 overall)
-- **X references**: 10 mention posts · X posts in 7 days: 41 · Likes: 2 · Reposts: 0 · quotes: 0 · replies: 4 · bookmarks: 2 · Impressions: 119
+- **X references**: 10 mention posts · X posts in 7 days: 40 · Likes: 2 · Reposts: 0 · quotes: 0 · replies: 4 · bookmarks: 2 · Impressions: 119
 - **GitHub usage**: [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) · ⭐ 232,302 · Forks: 23,100
 - **Source**:
   - https://x.com/_aicentral/status/2121143613899858137

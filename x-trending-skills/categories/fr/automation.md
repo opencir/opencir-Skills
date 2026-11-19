@@ -2,7 +2,7 @@
 
 # Automatisation et infrastructure
 
-Rang de la catégorie: **#7** · Popularité: **129.34** · Instantané: 2026-11-18
+Rang de la catégorie: **#7** · Popularité: **129.34** · Instantané: 2026-11-19
 
 [← Retour à la vue d'ensemble](../../README.fr.md)
 
@@ -10,7 +10,7 @@ Rang de la catégorie: **#7** · Popularité: **129.34** · Instantané: 2026-11
 
 - **Usage**: Skills officiels pour les produits Google et Google Cloud.
 - **Description**: Agent Skills pour les produits et technologies Google.
-- **Popularité**: 59.63 (#22 général)
+- **Popularité**: 59.63 (#21 général)
 - **Références X**: 6 posts mentionnant · posts X sur 7 jours: — · J'aime: 10 · Reposts: 0 · citations: 0 · réponses: 7 · signets: 4 · Impressions: 580
 - **Usage GitHub**: [google/skills](https://github.com/google/skills) · ⭐ 24,268 · Forks: 2,017
 - **Source**:
@@ -27,7 +27,7 @@ Rang de la catégorie: **#7** · Popularité: **129.34** · Instantané: 2026-11
 
 - **Usage**: Apprend aux agents à utiliser correctement l'API et le SDK Gemini.
 - **Description**: Skills pour l'API Gemini, le SDK et les interactions modèle/agent.
-- **Popularité**: 44.83 (#25 général)
+- **Popularité**: 44.83 (#24 général)
 - **Références X**: 1 posts mentionnant · posts X sur 7 jours: — · J'aime: 11 · Reposts: 0 · citations: 0 · réponses: 0 · signets: 5 · Impressions: 1,856
 - **Usage GitHub**: [google-gemini/gemini-skills](https://github.com/google-gemini/gemini-skills) · ⭐ 4,460 · Forks: 497
 - **Source**:
@@ -39,7 +39,7 @@ Rang de la catégorie: **#7** · Popularité: **129.34** · Instantané: 2026-11
 
 - **Usage**: Permet à Claude Code, Codex ou Cursor de configurer et d'utiliser des GPU sur Runpod.
 - **Description**: Runpod for Agents : des skills testés et un serveur MCP hébergé.
-- **Popularité**: 24.88 (#29 général)
+- **Popularité**: 24.88 (#30 général)
 - **Références X**: 2 posts mentionnant · posts X sur 7 jours: — · J'aime: 3 · Reposts: 0 · citations: 0 · réponses: 0 · signets: 1 · Impressions: 106
 - **Usage GitHub**: — (aucun dépôt cité dans les posts)
 - **Source**:

@@ -2,7 +2,7 @@
 
 # Video, image & media creation
 
-Category rank: **#3** · Heat: **258.05** · Snapshot: 2026-11-18
+Category rank: **#3** · Heat: **257.69** · Snapshot: 2026-11-19
 
 [← Back to overview](../README.md)
 
@@ -10,18 +10,18 @@ Category rank: **#3** · Heat: **258.05** · Snapshot: 2026-11-18
 
 - **Purpose**: Lets agents build programmatic videos with Remotion (React video).
 - **Description**: Official Remotion Agent Skills plus community Remotion skills shared on X.
-- **Heat**: 106.17 (#8 overall)
-- **X references**: 24 mention posts · X posts in 7 days: — · Likes: 388 · Reposts: 60 · quotes: 0 · replies: 76 · bookmarks: 391 · Impressions: 20,481
+- **Heat**: 104.20 (#9 overall)
+- **X references**: 23 mention posts · X posts in 7 days: — · Likes: 327 · Reposts: 48 · quotes: 0 · replies: 71 · bookmarks: 333 · Impressions: 19,005
 - **GitHub usage**: [remotion-dev/skills](https://github.com/remotion-dev/skills) · ⭐ 7,268 · Forks: 787
 - **Source**:
   - https://x.com/shmidtqq/status/2121675115372925080
   - https://x.com/e1genqq/status/2121340063254556890
-  - https://x.com/e1genqq/status/2120988126113931729
   - https://x.com/HeLi8866/status/2121293225332011070
   - https://x.com/renproton/status/2121688664036303232
   - https://x.com/e1genqq/status/2122081757101223992
   - https://x.com/e1genqq/status/2122799948223631430
   - https://x.com/kingzw888/status/2122042631387750477
+  - https://x.com/Chenfacai0/status/2121303329737204108
   - Links: https://github.com/drawcall/Proton · https://github.com/juliangarnier/anime · https://github.com/motion-canvas/motion-canvas · https://github.com/motiondivision/motion · https://github.com/remotion-dev/remotion · https://github.com/remotion-dev/skills
 - First / last seen: 2026-11-11T12:09:52Z / 2026-11-18T18:32:05Z (UTC)
 
@@ -29,20 +29,20 @@ Category rank: **#3** · Heat: **258.05** · Snapshot: 2026-11-18
 
 - **Purpose**: Local video editing for coding agents through 42 FFmpeg tools.
 - **Description**: Local video editor for coding agents with a machine-readable contract.
-- **Heat**: 99.66 (#10 overall)
-- **X references**: 26 mention posts · X posts in 7 days: — · Likes: 210 · Reposts: 13 · quotes: 0 · replies: 84 · bookmarks: 170 · Impressions: 83,390
+- **Heat**: 101.27 (#10 overall)
+- **X references**: 28 mention posts · X posts in 7 days: — · Likes: 236 · Reposts: 15 · quotes: 0 · replies: 90 · bookmarks: 188 · Impressions: 85,131
 - **GitHub usage**: [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) · ⭐ 5,956 · Forks: 524
 - **Source**:
   - https://x.com/RoundtableSpace/status/2122536454538608872
   - https://x.com/RoundtableSpace/status/2122460957213663698
+  - https://x.com/doodi_dev/status/2123268780595806634
   - https://x.com/exploraX_/status/2122419638185411033
   - https://x.com/don_tech1/status/2122097311002374539
-  - https://x.com/AomyYing/status/2121075610986389882
   - https://x.com/pifagor_dao/status/2122816690496946628
   - https://x.com/amgdev_net/status/2122397580315476147
   - https://x.com/LilithLiJapan/status/2122708402459545770
   - Links: https://github.com/Agentchengfeng/chengfeng-videocut-skills · https://github.com/browser-use/video-use · https://github.com/kajisho5/ffmpeg-skill · https://github.com/kajisho5/ffmpeg-skill?utm_source=x&utm_medium=social&utm_campaign=ai-top10-20261117&utm_content=item-08 · https://github.com/openai/whisper · https://github.com/palmier-io/palmier-pro
-- First / last seen: 2026-11-12T01:56:30Z / 2026-11-18T22:30:47Z (UTC)
+- First / last seen: 2026-11-12T01:56:30Z / 2026-11-19T13:00:26Z (UTC)
 
 ## 3. claude-animated-shorts (mromidev)
 
@@ -59,7 +59,7 @@ Category rank: **#3** · Heat: **258.05** · Snapshot: 2026-11-18
 
 - **Purpose**: Adds image and video generation (product photos, brand kits, videos) inside coding agents.
 - **Description**: Higgsfield's skills for Claude Code, Cursor and Codex.
-- **Heat**: 22.38 (#30 overall)
+- **Heat**: 22.38 (#31 overall)
 - **X references**: 1 mention posts · X posts in 7 days: — · Likes: 0 · Reposts: 0 · quotes: 0 · replies: 1 · bookmarks: 0 · Impressions: 24
 - **GitHub usage**: [higgsfield-ai/skills](https://github.com/higgsfield-ai/skills) · ⭐ 2,000 · Forks: 360
 - **Source**:

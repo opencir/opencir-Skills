@@ -2,7 +2,7 @@
 
 # Automatización e infraestructura
 
-Puesto de la categoría: **#7** · Popularidad: **129.34** · Instantánea: 2026-11-18
+Puesto de la categoría: **#7** · Popularidad: **129.34** · Instantánea: 2026-11-19
 
 [← Volver al resumen](../../README.es.md)
 
@@ -10,7 +10,7 @@ Puesto de la categoría: **#7** · Popularidad: **129.34** · Instantánea: 2026
 
 - **Uso**: Skills oficiales para los productos de Google y Google Cloud.
 - **Descripción**: Agent Skills para productos y tecnologías de Google.
-- **Popularidad**: 59.63 (#22 general)
+- **Popularidad**: 59.63 (#21 general)
 - **Referencias en X**: 6 posts que la mencionan · posts en X en 7 días: — · Me gusta: 10 · Reposts: 0 · citas: 0 · respuestas: 7 · guardados: 4 · Impresiones: 580
 - **Uso en GitHub**: [google/skills](https://github.com/google/skills) · ⭐ 24,268 · Forks: 2,017
 - **Fuente**:
@@ -27,7 +27,7 @@ Puesto de la categoría: **#7** · Popularidad: **129.34** · Instantánea: 2026
 
 - **Uso**: Enseña a los agentes a usar correctamente la API y el SDK de Gemini.
 - **Descripción**: Skills para la API de Gemini, el SDK y las interacciones entre modelo y agente.
-- **Popularidad**: 44.83 (#25 general)
+- **Popularidad**: 44.83 (#24 general)
 - **Referencias en X**: 1 posts que la mencionan · posts en X en 7 días: — · Me gusta: 11 · Reposts: 0 · citas: 0 · respuestas: 0 · guardados: 5 · Impresiones: 1,856
 - **Uso en GitHub**: [google-gemini/gemini-skills](https://github.com/google-gemini/gemini-skills) · ⭐ 4,460 · Forks: 497
 - **Fuente**:
@@ -39,7 +39,7 @@ Puesto de la categoría: **#7** · Popularidad: **129.34** · Instantánea: 2026
 
 - **Uso**: Permite que Claude Code, Codex o Cursor configuren y usen GPU en Runpod.
 - **Descripción**: Runpod for Agents: skills probadas y un servidor MCP alojado.
-- **Popularidad**: 24.88 (#29 general)
+- **Popularidad**: 24.88 (#30 general)
 - **Referencias en X**: 2 posts que la mencionan · posts en X en 7 días: — · Me gusta: 3 · Reposts: 0 · citas: 0 · respuestas: 0 · guardados: 1 · Impresiones: 106
 - **Uso en GitHub**: — (ningún repositorio enlazado en los posts)
 - **Fuente**:

@@ -2,7 +2,7 @@
 
 # Automation & infrastructure
 
-Category rank: **#7** · Heat: **129.34** · Snapshot: 2026-11-18
+Category rank: **#7** · Heat: **129.34** · Snapshot: 2026-11-19
 
 [← Back to overview](../README.md)
 
@@ -10,7 +10,7 @@ Category rank: **#7** · Heat: **129.34** · Snapshot: 2026-11-18
 
 - **Purpose**: Official skills for Google products and Google Cloud.
 - **Description**: Agent Skills for Google products and technologies.
-- **Heat**: 59.63 (#22 overall)
+- **Heat**: 59.63 (#21 overall)
 - **X references**: 6 mention posts · X posts in 7 days: — · Likes: 10 · Reposts: 0 · quotes: 0 · replies: 7 · bookmarks: 4 · Impressions: 580
 - **GitHub usage**: [google/skills](https://github.com/google/skills) · ⭐ 24,268 · Forks: 2,017
 - **Source**:
@@ -27,7 +27,7 @@ Category rank: **#7** · Heat: **129.34** · Snapshot: 2026-11-18
 
 - **Purpose**: Teaches agents to use the Gemini API/SDK correctly.
 - **Description**: Skills for the Gemini API, SDK and model/agent interactions.
-- **Heat**: 44.83 (#25 overall)
+- **Heat**: 44.83 (#24 overall)
 - **X references**: 1 mention posts · X posts in 7 days: — · Likes: 11 · Reposts: 0 · quotes: 0 · replies: 0 · bookmarks: 5 · Impressions: 1,856
 - **GitHub usage**: [google-gemini/gemini-skills](https://github.com/google-gemini/gemini-skills) · ⭐ 4,460 · Forks: 497
 - **Source**:
@@ -39,7 +39,7 @@ Category rank: **#7** · Heat: **129.34** · Snapshot: 2026-11-18
 
 - **Purpose**: Lets Claude Code, Codex or Cursor set up and run GPUs on Runpod.
 - **Description**: Runpod for Agents: tested skills plus a hosted MCP server.
-- **Heat**: 24.88 (#29 overall)
+- **Heat**: 24.88 (#30 overall)
 - **X references**: 2 mention posts · X posts in 7 days: — · Likes: 3 · Reposts: 0 · quotes: 0 · replies: 0 · bookmarks: 1 · Impressions: 106
 - **GitHub usage**: — (no repository linked in posts)
 - **Source**:

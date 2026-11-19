@@ -2,7 +2,7 @@
 
 # Web data & research
 
-Category rank: **#10** · Heat: **92.79** · Snapshot: 2026-11-18
+Category rank: **#8** · Heat: **121.18** · Snapshot: 2026-11-19
 
 [← Back to overview](../README.md)
 
@@ -10,7 +10,7 @@ Category rank: **#10** · Heat: **92.79** · Snapshot: 2026-11-18
 
 - **Purpose**: Browser automation CLI + skills so agents can operate real web pages.
 - **Description**: Browser automation CLI for AI agents with version-matched skills.
-- **Heat**: 92.79 (#13 overall)
+- **Heat**: 92.79 (#12 overall)
 - **X references**: 7 mention posts · X posts in 7 days: — · Likes: 208 · Reposts: 11 · quotes: 3 · replies: 15 · bookmarks: 238 · Impressions: 5,722
 - **GitHub usage**: [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) · ⭐ 51,998 · Forks: 3,629
 - **Source**:
@@ -23,3 +23,15 @@ Category rank: **#10** · Heat: **92.79** · Snapshot: 2026-11-18
   - https://x.com/AutoBot_IO/status/2122816173884457065
   - Links: https://github.com/anthropics/skills · https://github.com/mattpocock/skills · https://github.com/vercel-labs/agent-browser · https://github.com/vercel-labs/skills · https://skills.sh · https://skills.sh/
 - First / last seen: 2026-11-07T22:15:00Z / 2026-11-17T23:49:36Z (UTC)
+
+## 2. Firecrawl (skill + MCP)
+
+- **Purpose**: Turns live web pages into clean text/data an agent can use (scrape, crawl, search).
+- **Description**: Web-data library with agent skill and MCP server integrations.
+- **Heat**: 28.39 (#28 overall)
+- **X references**: 1 mention posts · X posts in 7 days: 73 · Likes: 0 · Reposts: 0 · quotes: 0 · replies: 1 · bookmarks: 0 · Impressions: 19
+- **GitHub usage**: [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) · ⭐ 201,045 · Forks: 10,559
+- **Source**:
+  - https://x.com/yaro360/status/2123552122499141954
+  - Links: https://github.com/google-labs-code/stitch-skills
+- First / last seen: 2026-11-08T03:15:00Z / 2026-11-19T23:00:54Z (UTC)

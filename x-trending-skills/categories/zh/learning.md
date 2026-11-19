@@ -2,7 +2,7 @@
 
 # 学习与知识转技能
 
-分类排名: **#5** · 热度: **164.16** · 快照日期: 2026-11-18
+分类排名: **#6** · 热度: **140.16** · 快照日期: 2026-11-19
 
 [← 返回总览](../../README.zh.md)
 
@@ -10,7 +10,7 @@
 
 - **用途**：把技术书 PDF 转成 Claude Code 技能，按章节按需加载。
 - **描述**：把任何技术书 PDF 变成可学习、可查阅、可使用的 Claude Code 技能。
-- **热度**：65.99 (#19 总榜)
+- **热度**：65.99 (#20 总榜)
 - **X 引用**：8 条提及帖子 · X 7 天总帖数: — · 点赞: 11 · 转发: 1 · 引用: 1 · 回复: 10 · 收藏: 5 · 曝光: 684
 - **GitHub 使用量**：[virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) · ⭐ 38,393 · Forks: 4,087
 - **来源**:
@@ -29,19 +29,17 @@
 
 - **用途**：把 Claude/ChatGPT/编程智能体变成不直接给答案的苏格拉底式严格导师。
 - **描述**：据 X 帖子称是 Jane Street 首个开源的智能体技能；抽样帖子中未抓到仓库链接。
-- **热度**：63.18 (#21 总榜)
-- **X 引用**：7 条提及帖子 · X 7 天总帖数: — · 点赞: 43 · 转发: 2 · 引用: 0 · 回复: 12 · 收藏: 45 · 曝光: 2,689
+- **热度**：39.18 (#25 总榜)
+- **X 引用**：5 条提及帖子 · X 7 天总帖数: — · 点赞: 4 · 转发: 0 · 引用: 0 · 回复: 3 · 收藏: 4 · 曝光: 212
 - **GitHub 使用量**：—（帖子中未提供仓库）
 - **来源**:
-  - https://x.com/51bodila/status/2121021937572839634
-  - https://x.com/quietoraclex/status/2120999000996454843
-  - https://x.com/__su888/status/2121002346029211869
+  - https://x.com/diebbCN/status/2123344930965701045
   - https://x.com/cc_lab_jp/status/2121370063886262581
   - https://x.com/benou_irl/status/2121241683991859668
   - https://x.com/AIDailyGems/status/2122344963765658003
   - https://x.com/AIDailyGems/status/2122345163339227251
-  - 链接: https://github.com/janestreet/agent_skills · https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md
-- 首次 / 最近出现: 2026-11-09T17:04:57Z / 2026-11-16T15:04:52Z (UTC)
+  - 链接: https://github.com/janestreet/agent_skills
+- 首次 / 最近出现: 2026-11-09T17:04:57Z / 2026-11-19T09:17:36Z (UTC)
 
 ## 3. video-to-skill
 

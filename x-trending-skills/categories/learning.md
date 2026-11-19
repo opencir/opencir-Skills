@@ -2,7 +2,7 @@
 
 # Learning & knowledge-to-skill
 
-Category rank: **#5** · Heat: **164.16** · Snapshot: 2026-11-18
+Category rank: **#6** · Heat: **140.16** · Snapshot: 2026-11-19
 
 [← Back to overview](../README.md)
 
@@ -10,7 +10,7 @@ Category rank: **#5** · Heat: **164.16** · Snapshot: 2026-11-18
 
 - **Purpose**: Turns a technical book PDF into a Claude Code skill that loads one chapter at a time.
 - **Description**: Turn any technical book PDF into a Claude Code skill ready to study, reference and use.
-- **Heat**: 65.99 (#19 overall)
+- **Heat**: 65.99 (#20 overall)
 - **X references**: 8 mention posts · X posts in 7 days: — · Likes: 11 · Reposts: 1 · quotes: 1 · replies: 10 · bookmarks: 5 · Impressions: 684
 - **GitHub usage**: [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) · ⭐ 38,393 · Forks: 4,087
 - **Source**:
@@ -29,19 +29,17 @@ Category rank: **#5** · Heat: **164.16** · Snapshot: 2026-11-18
 
 - **Purpose**: Turns Claude/ChatGPT/any coding agent into a strict Socratic teacher that refuses to give the answer.
 - **Description**: Jane Street's first open-sourced agent skill (reported on X); repo link not captured in sampled posts.
-- **Heat**: 63.18 (#21 overall)
-- **X references**: 7 mention posts · X posts in 7 days: — · Likes: 43 · Reposts: 2 · quotes: 0 · replies: 12 · bookmarks: 45 · Impressions: 2,689
+- **Heat**: 39.18 (#25 overall)
+- **X references**: 5 mention posts · X posts in 7 days: — · Likes: 4 · Reposts: 0 · quotes: 0 · replies: 3 · bookmarks: 4 · Impressions: 212
 - **GitHub usage**: — (no repository linked in posts)
 - **Source**:
-  - https://x.com/51bodila/status/2121021937572839634
-  - https://x.com/quietoraclex/status/2120999000996454843
-  - https://x.com/__su888/status/2121002346029211869
+  - https://x.com/diebbCN/status/2123344930965701045
   - https://x.com/cc_lab_jp/status/2121370063886262581
   - https://x.com/benou_irl/status/2121241683991859668
   - https://x.com/AIDailyGems/status/2122344963765658003
   - https://x.com/AIDailyGems/status/2122345163339227251
-  - Links: https://github.com/janestreet/agent_skills · https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md
-- First / last seen: 2026-11-09T17:04:57Z / 2026-11-16T15:04:52Z (UTC)
+  - Links: https://github.com/janestreet/agent_skills
+- First / last seen: 2026-11-09T17:04:57Z / 2026-11-19T09:17:36Z (UTC)
 
 ## 3. video-to-skill
 

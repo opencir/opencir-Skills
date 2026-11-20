@@ -2,7 +2,7 @@
 
 # Données web et recherche
 
-Rang de la catégorie: **#8** · Popularité: **121.18** · Instantané: 2026-11-19
+Rang de la catégorie: **#7** · Popularité: **121.18** · Instantané: 2026-11-20
 
 [← Retour à la vue d'ensemble](../../README.fr.md)
 
@@ -10,7 +10,7 @@ Rang de la catégorie: **#8** · Popularité: **121.18** · Instantané: 2026-11
 
 - **Usage**: CLI d'automatisation de navigateur + skills pour que les agents puissent piloter de vraies pages web.
 - **Description**: CLI d'automatisation de navigateur pour agents IA, avec des skills alignés sur chaque version.
-- **Popularité**: 92.79 (#12 général)
+- **Popularité**: 92.79 (#13 général)
 - **Références X**: 7 posts mentionnant · posts X sur 7 jours: — · J'aime: 208 · Reposts: 11 · citations: 3 · réponses: 15 · signets: 238 · Impressions: 5,722
 - **Usage GitHub**: [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) · ⭐ 51,998 · Forks: 3,629
 - **Source**:
@@ -29,7 +29,7 @@ Rang de la catégorie: **#8** · Popularité: **121.18** · Instantané: 2026-11
 - **Usage**: Transforme des pages web en direct en texte et données propres exploitables par un agent (scraping, crawl, recherche).
 - **Description**: Bibliothèque de données web avec intégrations skill pour agents et serveur MCP.
 - **Popularité**: 28.39 (#28 général)
-- **Références X**: 1 posts mentionnant · posts X sur 7 jours: 73 · J'aime: 0 · Reposts: 0 · citations: 0 · réponses: 1 · signets: 0 · Impressions: 19
+- **Références X**: 1 posts mentionnant · posts X sur 7 jours: 86 · J'aime: 0 · Reposts: 0 · citations: 0 · réponses: 1 · signets: 0 · Impressions: 39
 - **Usage GitHub**: [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) · ⭐ 201,045 · Forks: 10,559
 - **Source**:
   - https://x.com/yaro360/status/2123552122499141954

@@ -2,7 +2,7 @@
 
 # Automation & infrastructure
 
-Category rank: **#7** · Heat: **129.34** · Snapshot: 2026-11-19
+Category rank: **#8** · Heat: **115.94** · Snapshot: 2026-11-20
 
 [← Back to overview](../README.md)
 
@@ -10,11 +10,10 @@ Category rank: **#7** · Heat: **129.34** · Snapshot: 2026-11-19
 
 - **Purpose**: Official skills for Google products and Google Cloud.
 - **Description**: Agent Skills for Google products and technologies.
-- **Heat**: 59.63 (#21 overall)
-- **X references**: 6 mention posts · X posts in 7 days: — · Likes: 10 · Reposts: 0 · quotes: 0 · replies: 7 · bookmarks: 4 · Impressions: 580
-- **GitHub usage**: [google/skills](https://github.com/google/skills) · ⭐ 24,268 · Forks: 2,017
+- **Heat**: 54.58 (#22 overall)
+- **X references**: 5 mention posts · X posts in 7 days: — · Likes: 4 · Reposts: 0 · quotes: 0 · replies: 7 · bookmarks: 3 · Impressions: 467
+- **GitHub usage**: [google/skills](https://github.com/google/skills) · ⭐ 24,480 · Forks: 2,031
 - **Source**:
-  - https://x.com/aidevnewss/status/2121305652895396039
   - https://x.com/aiwaremax/status/2121849429078507972
   - https://x.com/aladagberk/status/2122038441512751328
   - https://x.com/CryptVivek/status/2121665680798007582
@@ -39,11 +38,10 @@ Category rank: **#7** · Heat: **129.34** · Snapshot: 2026-11-19
 
 - **Purpose**: Lets Claude Code, Codex or Cursor set up and run GPUs on Runpod.
 - **Description**: Runpod for Agents: tested skills plus a hosted MCP server.
-- **Heat**: 24.88 (#30 overall)
-- **X references**: 2 mention posts · X posts in 7 days: — · Likes: 3 · Reposts: 0 · quotes: 0 · replies: 0 · bookmarks: 1 · Impressions: 106
+- **Heat**: 16.53 (#30 overall)
+- **X references**: 1 mention posts · X posts in 7 days: — · Likes: 1 · Reposts: 0 · quotes: 0 · replies: 0 · bookmarks: 1 · Impressions: 53
 - **GitHub usage**: — (no repository linked in posts)
 - **Source**:
-  - https://x.com/aladagberk/status/2121136948832260557
   - https://x.com/aladagberk/status/2122038441512751328
   - Links: https://github.com/KKKKhazix/agent-autoloop · https://github.com/backnotprop/plannotator · https://github.com/google/skills · https://github.com/govijr/terminal-mac · https://github.com/open-mercato/cezar · https://github.com/runpod/runpod-plugins-official
 - First / last seen: 2026-11-10T09:14:10Z / 2026-11-15T18:46:04Z (UTC)

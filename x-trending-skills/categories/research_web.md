@@ -2,7 +2,7 @@
 
 # Web data & research
 
-Category rank: **#8** · Heat: **121.18** · Snapshot: 2026-11-19
+Category rank: **#7** · Heat: **121.18** · Snapshot: 2026-11-20
 
 [← Back to overview](../README.md)
 
@@ -10,7 +10,7 @@ Category rank: **#8** · Heat: **121.18** · Snapshot: 2026-11-19
 
 - **Purpose**: Browser automation CLI + skills so agents can operate real web pages.
 - **Description**: Browser automation CLI for AI agents with version-matched skills.
-- **Heat**: 92.79 (#12 overall)
+- **Heat**: 92.79 (#13 overall)
 - **X references**: 7 mention posts · X posts in 7 days: — · Likes: 208 · Reposts: 11 · quotes: 3 · replies: 15 · bookmarks: 238 · Impressions: 5,722
 - **GitHub usage**: [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) · ⭐ 51,998 · Forks: 3,629
 - **Source**:
@@ -29,7 +29,7 @@ Category rank: **#8** · Heat: **121.18** · Snapshot: 2026-11-19
 - **Purpose**: Turns live web pages into clean text/data an agent can use (scrape, crawl, search).
 - **Description**: Web-data library with agent skill and MCP server integrations.
 - **Heat**: 28.39 (#28 overall)
-- **X references**: 1 mention posts · X posts in 7 days: 73 · Likes: 0 · Reposts: 0 · quotes: 0 · replies: 1 · bookmarks: 0 · Impressions: 19
+- **X references**: 1 mention posts · X posts in 7 days: 86 · Likes: 0 · Reposts: 0 · quotes: 0 · replies: 1 · bookmarks: 0 · Impressions: 39
 - **GitHub usage**: [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) · ⭐ 201,045 · Forks: 10,559
 - **Source**:
   - https://x.com/yaro360/status/2123552122499141954

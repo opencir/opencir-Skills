@@ -2,7 +2,7 @@
 
 # 自动化与基础设施
 
-分类排名: **#7** · 热度: **129.34** · 快照日期: 2026-11-19
+分类排名: **#8** · 热度: **115.94** · 快照日期: 2026-11-20
 
 [← 返回总览](../../README.zh.md)
 
@@ -10,11 +10,10 @@
 
 - **用途**：Google 官方技能，覆盖 Google 产品与 Google Cloud。
 - **描述**：面向 Google 产品与技术的 Agent Skills。
-- **热度**：59.63 (#21 总榜)
-- **X 引用**：6 条提及帖子 · X 7 天总帖数: — · 点赞: 10 · 转发: 0 · 引用: 0 · 回复: 7 · 收藏: 4 · 曝光: 580
-- **GitHub 使用量**：[google/skills](https://github.com/google/skills) · ⭐ 24,268 · Forks: 2,017
+- **热度**：54.58 (#22 总榜)
+- **X 引用**：5 条提及帖子 · X 7 天总帖数: — · 点赞: 4 · 转发: 0 · 引用: 0 · 回复: 7 · 收藏: 3 · 曝光: 467
+- **GitHub 使用量**：[google/skills](https://github.com/google/skills) · ⭐ 24,480 · Forks: 2,031
 - **来源**:
-  - https://x.com/aidevnewss/status/2121305652895396039
   - https://x.com/aiwaremax/status/2121849429078507972
   - https://x.com/aladagberk/status/2122038441512751328
   - https://x.com/CryptVivek/status/2121665680798007582
@@ -39,11 +38,10 @@
 
 - **用途**：让 Claude Code、Codex、Cursor 自行配置并使用 Runpod GPU。
 - **描述**：Runpod for Agents：经测试的技能 + 托管 MCP 服务器。
-- **热度**：24.88 (#30 总榜)
-- **X 引用**：2 条提及帖子 · X 7 天总帖数: — · 点赞: 3 · 转发: 0 · 引用: 0 · 回复: 0 · 收藏: 1 · 曝光: 106
+- **热度**：16.53 (#30 总榜)
+- **X 引用**：1 条提及帖子 · X 7 天总帖数: — · 点赞: 1 · 转发: 0 · 引用: 0 · 回复: 0 · 收藏: 1 · 曝光: 53
 - **GitHub 使用量**：—（帖子中未提供仓库）
 - **来源**:
-  - https://x.com/aladagberk/status/2121136948832260557
   - https://x.com/aladagberk/status/2122038441512751328
   - 链接: https://github.com/KKKKhazix/agent-autoloop · https://github.com/backnotprop/plannotator · https://github.com/google/skills · https://github.com/govijr/terminal-mac · https://github.com/open-mercato/cezar · https://github.com/runpod/runpod-plugins-official
 - 首次 / 最近出现: 2026-11-10T09:14:10Z / 2026-11-15T18:46:04Z (UTC)
